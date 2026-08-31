@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 namespace EventsHub.Api.Controllers;
 
 public class EventsController(AppDbContext context)
-    : BaseEventsHubController
+    : EventsHubBaseController
 {
     [HttpGet]
     public async Task<ActionResult<List<Event>>> GetEvents()
