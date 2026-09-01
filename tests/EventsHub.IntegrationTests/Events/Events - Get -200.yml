@@ -5,7 +5,11 @@ info:
 
 http:
   method: GET
-  url: "{{baseUrl}}/events/.eventId"
+  url: "{{baseUrl}}/events/:eventId"
+  params:
+    - name: eventId
+      value: 0b49dcdd-af40-4fa8-b5cd-fcc9dbbdb74e
+      type: path
   auth: inherit
 
 settings:
