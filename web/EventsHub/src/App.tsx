@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from "react"
 
 function App() {
-  const [activities, setActivities] = useState([]);
+  const [activities, setActivities] = useState<Activity[]>([]);
 
   useEffect(() => {
     fetch('https://localhost:5001/api/v1/events')
@@ -13,15 +13,15 @@ function App() {
 
   return (
     <div>
-      <h3 class="app" style={{ color: 'red' }}>Events Hub</h3>
+      <h3 style={{ color: 'red' }}>Events Hub</h3>
       <ul>
         {activities.map((activity) => (
           <li key={activity.id}>{activity.title}</li>
         ))}
       </ul>
     </div>
-
   )
 }
 
 export default App
+ 
