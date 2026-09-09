@@ -6,7 +6,11 @@ public static class DbInitializer
 {
     public static async Task SeedDataAsync(AppDbContext context)
     {
+<<<<<<< HEAD
         if (context.Events.Any()) return;
+=======
+        if (context.Activities.Any()) return;
+>>>>>>> fe0a5b616101767fc26154c77d0cf0b33bc1835c
 
         var events = new List<Event>
         {
@@ -122,7 +126,11 @@ public static class DbInitializer
             }
         };
 
+<<<<<<< HEAD
         await context.Events.AddRangeAsync(events);
+=======
+        await context.Activities.AddRangeAsync(events);
+>>>>>>> fe0a5b616101767fc26154c77d0cf0b33bc1835c
         await context.SaveChangesAsync();
     }
 }
