@@ -12,8 +12,18 @@ builder.Services.AddDbContext<AppDbContext>(options =>
         builder.Configuration.GetConnectionString("SqliteConnection")
     );
 });
+builder.Services.AddCors();
 
 var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+app.UseCors(
+    options =>
+        options
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .WithOrigins("http://localhost:3000","https://localhost:3001")
+);
 
 // Crear la base de datos, aplicar migraciones y agregar datos iniciales.
 using (var scope = app.Services.CreateScope())

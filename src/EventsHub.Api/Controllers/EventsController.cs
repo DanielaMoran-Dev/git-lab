@@ -11,18 +11,17 @@ public class EventsController(AppDbContext context)
     [HttpGet]
     public async Task<ActionResult<List<Event>>> GetEvents()
     {
-        return await context.Activities.ToListAsync();
+        return await context.Events.ToListAsync();
     }
 
     [HttpGet("{id}")]
     public async Task<ActionResult<Event>> GetEventDetailAsync(string id)
     {
-        var result = await context.Activities.FindAsync(id);
+        var result = await context.Events.FindAsync(id);
 
         if (result is null)
         {
             return NotFound("The event was not found");
-
         }
 
         return result;
