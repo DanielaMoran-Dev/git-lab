@@ -58,11 +58,7 @@ namespace EventsHub.Persistence.Migrations
 
                     b.HasKey("Id");
 
-<<<<<<< HEAD
                     b.ToTable("Events");
-=======
-                    b.ToTable("Activities");
->>>>>>> fe0a5b616101767fc26154c77d0cf0b33bc1835c
                 });
 #pragma warning restore 612, 618
         }
