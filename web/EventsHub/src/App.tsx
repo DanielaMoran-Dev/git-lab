@@ -1,5 +1,5 @@
-import { List, ListItem, ListItemText, Typography } from "@mui/material"
-import axios from "axios"
+import { List, ListItem, ListItemText, Typography } from "@mui/material";
+import axios from "axios";
 import { useEffect, useState } from "react"
 
 function App() {
@@ -9,12 +9,11 @@ function App() {
     axios.get<Activity[]>('https://localhost:5001/api/v1/events')
       .then(response => setActivities(response.data));
 
-      
-    return () => {};
+    return () => { };
   }, []);
 
   return (
-    <div>
+    <>
       <Typography variant="h3">Events Hub</Typography>
       <List>
         {activities.map((activity: Activity) => (
@@ -23,9 +22,8 @@ function App() {
           </ListItem>
         ))}
       </List>
-    </div>
+    </>
   )
 }
 
 export default App
- 

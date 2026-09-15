@@ -8,4 +8,7 @@
   <Folder Name="/src/EventsHub.Api/">
     <Project Path="src/EventsHub.Api/EventsHub.API.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/EventsHub.UnitTests/EventsHub.UnitTests.csproj" />
+  </Folder>
 </Solution>
