@@ -1,17 +1,18 @@
+using EventsHub.Application.Events.Queries;
 using EventsHub.Domain;
 using EventsHub.Persistence;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace EventsHub.Api.Controllers;
 
-public class EventsController(AppDbContext context)
-    : EventsHubBaseController
+public class EventsController(AppDbContext context, IMediator mediator) : EventsHubBaseController
 {
     [HttpGet]
     public async Task<ActionResult<List<Event>>> GetEvents()
     {
-        return await context.Events.ToListAsync();
+        return await mediator.Send(new GetEventList.Query());
     }
 
     [HttpGet("{id}")]
