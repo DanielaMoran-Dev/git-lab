@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/EventsHub.Api/bin/Debug/net10.0/EventsHub.API.dll",
+            "program": "${workspaceFolder}/src/EventsHub.OpenApi/bin/Debug/net10.0/EventsHub.OpenApi.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/EventsHub.Api",
+            "cwd": "${workspaceFolder}/src/EventsHub.OpenApi",
             "stopAtEntry": false,
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             "serverReadyAction": {

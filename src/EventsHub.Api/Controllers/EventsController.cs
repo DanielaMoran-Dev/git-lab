@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EventsHub.Api.Controllers;
 
-public class EventsController(AppDbContext context, IMediator mediator) : EventsHubBaseController
+public class EventsController(IMediator mediator) : EventsHubBaseController
 {
     [HttpGet]
     public async Task<ActionResult<List<Event>>> GetEvents()
@@ -18,13 +18,6 @@ public class EventsController(AppDbContext context, IMediator mediator) : Events
     [HttpGet("{id}")]
     public async Task<ActionResult<Event>> GetEventDetailAsync(string id)
     {
-        var result = await context.Events.FindAsync(id);
-
-        if (result is null)
-        {
-            return NotFound("The event was not found");
-        }
-
-        return result;
+        return await mediator.Send(new GetEventDetails.Query { Id = id });
     }
 }
