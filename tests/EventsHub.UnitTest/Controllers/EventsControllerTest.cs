@@ -1,20 +1,37 @@
-using System.Runtime.CompilerServices;
+using EventsHub.Application.Events.Queries;
 using EventsHub.Api.Controllers;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace EventsHub.UnitTests.Controllers;
 
 [TestFixture]
 public class EventsControllerTests
 {
-    private EventsController _eventsController;
+    private EventsController _eventsController = null!;
+    private ServiceProvider _services = null!;
 
     [SetUp]
     public void Setup()
     {
-        _eventsController = new EventsController(GlobalTestSetup.AppDbContext);
+        _services = new ServiceCollection()
+            .AddLogging()
+            .AddSingleton(GlobalTestSetup.AppDbContext)
+            .AddMediatR(options => options.RegisterServicesFromAssemblyContaining<GetEventList.Handler>())
+            .BuildServiceProvider();
+        _eventsController = new EventsController
+        {
+            ControllerContext = new ControllerContext
+            {
+                HttpContext = new DefaultHttpContext { RequestServices = _services }
+            }
+        };
     }
+
+    [TearDown]
+    public void TearDown() => _services.Dispose();
 
     [Test]
     public async Task GetEventsAsync_WhenEventsExist_ReturnsAllEvents()
@@ -24,7 +41,7 @@ public class EventsControllerTests
         await GlobalTestSetup.AppDbContext.Events.CountAsync();
 
     // Act
-    var result = await _eventsController.GetEvents();
+    var result = await _eventsController.GetEventsAsync();
 
     // Assert
     Assert.That(result.Value, Is.Not.Null);

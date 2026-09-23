@@ -16,6 +16,6 @@ public class EventsHubBaseController : ControllerBase
     private IMediator? _mediator;
 
     protected IMediator Mediator => 
-        _mediator ??= HttpContext.RequestServices.GetService<Mediator>()
+        _mediator ??= HttpContext.RequestServices.GetService<IMediator>()
             ?? throw new InvalidOperationException("IMediator service in unavailable");
 }
