@@ -21,23 +21,30 @@ namespace EventsHub.Api.Controllers
         }
 
         [HttpGet("{id}")]
-        [ProducesResponseType(typeof(Event), StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(Event), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(IReadOnlyList<Event>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(IReadOnlyList<Event>), StatusCodes.Status404NotFound)]
         public async Task<ActionResult<Event>> GetEventDetailAsync(string id)
         {
-            var result = await Mediator.Send(new GetEventDetails.Query { Id = id });
-            if (result is null)
-                return NotFound("The event was not found");
-
-            return result;
+            return await Mediator.Send(new GetEventDetails.Query{Id = id});
         }
 
         [HttpPost]
-        [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(IReadOnlyList<Event>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(IReadOnlyList<Event>), StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<string>> CreateEventAsync(Event @event)
         {
             return await Mediator.Send(new CreateEvent.Command { Event = @event});
+        }
+
+        [HttpPut]
+        [ProducesResponseType(typeof(void), StatusCodes.Status204NoContent)]
+        [ProducesResponseType(typeof(void), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(void), StatusCodes.Status404NotFound)]
+        public async Task<ActionResult<string>> EditEventAsync(Event @event)
+        {
+            await Mediator.Send(new EditEvent.Command { Event = @event});
+
+            return NoContent();
         }
     }
 }
