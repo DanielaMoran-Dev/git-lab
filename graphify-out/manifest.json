@@ -276,9 +276,9 @@
     "semantic_hash": "e555b49d0f2f8854d95f272b4c7405dd"
   },
   "web/EventsHub/src/main.tsx": {
-    "mtime": 1790860332.2654436,
-    "seen": 1790860613.6055782,
-    "ast_hash": "ff9bd6b9dcda49280996c218588dfbd4",
+    "mtime": 1790860910.9336276,
+    "seen": 1790860920.205391,
+    "ast_hash": "b108e046e38df3f0e63430d1479c9acd",
     "semantic_hash": ""
   },
   "web/EventsHub/tests/EventsHub.UnitTests/EventsHub.UnitTests.csproj": {
@@ -489,6 +489,12 @@
     "mtime": 1789478856.9141262,
     "seen": 1790860613.6055691,
     "ast_hash": "08f70e9f4bc17e141311263119e2be7f",
+    "semantic_hash": ""
+  },
+  "web/EventsHub/src/app/layout/NavBar.tsx": {
+    "mtime": 1790860899.4986577,
+    "seen": 1790860920.2053812,
+    "ast_hash": "5d1549b287a7ad001dcda44e9dcf1d5d",
     "semantic_hash": ""
   }
 }

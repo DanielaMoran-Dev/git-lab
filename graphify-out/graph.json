@@ -162,46 +162,6 @@
       "source_location": "L6"
     },
     {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer_eventshub_persistence_migrations_initialcreate",
-      "label": "InitialCreate",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "metadata": {
-        "is_partial": true,
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s296"
-        ]
-      },
-      "norm_label": "initialcreate",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.Designer.cs",
-      "source_location": "L13"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer_eventshub_persistence_migrations_updateeventsmodel",
-      "label": "UpdateEventsModel",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "metadata": {
-        "is_partial": true,
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s296"
-        ]
-      },
-      "norm_label": "updateeventsmodel",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.Designer.cs",
-      "source_location": "L13"
-    },
-    {
       "id": "src_eventshub_application_events_commands_createevent_eventshub_application_events_commands_handler",
       "label": "Handler",
       "_callable": true,
@@ -495,26 +455,6 @@
       "source_location": "L7"
     },
     {
-      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_eventshub_persistence_migrations_appdbcontextmodelsnapshot",
-      "label": "AppDbContextModelSnapshot",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "AppDbContextModelSnapshot",
-      "file_type": "code",
-      "metadata": {
-        "is_partial": true,
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s247"
-        ]
-      },
-      "norm_label": "appdbcontextmodelsnapshot",
-      "source_file": "src/EventsHub.Persistence/Migrations/AppDbContextModelSnapshot.cs",
-      "source_location": "L12"
-    },
-    {
       "id": "src_eventshub_application_events_queries_geteventdetails_eventshub_application_events_queries_geteventdetails",
       "label": "GetEventDetails",
       "_callable": true,
@@ -699,6 +639,66 @@
       "norm_label": "weatherforecastcontroller",
       "source_file": "src/EventsHub.Api/Controllers/WeatherForecastController.cs",
       "source_location": "L5"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer_eventshub_persistence_migrations_initialcreate",
+      "label": "InitialCreate",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "metadata": {
+        "is_partial": true,
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s296"
+        ]
+      },
+      "norm_label": "initialcreate",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.Designer.cs",
+      "source_location": "L13"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer_eventshub_persistence_migrations_updateeventsmodel",
+      "label": "UpdateEventsModel",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "metadata": {
+        "is_partial": true,
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s296"
+        ]
+      },
+      "norm_label": "updateeventsmodel",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.Designer.cs",
+      "source_location": "L13"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_eventshub_persistence_migrations_appdbcontextmodelsnapshot",
+      "label": "AppDbContextModelSnapshot",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "metadata": {
+        "is_partial": true,
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s247"
+        ]
+      },
+      "norm_label": "appdbcontextmodelsnapshot",
+      "source_file": "src/EventsHub.Persistence/Migrations/AppDbContextModelSnapshot.cs",
+      "source_location": "L12"
     },
     {
       "id": "src_src_eventshub_openapi_generated_eventshubrpcclient_generated_eventshub_openapi_client_event",
@@ -1284,198 +1284,6 @@
       "source_location": "L434"
     },
     {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer_eventshub_persistence_migrations_initialcreate_buildtargetmodel",
-      "label": ".BuildTargetModel()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s296"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "HasAnnotation",
-            "receiver_type": "ModelBuilder",
-            "lang": "csharp",
-            "line": "L21"
-          },
-          {
-            "callee": "Entity",
-            "receiver_type": "ModelBuilder",
-            "lang": "csharp",
-            "line": "L23"
-          }
-        ]
-      },
-      "norm_label": ".buildtargetmodel()",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.Designer.cs",
-      "source_location": "L18"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_eventshub_persistence_migrations_initialcreate_down",
-      "label": ".Down()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s90"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "DropTable",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L38"
-          }
-        ]
-      },
-      "norm_label": ".down()",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.cs",
-      "source_location": "L36"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_eventshub_persistence_migrations_initialcreate_up",
-      "label": ".Up()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s90"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "CreateTable",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L14"
-          }
-        ]
-      },
-      "norm_label": ".up()",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.cs",
-      "source_location": "L12"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer_eventshub_persistence_migrations_updateeventsmodel_buildtargetmodel",
-      "label": ".BuildTargetModel()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s296"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "HasAnnotation",
-            "receiver_type": "ModelBuilder",
-            "lang": "csharp",
-            "line": "L21"
-          },
-          {
-            "callee": "Entity",
-            "receiver_type": "ModelBuilder",
-            "lang": "csharp",
-            "line": "L23"
-          }
-        ]
-      },
-      "norm_label": ".buildtargetmodel()",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.Designer.cs",
-      "source_location": "L18"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_eventshub_persistence_migrations_updateeventsmodel_down",
-      "label": ".Down()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s75"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "DropPrimaryKey",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L30"
-          },
-          {
-            "callee": "RenameTable",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L34"
-          },
-          {
-            "callee": "AddPrimaryKey",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L38"
-          }
-        ]
-      },
-      "norm_label": ".down()",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.cs",
-      "source_location": "L28"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_eventshub_persistence_migrations_updateeventsmodel_up",
-      "label": ".Up()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s75"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "DropPrimaryKey",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L13"
-          },
-          {
-            "callee": "RenameTable",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L17"
-          },
-          {
-            "callee": "AddPrimaryKey",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L21"
-          }
-        ]
-      },
-      "norm_label": ".up()",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.cs",
-      "source_location": "L11"
-    },
-    {
       "id": "src_eventshub_application_events_commands_createevent_eventshub_application_events_commands_handler_handle",
       "label": ".Handle()",
       "_callable": true,
@@ -1630,38 +1438,6 @@
       "source_location": "L17"
     },
     {
-      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_eventshub_persistence_migrations_appdbcontextmodelsnapshot_buildmodel",
-      "label": ".BuildModel()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "AppDbContextModelSnapshot",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s247"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "HasAnnotation",
-            "receiver_type": "ModelBuilder",
-            "lang": "csharp",
-            "line": "L18"
-          },
-          {
-            "callee": "Entity",
-            "receiver_type": "ModelBuilder",
-            "lang": "csharp",
-            "line": "L20"
-          }
-        ]
-      },
-      "norm_label": ".buildmodel()",
-      "source_file": "src/EventsHub.Persistence/Migrations/AppDbContextModelSnapshot.cs",
-      "source_location": "L15"
-    },
-    {
       "id": "src_eventshub_application_events_queries_geteventdetails_eventshub_application_events_queries_handler_handle",
       "label": ".Handle()",
       "_callable": true,
@@ -1690,6 +1466,18 @@
       "norm_label": "app()",
       "source_file": "web/EventsHub/src/app/layout/App.tsx",
       "source_location": "L5"
+    },
+    {
+      "id": "web_eventshub_src_app_layout_navbar_navbar",
+      "label": "NavBar()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "main.tsx",
+      "file_type": "code",
+      "norm_label": "navbar()",
+      "source_file": "web/EventsHub/src/app/layout/NavBar.tsx",
+      "source_location": "L3"
     },
     {
       "id": "web_eventshub_tests_eventshub_unittests_unittest1_eventshub_unittests_tests_setup",
@@ -2054,6 +1842,230 @@
       "norm_label": ".get()",
       "source_file": "src/EventsHub.Api/Controllers/WeatherForecastController.cs",
       "source_location": "L12"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer_eventshub_persistence_migrations_initialcreate_buildtargetmodel",
+      "label": ".BuildTargetModel()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s296"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "HasAnnotation",
+            "receiver_type": "ModelBuilder",
+            "lang": "csharp",
+            "line": "L21"
+          },
+          {
+            "callee": "Entity",
+            "receiver_type": "ModelBuilder",
+            "lang": "csharp",
+            "line": "L23"
+          }
+        ]
+      },
+      "norm_label": ".buildtargetmodel()",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.Designer.cs",
+      "source_location": "L18"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_eventshub_persistence_migrations_initialcreate_down",
+      "label": ".Down()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s90"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "DropTable",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L38"
+          }
+        ]
+      },
+      "norm_label": ".down()",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.cs",
+      "source_location": "L36"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_eventshub_persistence_migrations_initialcreate_up",
+      "label": ".Up()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s90"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "CreateTable",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L14"
+          }
+        ]
+      },
+      "norm_label": ".up()",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.cs",
+      "source_location": "L12"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer_eventshub_persistence_migrations_updateeventsmodel_buildtargetmodel",
+      "label": ".BuildTargetModel()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s296"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "HasAnnotation",
+            "receiver_type": "ModelBuilder",
+            "lang": "csharp",
+            "line": "L21"
+          },
+          {
+            "callee": "Entity",
+            "receiver_type": "ModelBuilder",
+            "lang": "csharp",
+            "line": "L23"
+          }
+        ]
+      },
+      "norm_label": ".buildtargetmodel()",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.Designer.cs",
+      "source_location": "L18"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_eventshub_persistence_migrations_updateeventsmodel_down",
+      "label": ".Down()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s75"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "DropPrimaryKey",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L30"
+          },
+          {
+            "callee": "RenameTable",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L34"
+          },
+          {
+            "callee": "AddPrimaryKey",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L38"
+          }
+        ]
+      },
+      "norm_label": ".down()",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.cs",
+      "source_location": "L28"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_eventshub_persistence_migrations_updateeventsmodel_up",
+      "label": ".Up()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s75"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "DropPrimaryKey",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L13"
+          },
+          {
+            "callee": "RenameTable",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L17"
+          },
+          {
+            "callee": "AddPrimaryKey",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L21"
+          }
+        ]
+      },
+      "norm_label": ".up()",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.cs",
+      "source_location": "L11"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_eventshub_persistence_migrations_appdbcontextmodelsnapshot_buildmodel",
+      "label": ".BuildModel()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s247"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "HasAnnotation",
+            "receiver_type": "ModelBuilder",
+            "lang": "csharp",
+            "line": "L18"
+          },
+          {
+            "callee": "Entity",
+            "receiver_type": "ModelBuilder",
+            "lang": "csharp",
+            "line": "L20"
+          }
+        ]
+      },
+      "norm_label": ".buildmodel()",
+      "source_file": "src/EventsHub.Persistence/Migrations/AppDbContextModelSnapshot.cs",
+      "source_location": "L15"
     },
     {
       "id": "csharp_namespace:87fa4940c6e43868",
@@ -2479,22 +2491,6 @@
       "type": "namespace"
     },
     {
-      "id": "csharp_namespace:271cc9171cba8130",
-      "label": "EventsHub.Persistence.Migrations",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "metadata": {
-        "kind": "csharp_namespace",
-        "namespace": "EventsHub.Persistence.Migrations"
-      },
-      "norm_label": "eventshub.persistence.migrations",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.Designer.cs",
-      "source_location": "L11",
-      "type": "namespace"
-    },
-    {
       "id": "csharp_namespace:770852f9c826f518",
       "label": "EventsHub.Application.Events.Queries",
       "_origin": "ast",
@@ -2589,17 +2585,6 @@
       "source_file": "src/EventsHub.Application/Core/MappingProfiles.cs",
       "source_location": "L4",
       "type": "namespace"
-    },
-    {
-      "id": "migration",
-      "label": "Migration",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "norm_label": "migration",
-      "source_file": "",
-      "source_location": ""
     },
     {
       "id": "profile",
@@ -2756,138 +2741,6 @@
       "source_location": "L1"
     },
     {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate",
-      "label": "20260831022247_InitialCreate.cs",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "norm_label": "20260831022247_initialcreate.cs",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.cs",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_cs_datetime",
-      "label": "DateTime",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "norm_label": "datetime",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_cs_migrationbuilder",
-      "label": "MigrationBuilder",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "norm_label": "migrationbuilder",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer",
-      "label": "20260831022247_InitialCreate.Designer.cs",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "norm_label": "20260831022247_initialcreate.designer.cs",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.Designer.cs",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer_cs_datetime",
-      "label": "DateTime",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "norm_label": "datetime",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer_cs_modelbuilder",
-      "label": "ModelBuilder",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "norm_label": "modelbuilder",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel",
-      "label": "20260908135236_UpdateEventsModel.cs",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "norm_label": "20260908135236_updateeventsmodel.cs",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.cs",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_cs_migrationbuilder",
-      "label": "MigrationBuilder",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "norm_label": "migrationbuilder",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer",
-      "label": "20260908135236_UpdateEventsModel.Designer.cs",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "norm_label": "20260908135236_updateeventsmodel.designer.cs",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.Designer.cs",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer_cs_datetime",
-      "label": "DateTime",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "norm_label": "datetime",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer_cs_modelbuilder",
-      "label": "ModelBuilder",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "norm_label": "modelbuilder",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot",
-      "label": "AppDbContextModelSnapshot.cs",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "file_type": "code",
-      "norm_label": "appdbcontextmodelsnapshot.cs",
-      "source_file": "src/EventsHub.Persistence/Migrations/AppDbContextModelSnapshot.cs",
-      "source_location": "L1"
-    },
-    {
       "id": "tests_eventshub_unittest_controllers_eventscontrollertest",
       "label": "EventsControllerTest.cs",
       "_origin": "ast",
@@ -2910,11 +2763,22 @@
       "source_location": "L1"
     },
     {
+      "id": "web_eventshub_vite_config",
+      "label": "vite.config.ts",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "vite.config.ts",
+      "file_type": "code",
+      "norm_label": "vite.config.ts",
+      "source_file": "web/EventsHub/vite.config.ts",
+      "source_location": "L1"
+    },
+    {
       "id": "web_package",
       "label": "web/package.json",
       "_origin": "ast",
       "community": 10,
-      "community_name": "web/package.json",
+      "community_name": "vite.config.ts",
       "file_type": "code",
       "norm_label": "web/package.json",
       "source_file": "web/package.json",
@@ -2925,7 +2789,7 @@
       "label": "dependencies",
       "_origin": "ast",
       "community": 10,
-      "community_name": "web/package.json",
+      "community_name": "vite.config.ts",
       "file_type": "code",
       "norm_label": "dependencies",
       "source_file": "web/package.json",
@@ -2936,7 +2800,7 @@
       "label": "axios",
       "_origin": "ast",
       "community": 10,
-      "community_name": "web/package.json",
+      "community_name": "vite.config.ts",
       "file_type": "code",
       "norm_label": "axios",
       "source_file": "web/package.json",
@@ -2947,7 +2811,7 @@
       "label": "devDependencies",
       "_origin": "ast",
       "community": 10,
-      "community_name": "web/package.json",
+      "community_name": "vite.config.ts",
       "file_type": "code",
       "norm_label": "devdependencies",
       "source_file": "web/package.json",
@@ -2958,7 +2822,7 @@
       "label": "vite-plugin-mkcert",
       "_origin": "ast",
       "community": 10,
-      "community_name": "web/package.json",
+      "community_name": "vite.config.ts",
       "file_type": "code",
       "norm_label": "vite-plugin-mkcert",
       "source_file": "web/package.json",
@@ -2969,22 +2833,55 @@
       "label": "axios",
       "_origin": "ast",
       "community": 10,
-      "community_name": "web/package.json",
+      "community_name": "vite.config.ts",
       "file_type": "concept",
       "norm_label": "axios",
       "source_file": "web/package.json",
       "source_location": "L6"
     },
     {
+      "id": "ref_rolldown_plugin_babel",
+      "label": "@rolldown/plugin-babel",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "vite.config.ts",
+      "file_type": "concept",
+      "norm_label": "@rolldown/plugin-babel",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L24"
+    },
+    {
+      "id": "ref_vite",
+      "label": "vite",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "vite.config.ts",
+      "file_type": "concept",
+      "norm_label": "vite",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L37"
+    },
+    {
       "id": "ref_vite_plugin_mkcert",
       "label": "vite-plugin-mkcert",
       "_origin": "ast",
       "community": 10,
-      "community_name": "web/package.json",
+      "community_name": "vite.config.ts",
       "file_type": "concept",
       "norm_label": "vite-plugin-mkcert",
       "source_file": "web/package.json",
       "source_location": "L3"
+    },
+    {
+      "id": "ref_vitejs_plugin_react",
+      "label": "@vitejs/plugin-react",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "vite.config.ts",
+      "file_type": "concept",
+      "norm_label": "@vitejs/plugin-react",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L29"
     },
     {
       "id": "command",
@@ -4206,39 +4103,6 @@
       "source_location": null
     },
     {
-      "id": "modelsnapshot",
-      "label": "ModelSnapshot",
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "AppDbContextModelSnapshot",
-      "file_type": "code",
-      "norm_label": "modelsnapshot",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_cs_datetime",
-      "label": "DateTime",
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "AppDbContextModelSnapshot",
-      "file_type": "code",
-      "norm_label": "datetime",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_cs_modelbuilder",
-      "label": "ModelBuilder",
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "AppDbContextModelSnapshot",
-      "file_type": "code",
-      "norm_label": "modelbuilder",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "query",
       "label": "Query",
       "_origin": "ast",
@@ -4297,6 +4161,17 @@
       "file_type": "code",
       "norm_label": "app.tsx",
       "source_file": "web/EventsHub/src/app/layout/App.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "web_eventshub_src_app_layout_navbar",
+      "label": "NavBar.tsx",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "main.tsx",
+      "file_type": "code",
+      "norm_label": "navbar.tsx",
+      "source_file": "web/EventsHub/src/app/layout/NavBar.tsx",
       "source_location": "L1"
     },
     {
@@ -5409,50 +5284,6 @@
       "source_location": null
     },
     {
-      "id": "web_eventshub_vite_config",
-      "label": "vite.config.ts",
-      "_origin": "ast",
-      "community": 37,
-      "community_name": "vite.config.ts",
-      "file_type": "code",
-      "norm_label": "vite.config.ts",
-      "source_file": "web/EventsHub/vite.config.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "ref_rolldown_plugin_babel",
-      "label": "@rolldown/plugin-babel",
-      "_origin": "ast",
-      "community": 37,
-      "community_name": "vite.config.ts",
-      "file_type": "concept",
-      "norm_label": "@rolldown/plugin-babel",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L24"
-    },
-    {
-      "id": "ref_vite",
-      "label": "vite",
-      "_origin": "ast",
-      "community": 37,
-      "community_name": "vite.config.ts",
-      "file_type": "concept",
-      "norm_label": "vite",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L37"
-    },
-    {
-      "id": "ref_vitejs_plugin_react",
-      "label": "@vitejs/plugin-react",
-      "_origin": "ast",
-      "community": 37,
-      "community_name": "vite.config.ts",
-      "file_type": "concept",
-      "norm_label": "@vitejs/plugin-react",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L29"
-    },
-    {
       "id": "web_eventshub_readme",
       "label": "EventsHub/README.md",
       "_origin": "ast",
@@ -5765,6 +5596,198 @@
       "norm_label": "typescript-eslint",
       "source_file": "web/EventsHub/package.json",
       "source_location": "L36"
+    },
+    {
+      "id": "csharp_namespace:271cc9171cba8130",
+      "label": "EventsHub.Persistence.Migrations",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "metadata": {
+        "kind": "csharp_namespace",
+        "namespace": "EventsHub.Persistence.Migrations"
+      },
+      "norm_label": "eventshub.persistence.migrations",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.Designer.cs",
+      "source_location": "L11",
+      "type": "namespace"
+    },
+    {
+      "id": "migration",
+      "label": "Migration",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "norm_label": "migration",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "modelsnapshot",
+      "label": "ModelSnapshot",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "norm_label": "modelsnapshot",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate",
+      "label": "20260831022247_InitialCreate.cs",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "norm_label": "20260831022247_initialcreate.cs",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_cs_datetime",
+      "label": "DateTime",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "norm_label": "datetime",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_cs_migrationbuilder",
+      "label": "MigrationBuilder",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "norm_label": "migrationbuilder",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer",
+      "label": "20260831022247_InitialCreate.Designer.cs",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "norm_label": "20260831022247_initialcreate.designer.cs",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.Designer.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer_cs_datetime",
+      "label": "DateTime",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "norm_label": "datetime",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer_cs_modelbuilder",
+      "label": "ModelBuilder",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "norm_label": "modelbuilder",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel",
+      "label": "20260908135236_UpdateEventsModel.cs",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "norm_label": "20260908135236_updateeventsmodel.cs",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_cs_migrationbuilder",
+      "label": "MigrationBuilder",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "norm_label": "migrationbuilder",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer",
+      "label": "20260908135236_UpdateEventsModel.Designer.cs",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "norm_label": "20260908135236_updateeventsmodel.designer.cs",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.Designer.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer_cs_datetime",
+      "label": "DateTime",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "norm_label": "datetime",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer_cs_modelbuilder",
+      "label": "ModelBuilder",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "norm_label": "modelbuilder",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot",
+      "label": "AppDbContextModelSnapshot.cs",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "norm_label": "appdbcontextmodelsnapshot.cs",
+      "source_file": "src/EventsHub.Persistence/Migrations/AppDbContextModelSnapshot.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_cs_datetime",
+      "label": "DateTime",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "norm_label": "datetime",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_cs_modelbuilder",
+      "label": "ModelBuilder",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "file_type": "code",
+      "norm_label": "modelbuilder",
+      "source_file": "",
+      "source_location": ""
     },
     {
       "id": "web_eventshub_tsconfig_app",
@@ -6874,42 +6897,6 @@
       "type": "external"
     },
     {
-      "id": "microsoft_entityframeworkcore_infrastructure",
-      "label": "microsoft_entityframeworkcore_infrastructure",
-      "_origin": "semantic",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "microsoft_entityframeworkcore_infrastructure",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "microsoft_entityframeworkcore_migrations",
-      "label": "microsoft_entityframeworkcore_migrations",
-      "_origin": "semantic",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "microsoft_entityframeworkcore_migrations",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "microsoft_entityframeworkcore_storage_valueconversion",
-      "label": "microsoft_entityframeworkcore_storage_valueconversion",
-      "_origin": "semantic",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "microsoft_entityframeworkcore_storage_valueconversion",
-      "source_file": "",
-      "type": "external"
-    },
-    {
       "id": "microsoft_extensions_dependencyinjection",
       "label": "microsoft_extensions_dependencyinjection",
       "_origin": "semantic",
@@ -6942,18 +6929,6 @@
       "external": true,
       "file_type": "concept",
       "norm_label": "newtonsoft_json_serialization",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "system",
-      "label": "system",
-      "_origin": "semantic",
-      "community": 1,
-      "community_name": "EventsHub.Persistence",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "system",
       "source_file": "",
       "type": "external"
     },
@@ -7018,6 +6993,18 @@
       "type": "external"
     },
     {
+      "id": "ref_app_layout_index_css",
+      "label": "ref_app_layout_index_css",
+      "_origin": "semantic",
+      "community": 20,
+      "community_name": "ref_app_layout_index_css",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "ref_app_layout_index_css",
+      "source_file": "",
+      "type": "external"
+    },
+    {
       "id": "web_eventshub_src_index",
       "label": "web_eventshub_src_index",
       "_origin": "semantic",
@@ -7030,13 +7017,61 @@
       "type": "external"
     },
     {
-      "id": "ref_app_layout_index_css",
-      "label": "ref_app_layout_index_css",
+      "id": "microsoft_entityframeworkcore_infrastructure",
+      "label": "microsoft_entityframeworkcore_infrastructure",
+      "_origin": "semantic",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "microsoft_entityframeworkcore_infrastructure",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "microsoft_entityframeworkcore_migrations",
+      "label": "microsoft_entityframeworkcore_migrations",
+      "_origin": "semantic",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "microsoft_entityframeworkcore_migrations",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "microsoft_entityframeworkcore_storage_valueconversion",
+      "label": "microsoft_entityframeworkcore_storage_valueconversion",
+      "_origin": "semantic",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "microsoft_entityframeworkcore_storage_valueconversion",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "system",
+      "label": "system",
+      "_origin": "semantic",
+      "community": 41,
+      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "system",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "web_eventshub_src_app_layout_styles",
+      "label": "web_eventshub_src_app_layout_styles",
       "community": 22,
       "community_name": "main.tsx",
       "external": true,
       "file_type": "concept",
-      "norm_label": "ref_app_layout_index_css",
+      "norm_label": "web_eventshub_src_app_layout_styles",
       "source_file": "",
       "type": "external"
     }
@@ -11099,6 +11134,18 @@
       "weight": 1.0
     },
     {
+      "source": "web_eventshub_src_app_layout_navbar",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/layout/NavBar.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
       "source": "web_eventshub_src_main",
       "target": "ref_react",
       "relation": "imports_from",
@@ -11124,7 +11171,7 @@
     },
     {
       "source": "web_eventshub_src_main",
-      "target": "ref_app_layout_index_css",
+      "target": "web_eventshub_src_app_layout_styles",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -14695,6 +14742,17 @@
       "confidence_score": 1.0,
       "source_file": "web/EventsHub/src/app/layout/App.tsx",
       "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_layout_navbar",
+      "target": "web_eventshub_src_app_layout_navbar_navbar",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/src/app/layout/NavBar.tsx",
+      "source_location": "L3",
       "weight": 1.0
     },
     {

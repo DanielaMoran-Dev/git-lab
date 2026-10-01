@@ -269,23 +269,17 @@
     "ast_hash": "e5f2ee66066a2b461e3b39ef6340cb04",
     "semantic_hash": "e5f2ee66066a2b461e3b39ef6340cb04"
   },
-  "web/EventsHub/src/App.tsx": {
-    "mtime": 1789478856.9141262,
-    "seen": 1790688945.3286204,
-    "ast_hash": "08f70e9f4bc17e141311263119e2be7f",
-    "semantic_hash": "08f70e9f4bc17e141311263119e2be7f"
-  },
   "web/EventsHub/src/lib/types/index.d.ts": {
-    "mtime": 1788960176.7338905,
-    "seen": 1790688945.328623,
+    "mtime": 1790860304.156728,
+    "seen": 1790860613.6055744,
     "ast_hash": "e555b49d0f2f8854d95f272b4c7405dd",
     "semantic_hash": "e555b49d0f2f8854d95f272b4c7405dd"
   },
   "web/EventsHub/src/main.tsx": {
-    "mtime": 1788961450.0439284,
-    "seen": 1790688945.3286254,
-    "ast_hash": "f06cdab619a0407a6a81019c8154f680",
-    "semantic_hash": "f06cdab619a0407a6a81019c8154f680"
+    "mtime": 1790860332.2654436,
+    "seen": 1790860613.6055782,
+    "ast_hash": "ff9bd6b9dcda49280996c218588dfbd4",
+    "semantic_hash": ""
   },
   "web/EventsHub/tests/EventsHub.UnitTests/EventsHub.UnitTests.csproj": {
     "mtime": 1789477949.048018,
@@ -491,22 +485,10 @@
     "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
     "semantic_hash": ""
   },
-  "web/EventsHub/src/assets/hero.png": {
-    "mtime": 1788441078.5933998,
-    "seen": 1790689617.9408772,
-    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
-    "semantic_hash": ""
-  },
-  "web/EventsHub/src/assets/react.svg": {
-    "mtime": 1788441078.804311,
-    "seen": 1790689617.9408815,
-    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
-    "semantic_hash": ""
-  },
-  "web/EventsHub/src/assets/vite.svg": {
-    "mtime": 1788441078.8620932,
-    "seen": 1790689617.9408853,
-    "ast_hash": "9960a24288958394ac50e57ff638b036",
+  "web/EventsHub/src/app/layout/App.tsx": {
+    "mtime": 1789478856.9141262,
+    "seen": 1790860613.6055691,
+    "ast_hash": "08f70e9f4bc17e141311263119e2be7f",
     "semantic_hash": ""
   }
 }

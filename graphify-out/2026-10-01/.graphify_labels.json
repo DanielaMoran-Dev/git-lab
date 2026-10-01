@@ -9,7 +9,7 @@
   "7": "devDependencies",
   "8": "compilerOptions",
   "9": "Event",
-  "10": "vite.config.ts",
+  "10": "web/package.json",
   "11": "Command",
   "12": "Repository Guidelines",
   "13": "http",
@@ -19,7 +19,7 @@
   "17": "Handler",
   "18": "Handler",
   "19": "IRequest",
-  "20": "20260831022247_InitialCreate.Designer.cs",
+  "20": "AppDbContextModelSnapshot",
   "21": "Handler",
   "22": "main.tsx",
   "23": "dependencies",
@@ -33,5 +33,12 @@
   "31": "openspec-archive-change/SKILL.md",
   "32": "openspec-propose/SKILL.md",
   "33": "openspec-sync-specs/SKILL.md",
-  "34": "openspec-update-change/SKILL.md"
+  "34": "openspec-update-change/SKILL.md",
+  "35": "Manual setup — OpenAPI doc generation + typed client for the EventsHub API",
+  "36": "EventsHub.UnitTests.csproj",
+  "37": "vite.config.ts",
+  "38": "React + TypeScript + Vite",
+  "39": "README.md",
+  "40": "web_eventshub_src_index",
+  "41": "UpdateEventsModel"
 }

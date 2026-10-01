@@ -1,12 +1,12 @@
 # Graph Report - proyectos  (2026-10-01)
 
 ## Corpus Check
-- 66 files · ~24,283 words
+- 67 files · ~24,296 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 9 file(s) not represented in the graph (top: (none) 7, .nswag 1, .css 1)
 
 ## Summary
-- 505 nodes · 710 edges · 41 communities (32 shown, 9 thin omitted)
+- 508 nodes · 712 edges · 41 communities (31 shown, 10 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 11 edges (avg confidence: 0.9)
 - Token cost: 0 input · 0 output
 
@@ -21,7 +21,7 @@
 - devDependencies
 - compilerOptions
 - Event
-- web/package.json
+- vite.config.ts
 - Command
 - Repository Guidelines
 - http
@@ -31,7 +31,7 @@
 - Handler
 - Handler
 - IRequest
-- AppDbContextModelSnapshot
+- ref_app_layout_index_css
 - Handler
 - main.tsx
 - dependencies
@@ -43,10 +43,10 @@
 - index.d.ts
 - Manual setup — OpenAPI doc generation + typed client for the EventsHub API
 - EventsHub.UnitTests.csproj
-- vite.config.ts
 - React + TypeScript + Vite
 - README.md
 - web_eventshub_src_index
+- 20260831022247_InitialCreate.Designer.cs
 
 ## God Nodes (most connected - your core abstractions)
 1. `Event` - 25 edges
@@ -75,15 +75,15 @@
 ## Import Cycles
 - None detected.
 
-## Communities (41 total, 9 thin omitted)
+## Communities (41 total, 10 thin omitted)
 
 ### Community 0 - "EventsRpcClient"
 Cohesion: 0.07
 Nodes (37): EventsHub.OpenApi.Client, JsonSerializerSettings, CultureInfo, Exception, global_system, HttpClient, HttpContent, HttpRequestMessage (+29 more)
 
 ### Community 1 - "EventsHub.Persistence"
-Cohesion: 0.06
-Nodes (37): automapper, EventsHub.Domain, EventsHub.Persistence.Migrations, EventsHub.Application.Events.Queries, EventsHub.Api.Controllers, EventsHub.Application.Events.Commands, EventsHub.Persistence, EventsHub.UnitTests.Controllers (+29 more)
+Cohesion: 0.11
+Nodes (22): automapper, EventsHub.Domain, EventsHub.Application.Events.Queries, EventsHub.Api.Controllers, EventsHub.Application.Events.Commands, EventsHub.Persistence, EventsHub.UnitTests.Controllers, EventsHub.Application.Core (+14 more)
 
 ### Community 2 - "EventsHub.UnitTest.csproj"
 Cohesion: 0.07
@@ -117,9 +117,9 @@ Nodes (16): compilerOptions, allowImportingTsExtensions, erasableSyntaxOnly, lib
 Cohesion: 0.15
 Nodes (12): DateTime, Event, Category, City, Date, Description, Id, IsCancelled (+4 more)
 
-### Community 10 - "web/package.json"
-Cohesion: 0.29
-Nodes (6): axios, vite-plugin-mkcert, dependencies, axios, devDependencies, vite-plugin-mkcert
+### Community 10 - "vite.config.ts"
+Cohesion: 0.18
+Nodes (9): axios, @rolldown/plugin-babel, vite, vite-plugin-mkcert, @vitejs/plugin-react, dependencies, axios, devDependencies (+1 more)
 
 ### Community 11 - "Command"
 Cohesion: 0.27
@@ -157,17 +157,13 @@ Nodes (7): IMapper, CancellationToken, Task, Command, Event, EditEvent, Handler
 Cohesion: 0.25
 Nodes (8): IRequest, Command, Event, CreateEvent, Command, Id, DeleteEvent, String
 
-### Community 20 - "AppDbContextModelSnapshot"
-Cohesion: 0.40
-Nodes (4): ModelSnapshot, DateTime, ModelBuilder, AppDbContextModelSnapshot
-
 ### Community 21 - "Handler"
 Cohesion: 0.29
 Nodes (7): Query, CancellationToken, Task, GetEventDetails, Handler, Query, Id
 
 ### Community 22 - "main.tsx"
-Cohesion: 0.32
-Nodes (6): ref_app_layout_index_css, @fontsource/roboto, @mui/material, react, react-dom, App()
+Cohesion: 0.24
+Nodes (6): @fontsource/roboto, @mui/material, react, react-dom, App(), web_eventshub_src_app_layout_styles
 
 ### Community 23 - "dependencies"
 Cohesion: 0.25
@@ -197,30 +193,30 @@ Nodes (13): Current state on this branch, Manual setup — OpenAPI doc generatio
 Cohesion: 0.14
 Nodes (12): EventsHub.API, EventsHub.Application, EventsHub.Domain, EventsHub.OpenApi, EventsHub.Persistence, net10.0, coverlet.collector (6.0.4), Microsoft.NET.Test.Sdk (17.14.0) (+4 more)
 
-### Community 37 - "vite.config.ts"
-Cohesion: 0.50
-Nodes (3): @rolldown/plugin-babel, vite, @vitejs/plugin-react
-
 ### Community 38 - "React + TypeScript + Vite"
 Cohesion: 0.50
 Nodes (3): Expanding the ESLint configuration, React Compiler, React + TypeScript + Vite
 
+### Community 41 - "20260831022247_InitialCreate.Designer.cs"
+Cohesion: 0.10
+Nodes (19): EventsHub.Persistence.Migrations, microsoft_entityframeworkcore_infrastructure, microsoft_entityframeworkcore_migrations, microsoft_entityframeworkcore_storage_valueconversion, Migration, ModelSnapshot, DateTime, MigrationBuilder (+11 more)
+
 ## Knowledge Gaps
 - **209 isolated node(s):** `Mediator`, `net10.0`, `Microsoft.AspNetCore.OpenApi (10.0.11)`, `Microsoft.EntityFrameworkCore.Design (10.0.11)`, `Microsoft.NET.Sdk.Web` (+204 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 278 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 280 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `WeatherForecastController` connect `Manual setup — OpenAPI doc generation + typed client for the EventsHub API` to `EventsHub.Persistence`, `EventsController`?**
-  _High betweenness centrality (0.151) - this node is a cross-community bridge._
+  _High betweenness centrality (0.149) - this node is a cross-community bridge._
 - **What connects `Mediator`, `net10.0`, `Microsoft.AspNetCore.OpenApi (10.0.11)` to the rest of the system?**
   _209 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `EventsRpcClient` be split into smaller, more focused modules?**
   _Cohesion score 0.07373271889400922 - nodes in this community are weakly interconnected._
 - **Should `EventsHub.Persistence` be split into smaller, more focused modules?**
-  _Cohesion score 0.061955965181771634 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10810810810810811 - nodes in this community are weakly interconnected._
 - **Should `EventsHub.UnitTest.csproj` be split into smaller, more focused modules?**
   _Cohesion score 0.07007575757575757 - nodes in this community are weakly interconnected._
 - **Should `EventsController` be split into smaller, more focused modules?**
