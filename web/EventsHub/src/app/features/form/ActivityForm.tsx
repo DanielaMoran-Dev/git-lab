@@ -4,8 +4,9 @@ import type { FormEvent } from "react";
 type Props={
     closeForm: () => void;
     activity?: Activity;
+    submitForm: (activity: Activity) => void;
 }
-export default function ActivityForm({ closeForm, activity }: Props) {
+export default function ActivityForm({ closeForm, activity, submitForm }: Props) {
     const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         
@@ -14,6 +15,10 @@ export default function ActivityForm({ closeForm, activity }: Props) {
         formData.forEach((value, key) => {
             data[key] = value;
         });
+
+        if(activity) data.id = activity.id;
+        
+        submitForm(data as unknown as Activity);
     }
 
     return(
