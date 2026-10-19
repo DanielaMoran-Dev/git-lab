@@ -6,10 +6,10 @@
     "semantic_hash": "c1edf7c48ff8eb8502c49c2bd97a2225"
   },
   ".config/dotnet-tools.json": {
-    "mtime": 1788355771.8855107,
-    "seen": 1790688945.3285077,
-    "ast_hash": "f8d2497b2d51e9ba9b4bbd5fda9d0bd0",
-    "semantic_hash": "f8d2497b2d51e9ba9b4bbd5fda9d0bd0"
+    "mtime": 1792415901.3656409,
+    "seen": 1792417545.7517042,
+    "ast_hash": "77fbdf884c57e2d31a8fa3288ba3e530",
+    "semantic_hash": ""
   },
   ".vscode/launch.json": {
     "mtime": 1789998037.8097084,
@@ -54,10 +54,10 @@
     "semantic_hash": "4a1f0383a6e9eecc31fcababfa6916a2"
   },
   "src/EventsHub.Api/EventsHub.API.csproj": {
-    "mtime": 1788141048.886579,
-    "seen": 1790688945.32853,
-    "ast_hash": "5c35f77b673784c2439cff159b77b97c",
-    "semantic_hash": "5c35f77b673784c2439cff159b77b97c"
+    "mtime": 1792416194.5208046,
+    "seen": 1792417545.7517452,
+    "ast_hash": "b35a91748e9d9d3f3205117c069ccf15",
+    "semantic_hash": ""
   },
   "src/EventsHub.Api/Program.cs": {
     "mtime": 1790257251.6639335,
@@ -258,16 +258,16 @@
     "semantic_hash": "3505d5c1288944d22c8e22d7c4175122"
   },
   "web/EventsHub/eslint.config.js": {
-    "mtime": 1788441120.1083598,
-    "seen": 1790688945.3286157,
-    "ast_hash": "0355276bc79439afe3c53e3a2470ca1e",
-    "semantic_hash": "0355276bc79439afe3c53e3a2470ca1e"
+    "mtime": 1792417165.172621,
+    "seen": 1792417545.7518554,
+    "ast_hash": "9edf7bba0b532a1f876404b736577386",
+    "semantic_hash": ""
   },
   "web/EventsHub/package.json": {
-    "mtime": 1788961603.1824841,
-    "seen": 1790688945.328618,
-    "ast_hash": "e5f2ee66066a2b461e3b39ef6340cb04",
-    "semantic_hash": "e5f2ee66066a2b461e3b39ef6340cb04"
+    "mtime": 1791465923.5092924,
+    "seen": 1791465979.2691252,
+    "ast_hash": "854d700f6df78116701cc2cf53ba555b",
+    "semantic_hash": ""
   },
   "web/EventsHub/src/lib/types/index.d.ts": {
     "mtime": 1790860304.156728,
@@ -318,10 +318,10 @@
     "semantic_hash": "dbf75f4fb1d28083fc5260896d7497bc"
   },
   "web/package.json": {
-    "mtime": 1789047258.0461125,
-    "seen": 1790688945.3286421,
-    "ast_hash": "ba929bdffcaadd6b8619f9bbac6dcd81",
-    "semantic_hash": "ba929bdffcaadd6b8619f9bbac6dcd81"
+    "mtime": 1792417024.6351464,
+    "seen": 1792417545.7519102,
+    "ast_hash": "6b6e3abc00a6063535ca77029bda6e30",
+    "semantic_hash": ""
   },
   ".agents/skills/openspec-apply-change/SKILL.md": {
     "mtime": 1790689256.1032848,
@@ -369,12 +369,6 @@
     "mtime": 1788141660.7835236,
     "seen": 1790689617.940789,
     "ast_hash": "2cffa9af33923de8603e775ef1cf9ead",
-    "semantic_hash": ""
-  },
-  "docs/OpenApi.md": {
-    "mtime": 1788355035.1346724,
-    "seen": 1790689617.9407938,
-    "ast_hash": "10edbb930b121ca79ceacf25e367b5db",
     "semantic_hash": ""
   },
   "docs/guides/install-graphify-openspec.md": {
@@ -473,28 +467,106 @@
     "ast_hash": "60dc51f51a7e1cff6d2bd1bee9c58b40",
     "semantic_hash": ""
   },
-  "web/EventsHub/public/favicon.svg": {
-    "mtime": 1788441078.682292,
-    "seen": 1790689617.9408684,
-    "ast_hash": "7e840862161341271697daa99a40d76b",
-    "semantic_hash": ""
-  },
-  "web/EventsHub/public/icons.svg": {
-    "mtime": 1788441078.741235,
-    "seen": 1790689617.940873,
-    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
-    "semantic_hash": ""
-  },
   "web/EventsHub/src/app/layout/App.tsx": {
-    "mtime": 1789478856.9141262,
-    "seen": 1790860613.6055691,
-    "ast_hash": "08f70e9f4bc17e141311263119e2be7f",
+    "mtime": 1792070679.4724503,
+    "seen": 1792071225.9071221,
+    "ast_hash": "b1aa1b0505212aee7dbcc6a53a4f13b6",
     "semantic_hash": ""
   },
   "web/EventsHub/src/app/layout/NavBar.tsx": {
-    "mtime": 1790860899.4986577,
-    "seen": 1790860920.2053812,
-    "ast_hash": "5d1549b287a7ad001dcda44e9dcf1d5d",
+    "mtime": 1791811189.6159263,
+    "seen": 1791811279.8989296,
+    "ast_hash": "f8a5e60062446c2e5dc5d4364026df05",
+    "semantic_hash": ""
+  },
+  "web/EventsHub/src/app/features/activities/dashboard/ActivityCard.tsx": {
+    "mtime": 1792070978.4692168,
+    "seen": 1792071225.9071012,
+    "ast_hash": "f44b3aab3bdf19e7ef8e0b4416f8cc7e",
+    "semantic_hash": ""
+  },
+  "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx": {
+    "mtime": 1792070690.1224167,
+    "seen": 1792071225.9071069,
+    "ast_hash": "9d6202bf3e85edfffc5c6ca13b8adc44",
+    "semantic_hash": ""
+  },
+  "web/EventsHub/src/app/features/activities/dashboard/ActivityList.tsx": {
+    "mtime": 1792070729.0178387,
+    "seen": 1792071225.9071105,
+    "ast_hash": "fd4677c0c506adbad9cdef752d7fcd79",
+    "semantic_hash": ""
+  },
+  "web/EventsHub/src/app/features/activities/details/ActivityDetail.tsx": {
+    "mtime": 1791812100.7850711,
+    "seen": 1791812123.0242534,
+    "ast_hash": "850f91c224e18f5218dd44ed0f76e5bc",
+    "semantic_hash": ""
+  },
+  "web/EventsHub/public/Images/categoryImages/culture.jpg": {
+    "mtime": 1791379570.9525125,
+    "seen": 1791380612.3239298,
+    "ast_hash": "f2eb8da66bc1451bf6ca4d24b9cdf50e",
+    "semantic_hash": ""
+  },
+  "web/EventsHub/public/Images/categoryImages/drinks.jpg": {
+    "mtime": 1791379778.9351666,
+    "seen": 1791380612.323935,
+    "ast_hash": "ae515bb93fc9a21d337b11c6fbb78a77",
+    "semantic_hash": ""
+  },
+  "web/EventsHub/public/Images/categoryImages/film.jpg": {
+    "mtime": 1791379798.491956,
+    "seen": 1791380612.323938,
+    "ast_hash": "296c2c574b9adcb8fde1a0b7cc836aeb",
+    "semantic_hash": ""
+  },
+  "web/EventsHub/public/Images/categoryImages/food.jpg": {
+    "mtime": 1791379828.3201094,
+    "seen": 1791380612.32394,
+    "ast_hash": "670847c072ca8952c8ea706aa4b3afc7",
+    "semantic_hash": ""
+  },
+  "web/EventsHub/public/Images/categoryImages/music.jpg": {
+    "mtime": 1791379847.8351288,
+    "seen": 1791380612.3239427,
+    "ast_hash": "8eca1a381cc0b91f5410fbd2814b71af",
+    "semantic_hash": ""
+  },
+  "web/EventsHub/public/Images/categoryImages/travel.jpg": {
+    "mtime": 1791379869.5480351,
+    "seen": 1791380612.3239453,
+    "ast_hash": "0c198675aef7f300ec6946d3cd3a99ce",
+    "semantic_hash": ""
+  },
+  "web/EventsHub/src/app/features/form/ActivityForm.tsx": {
+    "mtime": 1791996610.3812459,
+    "seen": 1791996735.370486,
+    "ast_hash": "c1c409c206007c4d87ba6e5a84e2f225",
+    "semantic_hash": ""
+  },
+  ".husky/pre-commit": {
+    "mtime": 1792417360.3117533,
+    "seen": 1792417545.751711,
+    "ast_hash": "4880e3170f8cd596e86938d3dc5268ca",
+    "semantic_hash": ""
+  },
+  ".husky/task-runner.json": {
+    "mtime": 1792417545.5291836,
+    "seen": 1792417545.7517142,
+    "ast_hash": "1c4b55930ced0702b856d21d304cb3b2",
+    "semantic_hash": ""
+  },
+  "docs/guides/OpenApi.md": {
+    "mtime": 1788355035.1346724,
+    "seen": 1792417545.751938,
+    "ast_hash": "10edbb930b121ca79ceacf25e367b5db",
+    "semantic_hash": ""
+  },
+  "docs/guides/husky-setup.md": {
+    "mtime": 1792416369.6814547,
+    "seen": 1792417545.751941,
+    "ast_hash": "30c60b84607b6569bf5a397c8acb281f",
     "semantic_hash": ""
   }
 }

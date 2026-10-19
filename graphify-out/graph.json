@@ -162,12 +162,52 @@
       "source_location": "L6"
     },
     {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer_eventshub_persistence_migrations_initialcreate",
+      "label": "InitialCreate",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "metadata": {
+        "is_partial": true,
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s296"
+        ]
+      },
+      "norm_label": "initialcreate",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.Designer.cs",
+      "source_location": "L13"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer_eventshub_persistence_migrations_updateeventsmodel",
+      "label": "UpdateEventsModel",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "metadata": {
+        "is_partial": true,
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s296"
+        ]
+      },
+      "norm_label": "updateeventsmodel",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.Designer.cs",
+      "source_location": "L13"
+    },
+    {
       "id": "src_eventshub_application_events_commands_createevent_eventshub_application_events_commands_handler",
       "label": "Handler",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 11,
+      "community": 10,
       "community_name": "Command",
       "file_type": "code",
       "metadata": {
@@ -187,7 +227,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 11,
+      "community": 10,
       "community_name": "Command",
       "file_type": "code",
       "metadata": {
@@ -200,6 +240,65 @@
       "norm_label": "handler",
       "source_file": "src/EventsHub.Application/Events/Commands/DeleteEvent.cs",
       "source_location": "L14"
+    },
+    {
+      "id": "src_eventshub_application_events_queries_geteventlist_eventshub_application_events_queries_geteventlist",
+      "label": "GetEventList",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "Handler",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Application.Events.Queries",
+        "scope_chain": [
+          "s148"
+        ]
+      },
+      "norm_label": "geteventlist",
+      "source_file": "src/EventsHub.Application/Events/Queries/GetEventList.cs",
+      "source_location": "L9"
+    },
+    {
+      "id": "src_eventshub_application_events_queries_geteventlist_eventshub_application_events_queries_handler",
+      "label": "Handler",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "Handler",
+      "file_type": "code",
+      "metadata": {
+        "is_nested_type": true,
+        "namespace": "EventsHub.Application.Events.Queries",
+        "scope_chain": [
+          "s148"
+        ]
+      },
+      "norm_label": "handler",
+      "source_file": "src/EventsHub.Application/Events/Queries/GetEventList.cs",
+      "source_location": "L13"
+    },
+    {
+      "id": "src_eventshub_application_events_queries_geteventlist_eventshub_application_events_queries_query",
+      "label": "Query",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "Handler",
+      "file_type": "code",
+      "metadata": {
+        "is_nested_type": true,
+        "namespace": "EventsHub.Application.Events.Queries",
+        "scope_chain": [
+          "s148"
+        ]
+      },
+      "norm_label": "query",
+      "source_file": "src/EventsHub.Application/Events/Queries/GetEventList.cs",
+      "source_location": "L11"
     },
     {
       "id": "src_eventshub_persistence_dbinitializer_eventshub_persistence_dbinitializer",
@@ -259,71 +358,12 @@
       "source_location": "L3"
     },
     {
-      "id": "src_eventshub_application_events_queries_geteventlist_eventshub_application_events_queries_geteventlist",
-      "label": "GetEventList",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Handler",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Application.Events.Queries",
-        "scope_chain": [
-          "s148"
-        ]
-      },
-      "norm_label": "geteventlist",
-      "source_file": "src/EventsHub.Application/Events/Queries/GetEventList.cs",
-      "source_location": "L9"
-    },
-    {
-      "id": "src_eventshub_application_events_queries_geteventlist_eventshub_application_events_queries_handler",
-      "label": "Handler",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Handler",
-      "file_type": "code",
-      "metadata": {
-        "is_nested_type": true,
-        "namespace": "EventsHub.Application.Events.Queries",
-        "scope_chain": [
-          "s148"
-        ]
-      },
-      "norm_label": "handler",
-      "source_file": "src/EventsHub.Application/Events/Queries/GetEventList.cs",
-      "source_location": "L13"
-    },
-    {
-      "id": "src_eventshub_application_events_queries_geteventlist_eventshub_application_events_queries_query",
-      "label": "Query",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Handler",
-      "file_type": "code",
-      "metadata": {
-        "is_nested_type": true,
-        "namespace": "EventsHub.Application.Events.Queries",
-        "scope_chain": [
-          "s148"
-        ]
-      },
-      "norm_label": "query",
-      "source_file": "src/EventsHub.Application/Events/Queries/GetEventList.cs",
-      "source_location": "L11"
-    },
-    {
       "id": "src_eventshub_application_events_commands_editevent_eventshub_application_events_commands_command",
       "label": "Command",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 18,
+      "community": 17,
       "community_name": "Handler",
       "file_type": "code",
       "metadata": {
@@ -343,7 +383,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 18,
+      "community": 17,
       "community_name": "Handler",
       "file_type": "code",
       "metadata": {
@@ -362,7 +402,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 18,
+      "community": 17,
       "community_name": "Handler",
       "file_type": "code",
       "metadata": {
@@ -382,7 +422,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "community_name": "IRequest",
       "file_type": "code",
       "metadata": {
@@ -402,7 +442,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "community_name": "IRequest",
       "file_type": "code",
       "metadata": {
@@ -421,7 +461,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "community_name": "IRequest",
       "file_type": "code",
       "metadata": {
@@ -441,7 +481,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "community_name": "IRequest",
       "file_type": "code",
       "metadata": {
@@ -460,7 +500,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 21,
+      "community": 19,
       "community_name": "Handler",
       "file_type": "code",
       "metadata": {
@@ -479,7 +519,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 21,
+      "community": 19,
       "community_name": "Handler",
       "file_type": "code",
       "metadata": {
@@ -499,7 +539,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 21,
+      "community": 19,
       "community_name": "Handler",
       "file_type": "code",
       "metadata": {
@@ -512,6 +552,103 @@
       "norm_label": "query",
       "source_file": "src/EventsHub.Application/Events/Queries/GetEventDetails.cs",
       "source_location": "L9"
+    },
+    {
+      "id": "src_eventshub_persistence_appdbcontext_eventshub_persistence_appdbcontext",
+      "label": "AppDbContext",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "AppDbContext",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence",
+        "scope_chain": [
+          "s92"
+        ]
+      },
+      "norm_label": "appdbcontext",
+      "source_file": "src/EventsHub.Persistence/AppDbContext.cs",
+      "source_location": "L7"
+    },
+    {
+      "id": "web_eventshub_src_app_features_activities_dashboard_activitycard_props",
+      "label": "Props",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "props",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityCard.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "web_eventshub_src_app_features_activities_dashboard_activitydashboard_props",
+      "label": "Props",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "props",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "web_eventshub_src_app_features_activities_dashboard_activitylist_props",
+      "label": "Props",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "props",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "web_eventshub_src_app_features_activities_details_activitydetail_props",
+      "label": "Props",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "props",
+      "source_file": "web/EventsHub/src/app/features/activities/details/ActivityDetail.tsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "web_eventshub_src_app_features_form_activityform_props",
+      "label": "Props",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "props",
+      "source_file": "web/EventsHub/src/app/features/form/ActivityForm.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "web_eventshub_src_app_layout_navbar_props",
+      "label": "Props",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "props",
+      "source_file": "web/EventsHub/src/app/layout/NavBar.tsx",
+      "source_location": "L4"
     },
     {
       "id": "web_eventshub_tests_eventshub_unittests_unittest1_eventshub_unittests_tests",
@@ -533,23 +670,24 @@
       "source_location": "L3"
     },
     {
-      "id": "src_eventshub_persistence_appdbcontext_eventshub_persistence_appdbcontext",
-      "label": "AppDbContext",
+      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_eventshub_persistence_migrations_appdbcontextmodelsnapshot",
+      "label": "AppDbContextModelSnapshot",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 25,
-      "community_name": "AppDbContext",
+      "community_name": "AppDbContextModelSnapshot",
       "file_type": "code",
       "metadata": {
-        "namespace": "EventsHub.Persistence",
+        "is_partial": true,
+        "namespace": "EventsHub.Persistence.Migrations",
         "scope_chain": [
-          "s92"
+          "s247"
         ]
       },
-      "norm_label": "appdbcontext",
-      "source_file": "src/EventsHub.Persistence/AppDbContext.cs",
-      "source_location": "L7"
+      "norm_label": "appdbcontextmodelsnapshot",
+      "source_file": "src/EventsHub.Persistence/Migrations/AppDbContextModelSnapshot.cs",
+      "source_location": "L12"
     },
     {
       "id": "web_eventshub_src_lib_types_index_d_activity",
@@ -584,25 +722,6 @@
       "source_location": "L14"
     },
     {
-      "id": "src_eventshub_api_controllers_eventshubbasecontroller_eventshub_api_controllers_eventshubbasecontroller",
-      "label": "EventsHubBaseController",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "EventsController",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Api.Controllers",
-        "scope_chain": [
-          "s216"
-        ]
-      },
-      "norm_label": "eventshubbasecontroller",
-      "source_file": "src/EventsHub.Api/Controllers/EventsHubBaseController.cs",
-      "source_location": "L12"
-    },
-    {
       "id": "tests_eventshub_unittest_controllers_eventscontrollertest_eventshub_unittests_controllers_eventscontrollertests",
       "label": "EventsControllerTests",
       "_callable": true,
@@ -622,13 +741,32 @@
       "source_location": "L10"
     },
     {
+      "id": "src_eventshub_api_controllers_eventshubbasecontroller_eventshub_api_controllers_eventshubbasecontroller",
+      "label": "EventsHubBaseController",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "EventsHubBaseController",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Api.Controllers",
+        "scope_chain": [
+          "s216"
+        ]
+      },
+      "norm_label": "eventshubbasecontroller",
+      "source_file": "src/EventsHub.Api/Controllers/EventsHubBaseController.cs",
+      "source_location": "L12"
+    },
+    {
       "id": "src_eventshub_api_controllers_weatherforecastcontroller_eventshub_api_controllers_weatherforecastcontroller",
       "label": "WeatherForecastController",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 35,
-      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
+      "community_name": "EventsHubBaseController",
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Api.Controllers",
@@ -639,66 +777,6 @@
       "norm_label": "weatherforecastcontroller",
       "source_file": "src/EventsHub.Api/Controllers/WeatherForecastController.cs",
       "source_location": "L5"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer_eventshub_persistence_migrations_initialcreate",
-      "label": "InitialCreate",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "metadata": {
-        "is_partial": true,
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s296"
-        ]
-      },
-      "norm_label": "initialcreate",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.Designer.cs",
-      "source_location": "L13"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer_eventshub_persistence_migrations_updateeventsmodel",
-      "label": "UpdateEventsModel",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "metadata": {
-        "is_partial": true,
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s296"
-        ]
-      },
-      "norm_label": "updateeventsmodel",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.Designer.cs",
-      "source_location": "L13"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_eventshub_persistence_migrations_appdbcontextmodelsnapshot",
-      "label": "AppDbContextModelSnapshot",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "metadata": {
-        "is_partial": true,
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s247"
-        ]
-      },
-      "norm_label": "appdbcontextmodelsnapshot",
-      "source_file": "src/EventsHub.Persistence/Migrations/AppDbContextModelSnapshot.cs",
-      "source_location": "L12"
     },
     {
       "id": "src_src_eventshub_openapi_generated_eventshubrpcclient_generated_eventshub_openapi_client_event",
@@ -1284,11 +1362,203 @@
       "source_location": "L434"
     },
     {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer_eventshub_persistence_migrations_initialcreate_buildtargetmodel",
+      "label": ".BuildTargetModel()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s296"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "HasAnnotation",
+            "receiver_type": "ModelBuilder",
+            "lang": "csharp",
+            "line": "L21"
+          },
+          {
+            "callee": "Entity",
+            "receiver_type": "ModelBuilder",
+            "lang": "csharp",
+            "line": "L23"
+          }
+        ]
+      },
+      "norm_label": ".buildtargetmodel()",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.Designer.cs",
+      "source_location": "L18"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_eventshub_persistence_migrations_initialcreate_down",
+      "label": ".Down()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s90"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "DropTable",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L38"
+          }
+        ]
+      },
+      "norm_label": ".down()",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.cs",
+      "source_location": "L36"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_eventshub_persistence_migrations_initialcreate_up",
+      "label": ".Up()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s90"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "CreateTable",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L14"
+          }
+        ]
+      },
+      "norm_label": ".up()",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.cs",
+      "source_location": "L12"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer_eventshub_persistence_migrations_updateeventsmodel_buildtargetmodel",
+      "label": ".BuildTargetModel()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s296"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "HasAnnotation",
+            "receiver_type": "ModelBuilder",
+            "lang": "csharp",
+            "line": "L21"
+          },
+          {
+            "callee": "Entity",
+            "receiver_type": "ModelBuilder",
+            "lang": "csharp",
+            "line": "L23"
+          }
+        ]
+      },
+      "norm_label": ".buildtargetmodel()",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.Designer.cs",
+      "source_location": "L18"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_eventshub_persistence_migrations_updateeventsmodel_down",
+      "label": ".Down()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s75"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "DropPrimaryKey",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L30"
+          },
+          {
+            "callee": "RenameTable",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L34"
+          },
+          {
+            "callee": "AddPrimaryKey",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L38"
+          }
+        ]
+      },
+      "norm_label": ".down()",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.cs",
+      "source_location": "L28"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_eventshub_persistence_migrations_updateeventsmodel_up",
+      "label": ".Up()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s75"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "DropPrimaryKey",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L13"
+          },
+          {
+            "callee": "RenameTable",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L17"
+          },
+          {
+            "callee": "AddPrimaryKey",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L21"
+          }
+        ]
+      },
+      "norm_label": ".up()",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.cs",
+      "source_location": "L11"
+    },
+    {
       "id": "src_eventshub_application_events_commands_createevent_eventshub_application_events_commands_handler_handle",
       "label": ".Handle()",
       "_callable": true,
       "_origin": "ast",
-      "community": 11,
+      "community": 10,
       "community_name": "Command",
       "file_type": "code",
       "metadata": {
@@ -1306,7 +1576,7 @@
       "label": ".Handle()",
       "_callable": true,
       "_origin": "ast",
-      "community": 11,
+      "community": 10,
       "community_name": "Command",
       "file_type": "code",
       "metadata": {
@@ -1318,6 +1588,44 @@
       "norm_label": ".handle()",
       "source_file": "src/EventsHub.Application/Events/Commands/DeleteEvent.cs",
       "source_location": "L16"
+    },
+    {
+      "id": "src_eventshub_application_events_queries_geteventlist_eventshub_application_events_queries_handler_handle",
+      "label": ".Handle()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "Handler",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Application.Events.Queries",
+        "scope_chain": [
+          "s148"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "ThrowIfCancellationRequested",
+            "receiver_type": "CancellationToken",
+            "lang": "csharp",
+            "line": "L21"
+          },
+          {
+            "callee": "Delay",
+            "receiver_type": "Task",
+            "lang": "csharp",
+            "line": "L22"
+          },
+          {
+            "callee": "LogInformation",
+            "receiver_type": "ILogger",
+            "lang": "csharp",
+            "line": "L23"
+          }
+        ]
+      },
+      "norm_label": ".handle()",
+      "source_file": "src/EventsHub.Application/Events/Queries/GetEventList.cs",
+      "source_location": "L15"
     },
     {
       "id": "src_eventshub_persistence_dbinitializer_eventshub_persistence_dbinitializer_seeddataasync",
@@ -1374,49 +1682,11 @@
       "source_location": "L27"
     },
     {
-      "id": "src_eventshub_application_events_queries_geteventlist_eventshub_application_events_queries_handler_handle",
-      "label": ".Handle()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Handler",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Application.Events.Queries",
-        "scope_chain": [
-          "s148"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "ThrowIfCancellationRequested",
-            "receiver_type": "CancellationToken",
-            "lang": "csharp",
-            "line": "L21"
-          },
-          {
-            "callee": "Delay",
-            "receiver_type": "Task",
-            "lang": "csharp",
-            "line": "L22"
-          },
-          {
-            "callee": "LogInformation",
-            "receiver_type": "ILogger",
-            "lang": "csharp",
-            "line": "L23"
-          }
-        ]
-      },
-      "norm_label": ".handle()",
-      "source_file": "src/EventsHub.Application/Events/Queries/GetEventList.cs",
-      "source_location": "L15"
-    },
-    {
       "id": "src_eventshub_application_events_commands_editevent_eventshub_application_events_commands_handler_handle",
       "label": ".Handle()",
       "_callable": true,
       "_origin": "ast",
-      "community": 18,
+      "community": 17,
       "community_name": "Handler",
       "file_type": "code",
       "metadata": {
@@ -1442,7 +1712,7 @@
       "label": ".Handle()",
       "_callable": true,
       "_origin": "ast",
-      "community": 21,
+      "community": 19,
       "community_name": "Handler",
       "file_type": "code",
       "metadata": {
@@ -1456,16 +1726,76 @@
       "source_location": "L16"
     },
     {
+      "id": "web_eventshub_src_app_features_activities_dashboard_activitycard_activitycard",
+      "label": "ActivityCard()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "activitycard()",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityCard.tsx",
+      "source_location": "L9"
+    },
+    {
+      "id": "web_eventshub_src_app_features_activities_dashboard_activitydashboard_activitydashboard",
+      "label": "ActivityDashboard()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "activitydashboard()",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx",
+      "source_location": "L19"
+    },
+    {
+      "id": "web_eventshub_src_app_features_activities_dashboard_activitylist_activitylist",
+      "label": "ActivityList()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "activitylist()",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L10"
+    },
+    {
+      "id": "web_eventshub_src_app_features_activities_details_activitydetail_activitydetail",
+      "label": "ActivityDetail()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "activitydetail()",
+      "source_file": "web/EventsHub/src/app/features/activities/details/ActivityDetail.tsx",
+      "source_location": "L9"
+    },
+    {
+      "id": "web_eventshub_src_app_features_form_activityform_activityform",
+      "label": "ActivityForm()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "activityform()",
+      "source_file": "web/EventsHub/src/app/features/form/ActivityForm.tsx",
+      "source_location": "L9"
+    },
+    {
       "id": "web_eventshub_src_app_layout_app_app",
       "label": "App()",
       "_callable": true,
       "_origin": "ast",
       "community": 22,
-      "community_name": "main.tsx",
+      "community_name": "ActivityDashboard.tsx",
       "file_type": "code",
       "norm_label": "app()",
       "source_file": "web/EventsHub/src/app/layout/App.tsx",
-      "source_location": "L5"
+      "source_location": "L7"
     },
     {
       "id": "web_eventshub_src_app_layout_navbar_navbar",
@@ -1473,11 +1803,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 22,
-      "community_name": "main.tsx",
+      "community_name": "ActivityDashboard.tsx",
       "file_type": "code",
       "norm_label": "navbar()",
       "source_file": "web/EventsHub/src/app/layout/NavBar.tsx",
-      "source_location": "L3"
+      "source_location": "L8"
     },
     {
       "id": "web_eventshub_tests_eventshub_unittests_unittest1_eventshub_unittests_tests_setup",
@@ -1522,6 +1852,38 @@
       "norm_label": ".test1()",
       "source_file": "web/EventsHub/tests/EventsHub.UnitTests/UnitTest1.cs",
       "source_location": "L10"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_eventshub_persistence_migrations_appdbcontextmodelsnapshot_buildmodel",
+      "label": ".BuildModel()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 25,
+      "community_name": "AppDbContextModelSnapshot",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s247"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "HasAnnotation",
+            "receiver_type": "ModelBuilder",
+            "lang": "csharp",
+            "line": "L18"
+          },
+          {
+            "callee": "Entity",
+            "receiver_type": "ModelBuilder",
+            "lang": "csharp",
+            "line": "L20"
+          }
+        ]
+      },
+      "norm_label": ".buildmodel()",
+      "source_file": "src/EventsHub.Persistence/Migrations/AppDbContextModelSnapshot.cs",
+      "source_location": "L15"
     },
     {
       "id": "src_eventshub_api_controllers_eventscontroller_eventshub_api_controllers_eventscontroller_createeventasync",
@@ -1817,7 +2179,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 35,
-      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
+      "community_name": "EventsHubBaseController",
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Api.Controllers",
@@ -1842,230 +2204,6 @@
       "norm_label": ".get()",
       "source_file": "src/EventsHub.Api/Controllers/WeatherForecastController.cs",
       "source_location": "L12"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer_eventshub_persistence_migrations_initialcreate_buildtargetmodel",
-      "label": ".BuildTargetModel()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s296"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "HasAnnotation",
-            "receiver_type": "ModelBuilder",
-            "lang": "csharp",
-            "line": "L21"
-          },
-          {
-            "callee": "Entity",
-            "receiver_type": "ModelBuilder",
-            "lang": "csharp",
-            "line": "L23"
-          }
-        ]
-      },
-      "norm_label": ".buildtargetmodel()",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.Designer.cs",
-      "source_location": "L18"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_eventshub_persistence_migrations_initialcreate_down",
-      "label": ".Down()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s90"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "DropTable",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L38"
-          }
-        ]
-      },
-      "norm_label": ".down()",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.cs",
-      "source_location": "L36"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_eventshub_persistence_migrations_initialcreate_up",
-      "label": ".Up()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s90"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "CreateTable",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L14"
-          }
-        ]
-      },
-      "norm_label": ".up()",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.cs",
-      "source_location": "L12"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer_eventshub_persistence_migrations_updateeventsmodel_buildtargetmodel",
-      "label": ".BuildTargetModel()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s296"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "HasAnnotation",
-            "receiver_type": "ModelBuilder",
-            "lang": "csharp",
-            "line": "L21"
-          },
-          {
-            "callee": "Entity",
-            "receiver_type": "ModelBuilder",
-            "lang": "csharp",
-            "line": "L23"
-          }
-        ]
-      },
-      "norm_label": ".buildtargetmodel()",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.Designer.cs",
-      "source_location": "L18"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_eventshub_persistence_migrations_updateeventsmodel_down",
-      "label": ".Down()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s75"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "DropPrimaryKey",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L30"
-          },
-          {
-            "callee": "RenameTable",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L34"
-          },
-          {
-            "callee": "AddPrimaryKey",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L38"
-          }
-        ]
-      },
-      "norm_label": ".down()",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.cs",
-      "source_location": "L28"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_eventshub_persistence_migrations_updateeventsmodel_up",
-      "label": ".Up()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s75"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "DropPrimaryKey",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L13"
-          },
-          {
-            "callee": "RenameTable",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L17"
-          },
-          {
-            "callee": "AddPrimaryKey",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L21"
-          }
-        ]
-      },
-      "norm_label": ".up()",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.cs",
-      "source_location": "L11"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_eventshub_persistence_migrations_appdbcontextmodelsnapshot_buildmodel",
-      "label": ".BuildModel()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s247"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "HasAnnotation",
-            "receiver_type": "ModelBuilder",
-            "lang": "csharp",
-            "line": "L18"
-          },
-          {
-            "callee": "Entity",
-            "receiver_type": "ModelBuilder",
-            "lang": "csharp",
-            "line": "L20"
-          }
-        ]
-      },
-      "norm_label": ".buildmodel()",
-      "source_file": "src/EventsHub.Persistence/Migrations/AppDbContextModelSnapshot.cs",
-      "source_location": "L15"
     },
     {
       "id": "csharp_namespace:87fa4940c6e43868",
@@ -2491,6 +2629,22 @@
       "type": "namespace"
     },
     {
+      "id": "csharp_namespace:271cc9171cba8130",
+      "label": "EventsHub.Persistence.Migrations",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "metadata": {
+        "kind": "csharp_namespace",
+        "namespace": "EventsHub.Persistence.Migrations"
+      },
+      "norm_label": "eventshub.persistence.migrations",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.Designer.cs",
+      "source_location": "L11",
+      "type": "namespace"
+    },
+    {
       "id": "csharp_namespace:770852f9c826f518",
       "label": "EventsHub.Application.Events.Queries",
       "_origin": "ast",
@@ -2585,6 +2739,17 @@
       "source_file": "src/EventsHub.Application/Core/MappingProfiles.cs",
       "source_location": "L4",
       "type": "namespace"
+    },
+    {
+      "id": "migration",
+      "label": "Migration",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "norm_label": "migration",
+      "source_file": "",
+      "source_location": ""
     },
     {
       "id": "profile",
@@ -2741,6 +2906,138 @@
       "source_location": "L1"
     },
     {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate",
+      "label": "20260831022247_InitialCreate.cs",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "norm_label": "20260831022247_initialcreate.cs",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_cs_datetime",
+      "label": "DateTime",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "norm_label": "datetime",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_cs_migrationbuilder",
+      "label": "MigrationBuilder",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "norm_label": "migrationbuilder",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer",
+      "label": "20260831022247_InitialCreate.Designer.cs",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "norm_label": "20260831022247_initialcreate.designer.cs",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.Designer.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer_cs_datetime",
+      "label": "DateTime",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "norm_label": "datetime",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer_cs_modelbuilder",
+      "label": "ModelBuilder",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "norm_label": "modelbuilder",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel",
+      "label": "20260908135236_UpdateEventsModel.cs",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "norm_label": "20260908135236_updateeventsmodel.cs",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_cs_migrationbuilder",
+      "label": "MigrationBuilder",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "norm_label": "migrationbuilder",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer",
+      "label": "20260908135236_UpdateEventsModel.Designer.cs",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "norm_label": "20260908135236_updateeventsmodel.designer.cs",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.Designer.cs",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer_cs_datetime",
+      "label": "DateTime",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "norm_label": "datetime",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer_cs_modelbuilder",
+      "label": "ModelBuilder",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "norm_label": "modelbuilder",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot",
+      "label": "AppDbContextModelSnapshot.cs",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "file_type": "code",
+      "norm_label": "appdbcontextmodelsnapshot.cs",
+      "source_file": "src/EventsHub.Persistence/Migrations/AppDbContextModelSnapshot.cs",
+      "source_location": "L1"
+    },
+    {
       "id": "tests_eventshub_unittest_controllers_eventscontrollertest",
       "label": "EventsControllerTest.cs",
       "_origin": "ast",
@@ -2763,131 +3060,10 @@
       "source_location": "L1"
     },
     {
-      "id": "web_eventshub_vite_config",
-      "label": "vite.config.ts",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "vite.config.ts",
-      "file_type": "code",
-      "norm_label": "vite.config.ts",
-      "source_file": "web/EventsHub/vite.config.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "web_package",
-      "label": "web/package.json",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "vite.config.ts",
-      "file_type": "code",
-      "norm_label": "web/package.json",
-      "source_file": "web/package.json",
-      "source_location": "L1"
-    },
-    {
-      "id": "web_package_dependencies",
-      "label": "dependencies",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "vite.config.ts",
-      "file_type": "code",
-      "norm_label": "dependencies",
-      "source_file": "web/package.json",
-      "source_location": "L5"
-    },
-    {
-      "id": "web_package_dependencies_axios",
-      "label": "axios",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "vite.config.ts",
-      "file_type": "code",
-      "norm_label": "axios",
-      "source_file": "web/package.json",
-      "source_location": "L6"
-    },
-    {
-      "id": "web_package_devdependencies",
-      "label": "devDependencies",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "vite.config.ts",
-      "file_type": "code",
-      "norm_label": "devdependencies",
-      "source_file": "web/package.json",
-      "source_location": "L2"
-    },
-    {
-      "id": "web_package_devdependencies_vite_plugin_mkcert",
-      "label": "vite-plugin-mkcert",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "vite.config.ts",
-      "file_type": "code",
-      "norm_label": "vite-plugin-mkcert",
-      "source_file": "web/package.json",
-      "source_location": "L3"
-    },
-    {
-      "id": "ref_axios",
-      "label": "axios",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "vite.config.ts",
-      "file_type": "concept",
-      "norm_label": "axios",
-      "source_file": "web/package.json",
-      "source_location": "L6"
-    },
-    {
-      "id": "ref_rolldown_plugin_babel",
-      "label": "@rolldown/plugin-babel",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "vite.config.ts",
-      "file_type": "concept",
-      "norm_label": "@rolldown/plugin-babel",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L24"
-    },
-    {
-      "id": "ref_vite",
-      "label": "vite",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "vite.config.ts",
-      "file_type": "concept",
-      "norm_label": "vite",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L37"
-    },
-    {
-      "id": "ref_vite_plugin_mkcert",
-      "label": "vite-plugin-mkcert",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "vite.config.ts",
-      "file_type": "concept",
-      "norm_label": "vite-plugin-mkcert",
-      "source_file": "web/package.json",
-      "source_location": "L3"
-    },
-    {
-      "id": "ref_vitejs_plugin_react",
-      "label": "@vitejs/plugin-react",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "vite.config.ts",
-      "file_type": "concept",
-      "norm_label": "@vitejs/plugin-react",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L29"
-    },
-    {
       "id": "command",
       "label": "Command",
       "_origin": "ast",
-      "community": 11,
+      "community": 10,
       "community_name": "Command",
       "file_type": "code",
       "norm_label": "command",
@@ -2898,7 +3074,7 @@
       "id": "irequesthandler",
       "label": "IRequestHandler",
       "_origin": "ast",
-      "community": 11,
+      "community": 10,
       "community_name": "Command",
       "file_type": "code",
       "norm_label": "irequesthandler",
@@ -2909,7 +3085,7 @@
       "id": "src_eventshub_application_events_commands_createevent_cs_cancellationtoken",
       "label": "CancellationToken",
       "_origin": "ast",
-      "community": 11,
+      "community": 10,
       "community_name": "Command",
       "file_type": "code",
       "norm_label": "cancellationtoken",
@@ -2920,7 +3096,7 @@
       "id": "src_eventshub_application_events_commands_createevent_cs_task",
       "label": "Task",
       "_origin": "ast",
-      "community": 11,
+      "community": 10,
       "community_name": "Command",
       "file_type": "code",
       "norm_label": "task",
@@ -2931,7 +3107,7 @@
       "id": "src_eventshub_application_events_commands_deleteevent_cs_cancellationtoken",
       "label": "CancellationToken",
       "_origin": "ast",
-      "community": 11,
+      "community": 10,
       "community_name": "Command",
       "file_type": "code",
       "norm_label": "cancellationtoken",
@@ -2942,8 +3118,52 @@
       "id": "src_eventshub_application_events_commands_deleteevent_cs_task",
       "label": "Task",
       "_origin": "ast",
-      "community": 11,
+      "community": 10,
       "community_name": "Command",
+      "file_type": "code",
+      "norm_label": "task",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "ilogger",
+      "label": "ILogger",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "Handler",
+      "file_type": "code",
+      "norm_label": "ilogger",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_application_events_queries_geteventlist_cs_cancellationtoken",
+      "label": "CancellationToken",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "Handler",
+      "file_type": "code",
+      "norm_label": "cancellationtoken",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_application_events_queries_geteventlist_cs_list",
+      "label": "List",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "Handler",
+      "file_type": "code",
+      "norm_label": "list",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_application_events_queries_geteventlist_cs_task",
+      "label": "Task",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "Handler",
       "file_type": "code",
       "norm_label": "task",
       "source_file": "",
@@ -3590,54 +3810,10 @@
       "source_location": "L9"
     },
     {
-      "id": "ilogger",
-      "label": "ILogger",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Handler",
-      "file_type": "code",
-      "norm_label": "ilogger",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_application_events_queries_geteventlist_cs_cancellationtoken",
-      "label": "CancellationToken",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Handler",
-      "file_type": "code",
-      "norm_label": "cancellationtoken",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_application_events_queries_geteventlist_cs_list",
-      "label": "List",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Handler",
-      "file_type": "code",
-      "norm_label": "list",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_application_events_queries_geteventlist_cs_task",
-      "label": "Task",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Handler",
-      "file_type": "code",
-      "norm_label": "task",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "imapper",
       "label": "IMapper",
       "_origin": "ast",
-      "community": 18,
+      "community": 17,
       "community_name": "Handler",
       "file_type": "code",
       "norm_label": "imapper",
@@ -3648,7 +3824,7 @@
       "id": "src_eventshub_application_events_commands_editevent_cs_cancellationtoken",
       "label": "CancellationToken",
       "_origin": "ast",
-      "community": 18,
+      "community": 17,
       "community_name": "Handler",
       "file_type": "code",
       "norm_label": "cancellationtoken",
@@ -3659,7 +3835,7 @@
       "id": "src_eventshub_application_events_commands_editevent_cs_task",
       "label": "Task",
       "_origin": "ast",
-      "community": 18,
+      "community": 17,
       "community_name": "Handler",
       "file_type": "code",
       "norm_label": "task",
@@ -3670,7 +3846,7 @@
       "id": "src_eventshub_application_events_commands_editevent_eventshub_application_events_commands_command_event",
       "label": "Event",
       "_origin": "ast",
-      "community": 18,
+      "community": 17,
       "community_name": "Handler",
       "file_type": "code",
       "metadata": {
@@ -3687,7 +3863,7 @@
       "id": "irequest",
       "label": "IRequest",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "community_name": "IRequest",
       "file_type": "code",
       "norm_label": "irequest",
@@ -3698,7 +3874,7 @@
       "id": "src_eventshub_application_events_commands_createevent_eventshub_application_events_commands_command_event",
       "label": "Event",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "community_name": "IRequest",
       "file_type": "code",
       "metadata": {
@@ -3715,7 +3891,7 @@
       "id": "src_eventshub_application_events_commands_deleteevent_eventshub_application_events_commands_command_id",
       "label": "Id",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "community_name": "IRequest",
       "file_type": "code",
       "metadata": {
@@ -3732,12 +3908,62 @@
       "id": "string",
       "label": "String",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "community_name": "IRequest",
       "file_type": "code",
       "norm_label": "string",
       "source_file": "",
       "source_location": ""
+    },
+    {
+      "id": "query",
+      "label": "Query",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Handler",
+      "file_type": "code",
+      "norm_label": "query",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_application_events_queries_geteventdetails_cs_cancellationtoken",
+      "label": "CancellationToken",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Handler",
+      "file_type": "code",
+      "norm_label": "cancellationtoken",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_application_events_queries_geteventdetails_cs_task",
+      "label": "Task",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Handler",
+      "file_type": "code",
+      "norm_label": "task",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_application_events_queries_geteventdetails_eventshub_application_events_queries_query_id",
+      "label": "Id",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Handler",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Application.Events.Queries",
+        "scope_chain": [
+          "s73"
+        ]
+      },
+      "norm_label": "id",
+      "source_file": "src/EventsHub.Application/Events/Queries/GetEventDetails.cs",
+      "source_location": "L11"
     },
     {
       "id": "eventshub_backup",
@@ -4103,61 +4329,116 @@
       "source_location": null
     },
     {
-      "id": "query",
-      "label": "Query",
+      "id": "dbcontext",
+      "label": "DbContext",
       "_origin": "ast",
       "community": 21,
-      "community_name": "Handler",
+      "community_name": "AppDbContext",
       "file_type": "code",
-      "norm_label": "query",
+      "norm_label": "dbcontext",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "src_eventshub_application_events_queries_geteventdetails_cs_cancellationtoken",
-      "label": "CancellationToken",
+      "id": "dbcontextoptions",
+      "label": "DbContextOptions",
       "_origin": "ast",
       "community": 21,
-      "community_name": "Handler",
+      "community_name": "AppDbContext",
       "file_type": "code",
-      "norm_label": "cancellationtoken",
+      "norm_label": "dbcontextoptions",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "src_eventshub_application_events_queries_geteventdetails_cs_task",
-      "label": "Task",
+      "id": "dbset",
+      "label": "DbSet",
       "_origin": "ast",
       "community": 21,
-      "community_name": "Handler",
+      "community_name": "AppDbContext",
       "file_type": "code",
-      "norm_label": "task",
+      "norm_label": "dbset",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "src_eventshub_application_events_queries_geteventdetails_eventshub_application_events_queries_query_id",
-      "label": "Id",
+      "id": "src_eventshub_persistence_appdbcontext_eventshub_persistence_appdbcontext_events",
+      "label": "Events",
       "_origin": "ast",
       "community": 21,
-      "community_name": "Handler",
+      "community_name": "AppDbContext",
       "file_type": "code",
       "metadata": {
-        "namespace": "EventsHub.Application.Events.Queries",
+        "namespace": "EventsHub.Persistence",
         "scope_chain": [
-          "s73"
+          "s92"
         ]
       },
-      "norm_label": "id",
-      "source_file": "src/EventsHub.Application/Events/Queries/GetEventDetails.cs",
-      "source_location": "L11"
+      "norm_label": "events",
+      "source_file": "src/EventsHub.Persistence/AppDbContext.cs",
+      "source_location": "L9"
+    },
+    {
+      "id": "web_eventshub_src_app_features_activities_dashboard_activitycard",
+      "label": "ActivityCard.tsx",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "activitycard.tsx",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityCard.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "web_eventshub_src_app_features_activities_dashboard_activitydashboard",
+      "label": "ActivityDashboard.tsx",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "activitydashboard.tsx",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "web_eventshub_src_app_features_activities_dashboard_activitylist",
+      "label": "ActivityList.tsx",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "activitylist.tsx",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "web_eventshub_src_app_features_activities_details_activitydetail",
+      "label": "ActivityDetail.tsx",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "activitydetail.tsx",
+      "source_file": "web/EventsHub/src/app/features/activities/details/ActivityDetail.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "web_eventshub_src_app_features_form_activityform",
+      "label": "ActivityForm.tsx",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "activityform.tsx",
+      "source_file": "web/EventsHub/src/app/features/form/ActivityForm.tsx",
+      "source_location": "L1"
     },
     {
       "id": "web_eventshub_src_app_layout_app",
       "label": "App.tsx",
       "_origin": "ast",
       "community": 22,
-      "community_name": "main.tsx",
+      "community_name": "ActivityDashboard.tsx",
       "file_type": "code",
       "norm_label": "app.tsx",
       "source_file": "web/EventsHub/src/app/layout/App.tsx",
@@ -4168,7 +4449,7 @@
       "label": "NavBar.tsx",
       "_origin": "ast",
       "community": 22,
-      "community_name": "main.tsx",
+      "community_name": "ActivityDashboard.tsx",
       "file_type": "code",
       "norm_label": "navbar.tsx",
       "source_file": "web/EventsHub/src/app/layout/NavBar.tsx",
@@ -4179,7 +4460,7 @@
       "label": "main.tsx",
       "_origin": "ast",
       "community": 22,
-      "community_name": "main.tsx",
+      "community_name": "ActivityDashboard.tsx",
       "file_type": "code",
       "norm_label": "main.tsx",
       "source_file": "web/EventsHub/src/main.tsx",
@@ -4190,7 +4471,7 @@
       "label": "@fontsource/roboto",
       "_origin": "ast",
       "community": 22,
-      "community_name": "main.tsx",
+      "community_name": "ActivityDashboard.tsx",
       "file_type": "concept",
       "norm_label": "@fontsource/roboto",
       "source_file": "web/EventsHub/package.json",
@@ -4201,7 +4482,7 @@
       "label": "@mui/material",
       "_origin": "ast",
       "community": 22,
-      "community_name": "main.tsx",
+      "community_name": "ActivityDashboard.tsx",
       "file_type": "concept",
       "norm_label": "@mui/material",
       "source_file": "web/EventsHub/package.json",
@@ -4212,7 +4493,7 @@
       "label": "react",
       "_origin": "ast",
       "community": 22,
-      "community_name": "main.tsx",
+      "community_name": "ActivityDashboard.tsx",
       "file_type": "concept",
       "norm_label": "react",
       "source_file": "web/EventsHub/package.json",
@@ -4223,99 +4504,395 @@
       "label": "react-dom",
       "_origin": "ast",
       "community": 22,
-      "community_name": "main.tsx",
+      "community_name": "ActivityDashboard.tsx",
       "file_type": "concept",
       "norm_label": "react-dom",
       "source_file": "web/EventsHub/package.json",
       "source_location": "L19"
     },
     {
-      "id": "web_eventshub_package_dependencies",
-      "label": "dependencies",
+      "id": "docs_guides_husky_setup",
+      "label": "husky-setup.md",
       "_origin": "ast",
       "community": 23,
-      "community_name": "dependencies",
-      "file_type": "code",
-      "norm_label": "dependencies",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L12"
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "husky-setup.md",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L1"
     },
     {
-      "id": "web_eventshub_package_dependencies_emotion_react",
-      "label": "@emotion/react",
+      "id": "docs_guides_husky_setup_how_to_use_this_guide",
+      "label": "How to use this guide",
       "_origin": "ast",
       "community": 23,
-      "community_name": "dependencies",
-      "file_type": "code",
-      "norm_label": "@emotion/react",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L13"
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "how to use this guide",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L5"
     },
     {
-      "id": "web_eventshub_package_dependencies_emotion_styled",
-      "label": "@emotion/styled",
+      "id": "docs_guides_husky_setup_installing_husky_in_a_project_net_and_npm",
+      "label": "Installing Husky in a Project: .NET and npm",
       "_origin": "ast",
       "community": 23,
-      "community_name": "dependencies",
-      "file_type": "code",
-      "norm_label": "@emotion/styled",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L14"
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "installing husky in a project: .net and npm",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L1"
     },
     {
-      "id": "web_eventshub_package_dependencies_fontsource_roboto",
-      "label": "@fontsource/roboto",
+      "id": "docs_guides_husky_setup_optional_add_prettier_code_formatting_878",
+      "label": "Optional: add Prettier (code formatting)",
       "_origin": "ast",
       "community": 23,
-      "community_name": "dependencies",
-      "file_type": "code",
-      "norm_label": "@fontsource/roboto",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L15"
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "optional: add prettier (code formatting)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L878"
     },
     {
-      "id": "web_eventshub_package_dependencies_mui_icons_material",
-      "label": "@mui/icons-material",
+      "id": "docs_guides_husky_setup_part_2_net_only_husky_net",
+      "label": "Part 2: .NET only (Husky.Net)",
       "_origin": "ast",
       "community": 23,
-      "community_name": "dependencies",
-      "file_type": "code",
-      "norm_label": "@mui/icons-material",
-      "source_file": "web/EventsHub/package.json",
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "part 2: .net only (husky.net)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L329"
+    },
+    {
+      "id": "docs_guides_husky_setup_part_4_npm_only_package_json_in_a_subfolder_husky_v9",
+      "label": "Part 4: npm only, `package.json` in a subfolder (Husky v9)",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "part 4: npm only, `package.json` in a subfolder (husky v9)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L782"
+    },
+    {
+      "id": "docs_guides_husky_setup_skipping_hooks_use_sparingly_1006",
+      "label": "Skipping hooks (use sparingly)",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "skipping hooks (use sparingly)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L1006"
+    },
+    {
+      "id": "docs_guides_husky_setup_skipping_hooks_use_sparingly_503",
+      "label": "Skipping hooks (use sparingly)",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "skipping hooks (use sparingly)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L503"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_10_commit_the_husky_files_481",
+      "label": "Step 10: Commit the Husky files",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 10: commit the husky files",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L481"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_10_setup_for_a_new_teammate_or_ci",
+      "label": "Step 10: Setup for a new teammate or CI",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 10: setup for a new teammate or ci",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L994"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_11_setup_for_a_new_teammate_or_ci_490",
+      "label": "Step 11: Setup for a new teammate or CI",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 11: setup for a new teammate or ci",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L490"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_1_check_prerequisites_335",
+      "label": "Step 1: Check prerequisites",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 1: check prerequisites",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L335"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_1_check_prerequisites_790",
+      "label": "Step 1: Check prerequisites",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 1: check prerequisites",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L790"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_2_create_a_local_tool_manifest",
+      "label": "Step 2: Create a local tool manifest",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 2: create a local tool manifest",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L346"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_2_install_husky",
+      "label": "Step 2: Install Husky",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 2: install husky",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L802"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_3_install_husky_as_a_local_tool",
+      "label": "Step 3: Install Husky as a local tool",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 3: install husky as a local tool",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L356"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_3_point_the_prepare_script_at_the_subfolder",
+      "label": "Step 3: Point the `prepare` script at the subfolder",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 3: point the `prepare` script at the subfolder",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L813"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_4_install_the_git_hooks",
+      "label": "Step 4: Install the Git hooks",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 4: install the git hooks",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L366"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_4_install_the_hooks",
+      "label": "Step 4: Install the hooks",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 4: install the hooks",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L827"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_5_attach_husky_to_a_project_auto_install_for_teammates",
+      "label": "Step 5: Attach Husky to a project (auto-install for teammates)",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 5: attach husky to a project (auto-install for teammates)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L377"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_5_create_the_pre_commit_hook",
+      "label": "Step 5: Create the pre-commit hook",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 5: create the pre-commit hook",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L844"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_6_add_the_pre_commit_hook_391",
+      "label": "Step 6: Add the pre-commit hook",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 6: add the pre-commit hook",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L391"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_6_recommended_run_checks_only_on_staged_files_with_lint_staged_prettier_is_optional_857",
+      "label": "Step 6 (recommended): Run checks only on staged files with lint-staged (Prettier is optional)",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 6 (recommended): run checks only on staged files with lint-staged (prettier is optional)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L857"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_7_configure_the_tasks_407",
+      "label": "Step 7: Configure the tasks",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 7: configure the tasks",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L407"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_7_optional_enforce_a_commit_message_format_with_commitlint_943",
+      "label": "Step 7 (optional): Enforce a commit message format with commitlint",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 7 (optional): enforce a commit message format with commitlint",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L943"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_8_optional_enforce_a_commit_message_format_446",
+      "label": "Step 8 (optional): Enforce a commit message format",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 8 (optional): enforce a commit message format",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L446"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_8_verify_it_works",
+      "label": "Step 8: Verify it works",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 8: verify it works",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L967"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_9_commit_the_husky_files",
+      "label": "Step 9: Commit the Husky files",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 9: commit the husky files",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L983"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_9_verify_it_works_466",
+      "label": "Step 9: Verify it works",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 9: verify it works",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L466"
+    },
+    {
+      "id": "docs_guides_husky_setup_troubleshooting_part_2",
+      "label": "Troubleshooting (Part 2)",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "troubleshooting (part 2)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L511"
+    },
+    {
+      "id": "docs_guides_husky_setup_troubleshooting_part_4",
+      "label": "Troubleshooting (Part 4)",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "troubleshooting (part 4)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L1014"
+    },
+    {
+      "id": "docs_guides_husky_setup_where_to_run_the_commands_read_this_once",
+      "label": "Where to run the commands (read this once)",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Part 2: .NET only (Husky.Net)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "where to run the commands (read this once)",
+      "source_file": "docs/guides/husky-setup.md",
       "source_location": "L16"
-    },
-    {
-      "id": "web_eventshub_package_dependencies_mui_material",
-      "label": "@mui/material",
-      "_origin": "ast",
-      "community": 23,
-      "community_name": "dependencies",
-      "file_type": "code",
-      "norm_label": "@mui/material",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L17"
-    },
-    {
-      "id": "web_eventshub_package_dependencies_react",
-      "label": "react",
-      "_origin": "ast",
-      "community": 23,
-      "community_name": "dependencies",
-      "file_type": "code",
-      "norm_label": "react",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L18"
-    },
-    {
-      "id": "web_eventshub_package_dependencies_react_dom",
-      "label": "react-dom",
-      "_origin": "ast",
-      "community": 23,
-      "community_name": "dependencies",
-      "file_type": "code",
-      "norm_label": "react-dom",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L19"
     },
     {
       "id": "csharp_namespace:ca55964368086857",
@@ -4367,54 +4944,37 @@
       "source_location": ""
     },
     {
-      "id": "dbcontext",
-      "label": "DbContext",
+      "id": "modelsnapshot",
+      "label": "ModelSnapshot",
       "_origin": "ast",
       "community": 25,
-      "community_name": "AppDbContext",
+      "community_name": "AppDbContextModelSnapshot",
       "file_type": "code",
-      "norm_label": "dbcontext",
+      "norm_label": "modelsnapshot",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "dbcontextoptions",
-      "label": "DbContextOptions",
+      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_cs_datetime",
+      "label": "DateTime",
       "_origin": "ast",
       "community": 25,
-      "community_name": "AppDbContext",
+      "community_name": "AppDbContextModelSnapshot",
       "file_type": "code",
-      "norm_label": "dbcontextoptions",
+      "norm_label": "datetime",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "dbset",
-      "label": "DbSet",
+      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_cs_modelbuilder",
+      "label": "ModelBuilder",
       "_origin": "ast",
       "community": 25,
-      "community_name": "AppDbContext",
+      "community_name": "AppDbContextModelSnapshot",
       "file_type": "code",
-      "norm_label": "dbset",
+      "norm_label": "modelbuilder",
       "source_file": "",
       "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_appdbcontext_eventshub_persistence_appdbcontext_events",
-      "label": "Events",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "AppDbContext",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence",
-        "scope_chain": [
-          "s92"
-        ]
-      },
-      "norm_label": "events",
-      "source_file": "src/EventsHub.Persistence/AppDbContext.cs",
-      "source_location": "L9"
     },
     {
       "id": "agents_skills_openspec_explore_skill",
@@ -4568,59 +5128,180 @@
       "source_location": "L149"
     },
     {
-      "id": "web_eventshub_package_scripts",
-      "label": "scripts",
+      "id": "web_package",
+      "label": "web/package.json",
       "_origin": "ast",
       "community": 27,
-      "community_name": "scripts",
+      "community_name": "web/package.json",
       "file_type": "code",
-      "norm_label": "scripts",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L6"
+      "norm_label": "web/package.json",
+      "source_file": "web/package.json",
+      "source_location": "L1"
     },
     {
-      "id": "web_eventshub_package_scripts_build",
-      "label": "build",
+      "id": "web_package_dependencies",
+      "label": "dependencies",
       "_origin": "ast",
       "community": 27,
-      "community_name": "scripts",
+      "community_name": "web/package.json",
       "file_type": "code",
-      "norm_label": "build",
-      "source_file": "web/EventsHub/package.json",
+      "norm_label": "dependencies",
+      "source_file": "web/package.json",
       "source_location": "L8"
     },
     {
-      "id": "web_eventshub_package_scripts_dev",
-      "label": "dev",
+      "id": "web_package_dependencies_axios",
+      "label": "axios",
       "_origin": "ast",
       "community": 27,
-      "community_name": "scripts",
+      "community_name": "web/package.json",
       "file_type": "code",
-      "norm_label": "dev",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L7"
-    },
-    {
-      "id": "web_eventshub_package_scripts_lint",
-      "label": "lint",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "scripts",
-      "file_type": "code",
-      "norm_label": "lint",
-      "source_file": "web/EventsHub/package.json",
+      "norm_label": "axios",
+      "source_file": "web/package.json",
       "source_location": "L9"
     },
     {
-      "id": "web_eventshub_package_scripts_preview",
-      "label": "preview",
+      "id": "web_package_devdependencies",
+      "label": "devDependencies",
       "_origin": "ast",
       "community": 27,
-      "community_name": "scripts",
+      "community_name": "web/package.json",
       "file_type": "code",
-      "norm_label": "preview",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L10"
+      "norm_label": "devdependencies",
+      "source_file": "web/package.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "web_package_devdependencies_eslint_config_prettier",
+      "label": "eslint-config-prettier",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "web/package.json",
+      "file_type": "code",
+      "norm_label": "eslint-config-prettier",
+      "source_file": "web/package.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "web_package_devdependencies_lint_staged",
+      "label": "lint-staged",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "web/package.json",
+      "file_type": "code",
+      "norm_label": "lint-staged",
+      "source_file": "web/package.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "web_package_devdependencies_prettier",
+      "label": "prettier",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "web/package.json",
+      "file_type": "code",
+      "norm_label": "prettier",
+      "source_file": "web/package.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "web_package_devdependencies_vite_plugin_mkcert",
+      "label": "vite-plugin-mkcert",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "web/package.json",
+      "file_type": "code",
+      "norm_label": "vite-plugin-mkcert",
+      "source_file": "web/package.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "web_package_lint_staged",
+      "label": "lint-staged",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "web/package.json",
+      "file_type": "code",
+      "norm_label": "lint-staged",
+      "source_file": "web/package.json",
+      "source_location": "L11"
+    },
+    {
+      "id": "web_package_lint_staged_json_md_css",
+      "label": "*.{json,md,css}",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "web/package.json",
+      "file_type": "code",
+      "norm_label": "*.{json,md,css}",
+      "source_file": "web/package.json",
+      "source_location": "L16"
+    },
+    {
+      "id": "web_package_lint_staged_ts_tsx",
+      "label": "*.{ts,tsx}",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "web/package.json",
+      "file_type": "code",
+      "norm_label": "*.{ts,tsx}",
+      "source_file": "web/package.json",
+      "source_location": "L12"
+    },
+    {
+      "id": "ref_axios",
+      "label": "axios",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "web/package.json",
+      "file_type": "concept",
+      "norm_label": "axios",
+      "source_file": "web/package.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "ref_eslint_config_prettier",
+      "label": "eslint-config-prettier",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "web/package.json",
+      "file_type": "concept",
+      "norm_label": "eslint-config-prettier",
+      "source_file": "web/package.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "ref_lint_staged",
+      "label": "lint-staged",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "web/package.json",
+      "file_type": "concept",
+      "norm_label": "lint-staged",
+      "source_file": "web/package.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "ref_prettier",
+      "label": "prettier",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "web/package.json",
+      "file_type": "concept",
+      "norm_label": "prettier",
+      "source_file": "web/package.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "web_package_json_ref_vite_plugin_mkcert",
+      "label": "vite-plugin-mkcert",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "web/package.json",
+      "file_type": "concept",
+      "norm_label": "vite-plugin-mkcert",
+      "source_file": "web/package.json",
+      "source_location": "L6"
     },
     {
       "id": "web_eventshub_tsconfig",
@@ -4678,17 +5359,6 @@
       "source_location": ""
     },
     {
-      "id": "controllerbase",
-      "label": "ControllerBase",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "EventsController",
-      "file_type": "code",
-      "norm_label": "controllerbase",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "handler",
       "label": "Handler",
       "_origin": "ast",
@@ -4729,17 +5399,6 @@
       "community_name": "EventsController",
       "file_type": "code",
       "norm_label": "httpput",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "imediator",
-      "label": "IMediator",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "EventsController",
-      "file_type": "code",
-      "norm_label": "imediator",
       "source_file": "",
       "source_location": ""
     },
@@ -4819,23 +5478,6 @@
       "norm_label": "task",
       "source_file": "",
       "source_location": ""
-    },
-    {
-      "id": "src_eventshub_api_controllers_eventshubbasecontroller_eventshub_api_controllers_eventshubbasecontroller_mediator",
-      "label": "Mediator",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "EventsController",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Api.Controllers",
-        "scope_chain": [
-          "s216"
-        ]
-      },
-      "norm_label": "mediator",
-      "source_file": "src/EventsHub.Api/Controllers/EventsHubBaseController.cs",
-      "source_location": "L18"
     },
     {
       "id": "teardown",
@@ -4977,11 +5619,50 @@
       "source_location": "L1"
     },
     {
+      "id": "controllerbase",
+      "label": "ControllerBase",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "EventsHubBaseController",
+      "file_type": "code",
+      "norm_label": "controllerbase",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "imediator",
+      "label": "IMediator",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "EventsHubBaseController",
+      "file_type": "code",
+      "norm_label": "imediator",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_api_controllers_eventshubbasecontroller_eventshub_api_controllers_eventshubbasecontroller_mediator",
+      "label": "Mediator",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "EventsHubBaseController",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Api.Controllers",
+        "scope_chain": [
+          "s216"
+        ]
+      },
+      "norm_label": "mediator",
+      "source_file": "src/EventsHub.Api/Controllers/EventsHubBaseController.cs",
+      "source_location": "L18"
+    },
+    {
       "id": "src_eventshub_api_controllers_weatherforecastcontroller_cs_httpget",
       "label": "HttpGet",
       "_origin": "ast",
       "community": 35,
-      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
+      "community_name": "EventsHubBaseController",
       "file_type": "code",
       "norm_label": "httpget",
       "source_file": "",
@@ -4992,7 +5673,7 @@
       "label": "IEnumerable",
       "_origin": "ast",
       "community": 35,
-      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
+      "community_name": "EventsHubBaseController",
       "file_type": "code",
       "norm_label": "ienumerable",
       "source_file": "",
@@ -5003,130 +5684,130 @@
       "label": "WeatherForecast",
       "_origin": "ast",
       "community": 35,
-      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
+      "community_name": "EventsHubBaseController",
       "file_type": "code",
       "norm_label": "weatherforecast",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "docs_openapi",
+      "id": "docs_guides_openapi",
       "label": "OpenApi.md",
       "_origin": "ast",
       "community": 35,
-      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
+      "community_name": "EventsHubBaseController",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "openapi.md",
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L1"
     },
     {
-      "id": "docs_openapi_current_state_on_this_branch",
+      "id": "docs_guides_openapi_current_state_on_this_branch",
       "label": "Current state on this branch",
       "_origin": "ast",
       "community": 35,
-      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
+      "community_name": "EventsHubBaseController",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "current state on this branch",
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L281"
     },
     {
-      "id": "docs_openapi_manual_setup_openapi_doc_generation_typed_client_for_the_eventshub_api",
+      "id": "docs_guides_openapi_manual_setup_openapi_doc_generation_typed_client_for_the_eventshub_api",
       "label": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "_origin": "ast",
       "community": 35,
-      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
+      "community_name": "EventsHubBaseController",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "manual setup \u2014 openapi doc generation + typed client for the eventshub api",
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L1"
     },
     {
-      "id": "docs_openapi_part_1_manually_scaffold_the_pieces",
+      "id": "docs_guides_openapi_part_1_manually_scaffold_the_pieces",
       "label": "Part 1 \u2014 Manually scaffold the pieces",
       "_origin": "ast",
       "community": 35,
-      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
+      "community_name": "EventsHubBaseController",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "part 1 \u2014 manually scaffold the pieces",
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L24"
     },
     {
-      "id": "docs_openapi_part_2_populate_the_generated_content",
+      "id": "docs_guides_openapi_part_2_populate_the_generated_content",
       "label": "Part 2 \u2014 Populate the generated content",
       "_origin": "ast",
       "community": 35,
-      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
+      "community_name": "EventsHubBaseController",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "part 2 \u2014 populate the generated content",
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L223"
     },
     {
-      "id": "docs_openapi_step_1_create_src_eventshub_openapi_the_standalone_doc_generation_host",
+      "id": "docs_guides_openapi_step_1_create_src_eventshub_openapi_the_standalone_doc_generation_host",
       "label": "Step 1: Create `src/EventsHub.OpenApi/` (the standalone doc-generation host)",
       "_origin": "ast",
       "community": 35,
-      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
+      "community_name": "EventsHubBaseController",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "step 1: create `src/eventshub.openapi/` (the standalone doc-generation host)",
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L26"
     },
     {
-      "id": "docs_openapi_step_2_create_openapi_generated_output_folder",
+      "id": "docs_guides_openapi_step_2_create_openapi_generated_output_folder",
       "label": "Step 2: Create `openapi/` (generated output folder)",
       "_origin": "ast",
       "community": 35,
-      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
+      "community_name": "EventsHubBaseController",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "step 2: create `openapi/` (generated output folder)",
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L153"
     },
     {
-      "id": "docs_openapi_step_3_create_nswag_eventshub_nswag_checked_in_codegen_config",
+      "id": "docs_guides_openapi_step_3_create_nswag_eventshub_nswag_checked_in_codegen_config",
       "label": "Step 3: Create `nswag/EventsHub.nswag` (checked-in codegen config)",
       "_origin": "ast",
       "community": 35,
-      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
+      "community_name": "EventsHubBaseController",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "step 3: create `nswag/eventshub.nswag` (checked-in codegen config)",
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L162"
     },
     {
-      "id": "docs_openapi_step_4_register_the_nswag_cli_as_a_local_tool",
+      "id": "docs_guides_openapi_step_4_register_the_nswag_cli_as_a_local_tool",
       "label": "Step 4: Register the NSwag CLI as a local tool",
       "_origin": "ast",
       "community": 35,
-      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
+      "community_name": "EventsHubBaseController",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "step 4: register the nswag cli as a local tool",
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L206"
     },
     {
-      "id": "docs_openapi_summary_of_what_gets_created_vs_hand_maintained",
+      "id": "docs_guides_openapi_summary_of_what_gets_created_vs_hand_maintained",
       "label": "Summary of what gets created vs. hand-maintained",
       "_origin": "ast",
       "community": 35,
-      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
+      "community_name": "EventsHubBaseController",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "summary of what gets created vs. hand-maintained",
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L270"
     },
     {
@@ -5284,6 +5965,186 @@
       "source_location": null
     },
     {
+      "id": "docs_guides_husky_setup_optional_add_prettier_code_formatting",
+      "label": "Optional: add Prettier (code formatting)",
+      "_origin": "ast",
+      "community": 37,
+      "community_name": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "optional: add prettier (code formatting)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L114"
+    },
+    {
+      "id": "docs_guides_husky_setup_part_1_net_npm_in_the_same_repo_e_g_eventshub",
+      "label": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
+      "_origin": "ast",
+      "community": 37,
+      "community_name": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "part 1: .net + npm in the same repo (e.g. eventshub)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "docs_guides_husky_setup_skipping_hooks_use_sparingly",
+      "label": "Skipping hooks (use sparingly)",
+      "_origin": "ast",
+      "community": 37,
+      "community_name": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "skipping hooks (use sparingly)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L305"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_10_commit_the_husky_files",
+      "label": "Step 10: Commit the Husky files",
+      "_origin": "ast",
+      "community": 37,
+      "community_name": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 10: commit the husky files",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L278"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_11_setup_for_a_new_teammate_or_ci",
+      "label": "Step 11: Setup for a new teammate or CI",
+      "_origin": "ast",
+      "community": 37,
+      "community_name": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 11: setup for a new teammate or ci",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L289"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_1_check_prerequisites",
+      "label": "Step 1: Check prerequisites",
+      "_origin": "ast",
+      "community": 37,
+      "community_name": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 1: check prerequisites",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L50"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_2_install_husky_net_as_a_local_tool",
+      "label": "Step 2: Install Husky.Net as a local tool",
+      "_origin": "ast",
+      "community": 37,
+      "community_name": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 2: install husky.net as a local tool",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L63"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_3_install_the_git_hooks",
+      "label": "Step 3: Install the Git hooks",
+      "_origin": "ast",
+      "community": 37,
+      "community_name": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 3: install the git hooks",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L74"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_4_attach_husky_to_a_net_project_auto_install_for_teammates",
+      "label": "Step 4: Attach Husky to a .NET project (auto-install for teammates)",
+      "_origin": "ast",
+      "community": 37,
+      "community_name": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 4: attach husky to a .net project (auto-install for teammates)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L85"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_5_install_lint_staged_and_optionally_prettier_in_the_web_project",
+      "label": "Step 5: Install lint-staged (and optionally Prettier) in the web project",
+      "_origin": "ast",
+      "community": 37,
+      "community_name": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 5: install lint-staged (and optionally prettier) in the web project",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L97"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_6_add_the_pre_commit_hook",
+      "label": "Step 6: Add the pre-commit hook",
+      "_origin": "ast",
+      "community": 37,
+      "community_name": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 6: add the pre-commit hook",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L187"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_7_configure_the_tasks",
+      "label": "Step 7: Configure the tasks",
+      "_origin": "ast",
+      "community": 37,
+      "community_name": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 7: configure the tasks",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L198"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_8_optional_enforce_a_commit_message_format",
+      "label": "Step 8 (optional): Enforce a commit message format",
+      "_origin": "ast",
+      "community": 37,
+      "community_name": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 8 (optional): enforce a commit message format",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L235"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_9_verify_it_works",
+      "label": "Step 9: Verify it works",
+      "_origin": "ast",
+      "community": 37,
+      "community_name": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 9: verify it works",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L255"
+    },
+    {
+      "id": "docs_guides_husky_setup_troubleshooting_part_1",
+      "label": "Troubleshooting (Part 1)",
+      "_origin": "ast",
+      "community": 37,
+      "community_name": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "troubleshooting (part 1)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L313"
+    },
+    {
       "id": "web_eventshub_readme",
       "label": "EventsHub/README.md",
       "_origin": "ast",
@@ -5378,6 +6239,94 @@
       "source_location": "L1"
     },
     {
+      "id": "web_eventshub_package_dependencies",
+      "label": "dependencies",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "dependencies",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L12"
+    },
+    {
+      "id": "web_eventshub_package_dependencies_emotion_react",
+      "label": "@emotion/react",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "@emotion/react",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L13"
+    },
+    {
+      "id": "web_eventshub_package_dependencies_emotion_styled",
+      "label": "@emotion/styled",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "@emotion/styled",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L14"
+    },
+    {
+      "id": "web_eventshub_package_dependencies_fontsource_roboto",
+      "label": "@fontsource/roboto",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "@fontsource/roboto",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L15"
+    },
+    {
+      "id": "web_eventshub_package_dependencies_mui_icons_material",
+      "label": "@mui/icons-material",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "@mui/icons-material",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L16"
+    },
+    {
+      "id": "web_eventshub_package_dependencies_mui_material",
+      "label": "@mui/material",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "@mui/material",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L17"
+    },
+    {
+      "id": "web_eventshub_package_dependencies_react",
+      "label": "react",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "react",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L18"
+    },
+    {
+      "id": "web_eventshub_package_dependencies_react_dom",
+      "label": "react-dom",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "react-dom",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L19"
+    },
+    {
       "id": "web_eventshub_package_name",
       "label": "name",
       "_origin": "ast",
@@ -5400,6 +6349,61 @@
       "source_location": "L3"
     },
     {
+      "id": "web_eventshub_package_scripts",
+      "label": "scripts",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "scripts",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "web_eventshub_package_scripts_build",
+      "label": "build",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "build",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "web_eventshub_package_scripts_dev",
+      "label": "dev",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "dev",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "web_eventshub_package_scripts_lint",
+      "label": "lint",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "lint",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "web_eventshub_package_scripts_preview",
+      "label": "preview",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "preview",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L10"
+    },
+    {
       "id": "web_eventshub_package_type",
       "label": "type",
       "_origin": "ast",
@@ -5420,6 +6424,17 @@
       "norm_label": "version",
       "source_file": "web/EventsHub/package.json",
       "source_location": "L4"
+    },
+    {
+      "id": "web_eventshub_vite_config",
+      "label": "vite.config.ts",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "vite.config.ts",
+      "source_file": "web/EventsHub/vite.config.ts",
+      "source_location": "L1"
     },
     {
       "id": "ref_babel_core",
@@ -5532,6 +6547,17 @@
       "source_location": "L16"
     },
     {
+      "id": "ref_rolldown_plugin_babel",
+      "label": "@rolldown/plugin-babel",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "concept",
+      "norm_label": "@rolldown/plugin-babel",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L24"
+    },
+    {
       "id": "ref_types_babel_core",
       "label": "@types/babel__core",
       "_origin": "ast",
@@ -5598,196 +6624,280 @@
       "source_location": "L36"
     },
     {
-      "id": "csharp_namespace:271cc9171cba8130",
-      "label": "EventsHub.Persistence.Migrations",
+      "id": "ref_vite",
+      "label": "vite",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "concept",
+      "norm_label": "vite",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L37"
+    },
+    {
+      "id": "ref_vitejs_plugin_react",
+      "label": "@vitejs/plugin-react",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "concept",
+      "norm_label": "@vitejs/plugin-react",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L29"
+    },
+    {
+      "id": "web_eventshub_package_json_ref_vite_plugin_mkcert",
+      "label": "vite-plugin-mkcert",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "concept",
+      "norm_label": "vite-plugin-mkcert",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L38"
+    },
+    {
+      "id": "docs_guides_husky_setup_optional_add_prettier_code_formatting_622",
+      "label": "Optional: add Prettier (code formatting)",
       "_origin": "ast",
       "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "community_name": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "optional: add prettier (code formatting)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L622"
+    },
+    {
+      "id": "docs_guides_husky_setup_part_3_npm_only_package_json_in_the_repo_root_husky_v9",
+      "label": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "part 3: npm only, `package.json` in the repo root (husky v9)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L524"
+    },
+    {
+      "id": "docs_guides_husky_setup_skipping_hooks_use_sparingly_758",
+      "label": "Skipping hooks (use sparingly)",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "skipping hooks (use sparingly)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L758"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_10_commit_the_husky_files_735",
+      "label": "Step 10: Commit the Husky files",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 10: commit the husky files",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L735"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_11_setup_for_a_new_teammate_or_ci_746",
+      "label": "Step 11: Setup for a new teammate or CI",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 11: setup for a new teammate or ci",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L746"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_1_check_prerequisites_530",
+      "label": "Step 1: Check prerequisites",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 1: check prerequisites",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L530"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_2_make_sure_package_json_and_gitignore_exist",
+      "label": "Step 2: Make sure `package.json` and `.gitignore` exist",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 2: make sure `package.json` and `.gitignore` exist",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L542"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_3_install_husky",
+      "label": "Step 3: Install Husky",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 3: install husky",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L558"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_4_initialize_husky",
+      "label": "Step 4: Initialize Husky",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 4: initialize husky",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L566"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_5_edit_the_pre_commit_hook",
+      "label": "Step 5: Edit the pre-commit hook",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 5: edit the pre-commit hook",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L587"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_6_recommended_run_checks_only_on_staged_files_with_lint_staged_prettier_is_optional",
+      "label": "Step 6 (recommended): Run checks only on staged files with lint-staged (Prettier is optional)",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 6 (recommended): run checks only on staged files with lint-staged (prettier is optional)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L601"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_7_optional_enforce_a_commit_message_format_with_commitlint",
+      "label": "Step 7 (optional): Enforce a commit message format with commitlint",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 7 (optional): enforce a commit message format with commitlint",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L687"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_8_optional_add_a_pre_push_hook",
+      "label": "Step 8 (optional): Add a pre-push hook",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 8 (optional): add a pre-push hook",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L709"
+    },
+    {
+      "id": "docs_guides_husky_setup_step_9_verify_it_works_719",
+      "label": "Step 9: Verify it works",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 9: verify it works",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L719"
+    },
+    {
+      "id": "docs_guides_husky_setup_troubleshooting_part_3",
+      "label": "Troubleshooting (Part 3)",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "troubleshooting (part 3)",
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L766"
+    },
+    {
+      "id": "husky_task_runner",
+      "label": "task-runner.json",
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "task-runner.json",
+      "file_type": "code",
+      "norm_label": "task-runner.json",
+      "source_file": ".husky/task-runner.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "husky_task_runner_schema",
+      "label": "$schema",
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "task-runner.json",
+      "file_type": "code",
+      "norm_label": "$schema",
+      "source_file": ".husky/task-runner.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "husky_task_runner_tasks",
+      "label": "tasks",
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "task-runner.json",
+      "file_type": "code",
+      "norm_label": "tasks",
+      "source_file": ".husky/task-runner.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "husky_pre_commit",
+      "label": "pre-commit",
+      "_origin": "ast",
+      "community": 43,
+      "community_name": "pre-commit",
       "file_type": "code",
       "metadata": {
-        "kind": "csharp_namespace",
-        "namespace": "EventsHub.Persistence.Migrations"
+        "language": "bash",
+        "kind": "file"
       },
-      "norm_label": "eventshub.persistence.migrations",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.Designer.cs",
-      "source_location": "L11",
-      "type": "namespace"
-    },
-    {
-      "id": "migration",
-      "label": "Migration",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "norm_label": "migration",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "modelsnapshot",
-      "label": "ModelSnapshot",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "norm_label": "modelsnapshot",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate",
-      "label": "20260831022247_InitialCreate.cs",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "norm_label": "20260831022247_initialcreate.cs",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.cs",
+      "norm_label": "pre-commit",
+      "source_file": ".husky/pre-commit",
       "source_location": "L1"
     },
     {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_cs_datetime",
-      "label": "DateTime",
+      "id": "husky_pre_commit__entry",
+      "label": "pre-commit script",
       "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
+      "community": 43,
+      "community_name": "pre-commit",
       "file_type": "code",
-      "norm_label": "datetime",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_cs_migrationbuilder",
-      "label": "MigrationBuilder",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "norm_label": "migrationbuilder",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer",
-      "label": "20260831022247_InitialCreate.Designer.cs",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "norm_label": "20260831022247_initialcreate.designer.cs",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260831022247_InitialCreate.Designer.cs",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "norm_label": "pre-commit script",
+      "source_file": ".husky/pre-commit",
       "source_location": "L1"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer_cs_datetime",
-      "label": "DateTime",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "norm_label": "datetime",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260831022247_initialcreate_designer_cs_modelbuilder",
-      "label": "ModelBuilder",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "norm_label": "modelbuilder",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel",
-      "label": "20260908135236_UpdateEventsModel.cs",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "norm_label": "20260908135236_updateeventsmodel.cs",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.cs",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_cs_migrationbuilder",
-      "label": "MigrationBuilder",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "norm_label": "migrationbuilder",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer",
-      "label": "20260908135236_UpdateEventsModel.Designer.cs",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "norm_label": "20260908135236_updateeventsmodel.designer.cs",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260908135236_UpdateEventsModel.Designer.cs",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer_cs_datetime",
-      "label": "DateTime",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "norm_label": "datetime",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260908135236_updateeventsmodel_designer_cs_modelbuilder",
-      "label": "ModelBuilder",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "norm_label": "modelbuilder",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot",
-      "label": "AppDbContextModelSnapshot.cs",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "norm_label": "appdbcontextmodelsnapshot.cs",
-      "source_file": "src/EventsHub.Persistence/Migrations/AppDbContextModelSnapshot.cs",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_cs_datetime",
-      "label": "DateTime",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "norm_label": "datetime",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_cs_modelbuilder",
-      "label": "ModelBuilder",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "file_type": "code",
-      "norm_label": "modelbuilder",
-      "source_file": "",
-      "source_location": ""
     },
     {
       "id": "web_eventshub_tsconfig_app",
@@ -6435,6 +7545,17 @@
       "source_location": "L37"
     },
     {
+      "id": "web_eventshub_package_devdependencies_vite_plugin_mkcert",
+      "label": "vite-plugin-mkcert",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "devDependencies",
+      "file_type": "code",
+      "norm_label": "vite-plugin-mkcert",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L38"
+    },
+    {
       "id": "web_eventshub_package_devdependencies_vitejs_plugin_react",
       "label": "@vitejs/plugin-react",
       "_origin": "ast",
@@ -6897,6 +8018,42 @@
       "type": "external"
     },
     {
+      "id": "microsoft_entityframeworkcore_infrastructure",
+      "label": "microsoft_entityframeworkcore_infrastructure",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "microsoft_entityframeworkcore_infrastructure",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "microsoft_entityframeworkcore_migrations",
+      "label": "microsoft_entityframeworkcore_migrations",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "microsoft_entityframeworkcore_migrations",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "microsoft_entityframeworkcore_storage_valueconversion",
+      "label": "microsoft_entityframeworkcore_storage_valueconversion",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "microsoft_entityframeworkcore_storage_valueconversion",
+      "source_file": "",
+      "type": "external"
+    },
+    {
       "id": "microsoft_extensions_dependencyinjection",
       "label": "microsoft_extensions_dependencyinjection",
       "_origin": "semantic",
@@ -6929,6 +8086,18 @@
       "external": true,
       "file_type": "concept",
       "norm_label": "newtonsoft_json_serialization",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "system",
+      "label": "system",
+      "_origin": "semantic",
+      "community": 1,
+      "community_name": "EventsHub.Persistence",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "system",
       "source_file": "",
       "type": "external"
     },
@@ -7005,6 +8174,30 @@
       "type": "external"
     },
     {
+      "id": "web_eventshub_src_app_layout_styles",
+      "label": "web_eventshub_src_app_layout_styles",
+      "_origin": "semantic",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "web_eventshub_src_app_layout_styles",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "ref_vite_plugin_mkcert",
+      "label": "ref_vite_plugin_mkcert",
+      "_origin": "semantic",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "ref_vite_plugin_mkcert",
+      "source_file": "",
+      "type": "external"
+    },
+    {
       "id": "web_eventshub_src_index",
       "label": "web_eventshub_src_index",
       "_origin": "semantic",
@@ -7013,65 +8206,6 @@
       "external": true,
       "file_type": "concept",
       "norm_label": "web_eventshub_src_index",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "microsoft_entityframeworkcore_infrastructure",
-      "label": "microsoft_entityframeworkcore_infrastructure",
-      "_origin": "semantic",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "microsoft_entityframeworkcore_infrastructure",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "microsoft_entityframeworkcore_migrations",
-      "label": "microsoft_entityframeworkcore_migrations",
-      "_origin": "semantic",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "microsoft_entityframeworkcore_migrations",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "microsoft_entityframeworkcore_storage_valueconversion",
-      "label": "microsoft_entityframeworkcore_storage_valueconversion",
-      "_origin": "semantic",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "microsoft_entityframeworkcore_storage_valueconversion",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "system",
-      "label": "system",
-      "_origin": "semantic",
-      "community": 41,
-      "community_name": "20260831022247_InitialCreate.Designer.cs",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "system",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "web_eventshub_src_app_layout_styles",
-      "label": "web_eventshub_src_app_layout_styles",
-      "community": 22,
-      "community_name": "main.tsx",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "web_eventshub_src_app_layout_styles",
       "source_file": "",
       "type": "external"
     }
@@ -7827,6 +8961,78 @@
       "context": "call",
       "source_file": "tests/EventsHub.UnitTest/GlobalTestSetup.cs",
       "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitydashboard_activitydashboard",
+      "target": "web_eventshub_src_app_features_activities_dashboard_activitylist_activitylist",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitydashboard_activitydashboard",
+      "target": "web_eventshub_src_app_features_activities_details_activitydetail_activitydetail",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitydashboard_activitydashboard",
+      "target": "web_eventshub_src_app_features_form_activityform_activityform",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitylist_activitylist",
+      "target": "web_eventshub_src_app_features_activities_dashboard_activitycard_activitycard",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_layout_app_app",
+      "target": "web_eventshub_src_app_layout_navbar_navbar",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "web/EventsHub/src/app/layout/App.tsx",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_layout_app_app",
+      "target": "web_eventshub_src_app_features_activities_dashboard_activitydashboard_activitydashboard",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "web/EventsHub/src/app/layout/App.tsx",
+      "source_location": "L59",
       "weight": 1.0
     },
     {
@@ -10990,6 +12196,90 @@
       "weight": 1.0
     },
     {
+      "source": "web_eventshub_package",
+      "target": "web_eventshub_package_json_ref_vite_plugin_mkcert",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitydashboard",
+      "target": "web_eventshub_src_app_features_activities_dashboard_activitylist_activitylist",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitydashboard",
+      "target": "web_eventshub_src_app_features_activities_details_activitydetail_activitydetail",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitydashboard",
+      "target": "web_eventshub_src_app_features_form_activityform_activityform",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitylist",
+      "target": "web_eventshub_src_app_features_activities_dashboard_activitycard_activitycard",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_layout_app",
+      "target": "web_eventshub_src_app_layout_navbar_navbar",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/layout/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_layout_app",
+      "target": "web_eventshub_src_app_features_activities_dashboard_activitydashboard_activitydashboard",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/layout/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
       "source": "web_eventshub_src_main",
       "target": "web_eventshub_src_app_layout_app_app",
       "relation": "imports",
@@ -11003,7 +12293,7 @@
     },
     {
       "source": "web_package",
-      "target": "ref_vite_plugin_mkcert",
+      "target": "ref_eslint_config_prettier",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -11015,7 +12305,31 @@
     },
     {
       "source": "web_package",
-      "target": "ref_axios",
+      "target": "ref_lint_staged",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/package.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "web_package",
+      "target": "ref_prettier",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/package.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "web_package",
+      "target": "web_package_json_ref_vite_plugin_mkcert",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -11023,6 +12337,18 @@
       "context": "import",
       "source_file": "web/package.json",
       "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "web_package",
+      "target": "ref_axios",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/package.json",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -11098,6 +12424,139 @@
       "weight": 1.0
     },
     {
+      "source": "web_eventshub_eslint_config",
+      "target": "ref_eslint_config_prettier",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/eslint.config.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitycard",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityCard.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitydashboard",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitydashboard",
+      "target": "web_eventshub_src_app_features_activities_dashboard_activitylist",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitydashboard",
+      "target": "web_eventshub_src_app_features_activities_details_activitydetail",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitydashboard",
+      "target": "web_eventshub_src_app_features_form_activityform",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitylist",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitylist",
+      "target": "web_eventshub_src_app_features_activities_dashboard_activitycard",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_details_activitydetail",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/activities/details/ActivityDetail.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_form_activityform",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/form/ActivityForm.tsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_form_activityform",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/form/ActivityForm.tsx",
+      "source_location": "L2",
+      "type_only": true,
+      "weight": 1.0
+    },
+    {
       "source": "web_eventshub_src_app_layout_app",
       "target": "ref_mui_material",
       "relation": "imports_from",
@@ -11134,8 +12593,32 @@
       "weight": 1.0
     },
     {
+      "source": "web_eventshub_src_app_layout_app",
+      "target": "web_eventshub_src_app_layout_navbar",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/layout/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_layout_app",
+      "target": "web_eventshub_src_app_features_activities_dashboard_activitydashboard",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/layout/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
       "source": "web_eventshub_src_app_layout_navbar",
-      "target": "ref_react",
+      "target": "ref_mui_icons_material",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -11143,6 +12626,18 @@
       "context": "import",
       "source_file": "web/EventsHub/src/app/layout/NavBar.tsx",
       "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_layout_navbar",
+      "target": "ref_mui_material",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/layout/NavBar.tsx",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -13127,6 +14622,677 @@
       "weight": 1.0
     },
     {
+      "source": "docs_guides_husky_setup",
+      "target": "docs_guides_husky_setup_installing_husky_in_a_project_net_and_npm",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup",
+      "target": "docs_guides_husky_setup_part_1_net_npm_in_the_same_repo_e_g_eventshub",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup",
+      "target": "docs_guides_husky_setup_part_2_net_only_husky_net",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L329",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup",
+      "target": "docs_guides_husky_setup_part_3_npm_only_package_json_in_the_repo_root_husky_v9",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L524",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup",
+      "target": "docs_guides_husky_setup_part_4_npm_only_package_json_in_a_subfolder_husky_v9",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L782",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_installing_husky_in_a_project_net_and_npm",
+      "target": "docs_guides_husky_setup_where_to_run_the_commands_read_this_once",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_installing_husky_in_a_project_net_and_npm",
+      "target": "docs_guides_husky_setup_how_to_use_this_guide",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_1_net_npm_in_the_same_repo_e_g_eventshub",
+      "target": "docs_guides_husky_setup_step_6_add_the_pre_commit_hook",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_1_net_npm_in_the_same_repo_e_g_eventshub",
+      "target": "docs_guides_husky_setup_step_7_configure_the_tasks",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L198",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_1_net_npm_in_the_same_repo_e_g_eventshub",
+      "target": "docs_guides_husky_setup_step_8_optional_enforce_a_commit_message_format",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L235",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_1_net_npm_in_the_same_repo_e_g_eventshub",
+      "target": "docs_guides_husky_setup_step_9_verify_it_works",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L255",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_1_net_npm_in_the_same_repo_e_g_eventshub",
+      "target": "docs_guides_husky_setup_step_10_commit_the_husky_files",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L278",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_1_net_npm_in_the_same_repo_e_g_eventshub",
+      "target": "docs_guides_husky_setup_step_11_setup_for_a_new_teammate_or_ci",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L289",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_1_net_npm_in_the_same_repo_e_g_eventshub",
+      "target": "docs_guides_husky_setup_skipping_hooks_use_sparingly",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L305",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_1_net_npm_in_the_same_repo_e_g_eventshub",
+      "target": "docs_guides_husky_setup_troubleshooting_part_1",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L313",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_1_net_npm_in_the_same_repo_e_g_eventshub",
+      "target": "docs_guides_husky_setup_step_1_check_prerequisites",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_1_net_npm_in_the_same_repo_e_g_eventshub",
+      "target": "docs_guides_husky_setup_step_2_install_husky_net_as_a_local_tool",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_1_net_npm_in_the_same_repo_e_g_eventshub",
+      "target": "docs_guides_husky_setup_step_3_install_the_git_hooks",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_1_net_npm_in_the_same_repo_e_g_eventshub",
+      "target": "docs_guides_husky_setup_step_4_attach_husky_to_a_net_project_auto_install_for_teammates",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_1_net_npm_in_the_same_repo_e_g_eventshub",
+      "target": "docs_guides_husky_setup_step_5_install_lint_staged_and_optionally_prettier_in_the_web_project",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_2_net_only_husky_net",
+      "target": "docs_guides_husky_setup_step_1_check_prerequisites_335",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L335",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_2_net_only_husky_net",
+      "target": "docs_guides_husky_setup_step_2_create_a_local_tool_manifest",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L346",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_2_net_only_husky_net",
+      "target": "docs_guides_husky_setup_step_3_install_husky_as_a_local_tool",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L356",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_2_net_only_husky_net",
+      "target": "docs_guides_husky_setup_step_4_install_the_git_hooks",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L366",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_2_net_only_husky_net",
+      "target": "docs_guides_husky_setup_step_5_attach_husky_to_a_project_auto_install_for_teammates",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L377",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_2_net_only_husky_net",
+      "target": "docs_guides_husky_setup_step_6_add_the_pre_commit_hook_391",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L391",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_2_net_only_husky_net",
+      "target": "docs_guides_husky_setup_step_7_configure_the_tasks_407",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L407",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_2_net_only_husky_net",
+      "target": "docs_guides_husky_setup_step_8_optional_enforce_a_commit_message_format_446",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L446",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_2_net_only_husky_net",
+      "target": "docs_guides_husky_setup_step_9_verify_it_works_466",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L466",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_2_net_only_husky_net",
+      "target": "docs_guides_husky_setup_step_10_commit_the_husky_files_481",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L481",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_2_net_only_husky_net",
+      "target": "docs_guides_husky_setup_step_11_setup_for_a_new_teammate_or_ci_490",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L490",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_2_net_only_husky_net",
+      "target": "docs_guides_husky_setup_skipping_hooks_use_sparingly_503",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L503",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_2_net_only_husky_net",
+      "target": "docs_guides_husky_setup_troubleshooting_part_2",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L511",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_3_npm_only_package_json_in_the_repo_root_husky_v9",
+      "target": "docs_guides_husky_setup_step_1_check_prerequisites_530",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L530",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_3_npm_only_package_json_in_the_repo_root_husky_v9",
+      "target": "docs_guides_husky_setup_step_2_make_sure_package_json_and_gitignore_exist",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L542",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_3_npm_only_package_json_in_the_repo_root_husky_v9",
+      "target": "docs_guides_husky_setup_step_3_install_husky",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L558",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_3_npm_only_package_json_in_the_repo_root_husky_v9",
+      "target": "docs_guides_husky_setup_step_4_initialize_husky",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L566",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_3_npm_only_package_json_in_the_repo_root_husky_v9",
+      "target": "docs_guides_husky_setup_step_5_edit_the_pre_commit_hook",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L587",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_3_npm_only_package_json_in_the_repo_root_husky_v9",
+      "target": "docs_guides_husky_setup_step_6_recommended_run_checks_only_on_staged_files_with_lint_staged_prettier_is_optional",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L601",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_3_npm_only_package_json_in_the_repo_root_husky_v9",
+      "target": "docs_guides_husky_setup_step_7_optional_enforce_a_commit_message_format_with_commitlint",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L687",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_3_npm_only_package_json_in_the_repo_root_husky_v9",
+      "target": "docs_guides_husky_setup_step_8_optional_add_a_pre_push_hook",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L709",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_3_npm_only_package_json_in_the_repo_root_husky_v9",
+      "target": "docs_guides_husky_setup_step_9_verify_it_works_719",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L719",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_3_npm_only_package_json_in_the_repo_root_husky_v9",
+      "target": "docs_guides_husky_setup_step_10_commit_the_husky_files_735",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L735",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_3_npm_only_package_json_in_the_repo_root_husky_v9",
+      "target": "docs_guides_husky_setup_step_11_setup_for_a_new_teammate_or_ci_746",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L746",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_3_npm_only_package_json_in_the_repo_root_husky_v9",
+      "target": "docs_guides_husky_setup_skipping_hooks_use_sparingly_758",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L758",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_3_npm_only_package_json_in_the_repo_root_husky_v9",
+      "target": "docs_guides_husky_setup_troubleshooting_part_3",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L766",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_4_npm_only_package_json_in_a_subfolder_husky_v9",
+      "target": "docs_guides_husky_setup_skipping_hooks_use_sparingly_1006",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L1006",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_4_npm_only_package_json_in_a_subfolder_husky_v9",
+      "target": "docs_guides_husky_setup_troubleshooting_part_4",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L1014",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_4_npm_only_package_json_in_a_subfolder_husky_v9",
+      "target": "docs_guides_husky_setup_step_1_check_prerequisites_790",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L790",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_4_npm_only_package_json_in_a_subfolder_husky_v9",
+      "target": "docs_guides_husky_setup_step_2_install_husky",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L802",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_4_npm_only_package_json_in_a_subfolder_husky_v9",
+      "target": "docs_guides_husky_setup_step_3_point_the_prepare_script_at_the_subfolder",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L813",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_4_npm_only_package_json_in_a_subfolder_husky_v9",
+      "target": "docs_guides_husky_setup_step_4_install_the_hooks",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L827",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_4_npm_only_package_json_in_a_subfolder_husky_v9",
+      "target": "docs_guides_husky_setup_step_5_create_the_pre_commit_hook",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L844",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_4_npm_only_package_json_in_a_subfolder_husky_v9",
+      "target": "docs_guides_husky_setup_step_6_recommended_run_checks_only_on_staged_files_with_lint_staged_prettier_is_optional_857",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L857",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_4_npm_only_package_json_in_a_subfolder_husky_v9",
+      "target": "docs_guides_husky_setup_step_7_optional_enforce_a_commit_message_format_with_commitlint_943",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L943",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_4_npm_only_package_json_in_a_subfolder_husky_v9",
+      "target": "docs_guides_husky_setup_step_8_verify_it_works",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L967",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_4_npm_only_package_json_in_a_subfolder_husky_v9",
+      "target": "docs_guides_husky_setup_step_9_commit_the_husky_files",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L983",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_part_4_npm_only_package_json_in_a_subfolder_husky_v9",
+      "target": "docs_guides_husky_setup_step_10_setup_for_a_new_teammate_or_ci",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L994",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_step_5_install_lint_staged_and_optionally_prettier_in_the_web_project",
+      "target": "docs_guides_husky_setup_optional_add_prettier_code_formatting",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_step_6_recommended_run_checks_only_on_staged_files_with_lint_staged_prettier_is_optional",
+      "target": "docs_guides_husky_setup_optional_add_prettier_code_formatting_622",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L622",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_guides_husky_setup_step_6_recommended_run_checks_only_on_staged_files_with_lint_staged_prettier_is_optional_857",
+      "target": "docs_guides_husky_setup_optional_add_prettier_code_formatting_878",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/guides/husky-setup.md",
+      "source_location": "L878",
+      "weight": 1.0
+    },
+    {
       "source": "docs_guides_install_graphify_openspec",
       "target": "docs_guides_install_graphify_openspec_prompt_install_graphify_openspec_in_eventshub",
       "relation": "contains",
@@ -13259,101 +15425,101 @@
       "weight": 1.0
     },
     {
-      "source": "docs_openapi",
-      "target": "docs_openapi_manual_setup_openapi_doc_generation_typed_client_for_the_eventshub_api",
+      "source": "docs_guides_openapi",
+      "target": "docs_guides_openapi_manual_setup_openapi_doc_generation_typed_client_for_the_eventshub_api",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L1",
       "weight": 1.0
     },
     {
-      "source": "docs_openapi_manual_setup_openapi_doc_generation_typed_client_for_the_eventshub_api",
-      "target": "docs_openapi_part_2_populate_the_generated_content",
+      "source": "docs_guides_openapi_manual_setup_openapi_doc_generation_typed_client_for_the_eventshub_api",
+      "target": "docs_guides_openapi_part_2_populate_the_generated_content",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L223",
       "weight": 1.0
     },
     {
-      "source": "docs_openapi_manual_setup_openapi_doc_generation_typed_client_for_the_eventshub_api",
-      "target": "docs_openapi_part_1_manually_scaffold_the_pieces",
+      "source": "docs_guides_openapi_manual_setup_openapi_doc_generation_typed_client_for_the_eventshub_api",
+      "target": "docs_guides_openapi_part_1_manually_scaffold_the_pieces",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L24",
       "weight": 1.0
     },
     {
-      "source": "docs_openapi_manual_setup_openapi_doc_generation_typed_client_for_the_eventshub_api",
-      "target": "docs_openapi_summary_of_what_gets_created_vs_hand_maintained",
+      "source": "docs_guides_openapi_manual_setup_openapi_doc_generation_typed_client_for_the_eventshub_api",
+      "target": "docs_guides_openapi_summary_of_what_gets_created_vs_hand_maintained",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L270",
       "weight": 1.0
     },
     {
-      "source": "docs_openapi_manual_setup_openapi_doc_generation_typed_client_for_the_eventshub_api",
-      "target": "docs_openapi_current_state_on_this_branch",
+      "source": "docs_guides_openapi_manual_setup_openapi_doc_generation_typed_client_for_the_eventshub_api",
+      "target": "docs_guides_openapi_current_state_on_this_branch",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L281",
       "weight": 1.0
     },
     {
-      "source": "docs_openapi_part_1_manually_scaffold_the_pieces",
-      "target": "docs_openapi_step_2_create_openapi_generated_output_folder",
+      "source": "docs_guides_openapi_part_1_manually_scaffold_the_pieces",
+      "target": "docs_guides_openapi_step_2_create_openapi_generated_output_folder",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L153",
       "weight": 1.0
     },
     {
-      "source": "docs_openapi_part_1_manually_scaffold_the_pieces",
-      "target": "docs_openapi_step_3_create_nswag_eventshub_nswag_checked_in_codegen_config",
+      "source": "docs_guides_openapi_part_1_manually_scaffold_the_pieces",
+      "target": "docs_guides_openapi_step_3_create_nswag_eventshub_nswag_checked_in_codegen_config",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L162",
       "weight": 1.0
     },
     {
-      "source": "docs_openapi_part_1_manually_scaffold_the_pieces",
-      "target": "docs_openapi_step_4_register_the_nswag_cli_as_a_local_tool",
+      "source": "docs_guides_openapi_part_1_manually_scaffold_the_pieces",
+      "target": "docs_guides_openapi_step_4_register_the_nswag_cli_as_a_local_tool",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L206",
       "weight": 1.0
     },
     {
-      "source": "docs_openapi_part_1_manually_scaffold_the_pieces",
-      "target": "docs_openapi_step_1_create_src_eventshub_openapi_the_standalone_doc_generation_host",
+      "source": "docs_guides_openapi_part_1_manually_scaffold_the_pieces",
+      "target": "docs_guides_openapi_step_1_create_src_eventshub_openapi_the_standalone_doc_generation_host",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L26",
       "weight": 1.0
     },
@@ -13395,6 +15561,39 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "EventsHub.backup.slnx",
+      "weight": 1.0
+    },
+    {
+      "source": "husky_pre_commit",
+      "target": "husky_pre_commit__entry",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".husky/pre-commit",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "husky_task_runner",
+      "target": "husky_task_runner_schema",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".husky/task-runner.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "husky_task_runner",
+      "target": "husky_task_runner_tasks",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".husky/task-runner.json",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -14657,6 +16856,17 @@
       "weight": 1.0
     },
     {
+      "source": "web_eventshub_package_devdependencies",
+      "target": "web_eventshub_package_devdependencies_vite_plugin_mkcert",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
       "source": "web_eventshub_package_scripts",
       "target": "web_eventshub_package_scripts_preview",
       "relation": "contains",
@@ -14734,6 +16944,116 @@
       "weight": 1.0
     },
     {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitycard",
+      "target": "web_eventshub_src_app_features_activities_dashboard_activitycard_props",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityCard.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitycard",
+      "target": "web_eventshub_src_app_features_activities_dashboard_activitycard_activitycard",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityCard.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitydashboard",
+      "target": "web_eventshub_src_app_features_activities_dashboard_activitydashboard_activitydashboard",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitydashboard",
+      "target": "web_eventshub_src_app_features_activities_dashboard_activitydashboard_props",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitylist",
+      "target": "web_eventshub_src_app_features_activities_dashboard_activitylist_activitylist",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_dashboard_activitylist",
+      "target": "web_eventshub_src_app_features_activities_dashboard_activitylist_props",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityList.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_details_activitydetail",
+      "target": "web_eventshub_src_app_features_activities_details_activitydetail_props",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/src/app/features/activities/details/ActivityDetail.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_details_activitydetail",
+      "target": "web_eventshub_src_app_features_activities_details_activitydetail_activitydetail",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/src/app/features/activities/details/ActivityDetail.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_form_activityform",
+      "target": "web_eventshub_src_app_features_form_activityform_props",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/src/app/features/form/ActivityForm.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_form_activityform",
+      "target": "web_eventshub_src_app_features_form_activityform_activityform",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/src/app/features/form/ActivityForm.tsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
       "source": "web_eventshub_src_app_layout_app",
       "target": "web_eventshub_src_app_layout_app_app",
       "relation": "contains",
@@ -14741,7 +17061,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/EventsHub/src/app/layout/App.tsx",
-      "source_location": "L5",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_layout_navbar",
+      "target": "web_eventshub_src_app_layout_navbar_props",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/src/app/layout/NavBar.tsx",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -14752,7 +17083,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/EventsHub/src/app/layout/NavBar.tsx",
-      "source_location": "L3",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -15197,6 +17528,17 @@
     },
     {
       "source": "web_package",
+      "target": "web_package_lint_staged",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/package.json",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "web_package",
       "target": "web_package_devdependencies",
       "relation": "contains",
       "_origin": "ast",
@@ -15214,7 +17556,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/package.json",
-      "source_location": "L5",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -15225,7 +17567,40 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/package.json",
-      "source_location": "L6",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "web_package_devdependencies",
+      "target": "web_package_devdependencies_eslint_config_prettier",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/package.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "web_package_devdependencies",
+      "target": "web_package_devdependencies_lint_staged",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/package.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "web_package_devdependencies",
+      "target": "web_package_devdependencies_prettier",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/package.json",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -15236,7 +17611,29 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/package.json",
-      "source_location": "L3",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "web_package_lint_staged",
+      "target": "web_package_lint_staged_ts_tsx",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/package.json",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "web_package_lint_staged",
+      "target": "web_package_lint_staged_json_md_css",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/package.json",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -16295,14 +18692,14 @@
       "weight": 1.0
     },
     {
-      "source": "docs_openapi_step_3_create_nswag_eventshub_nswag_checked_in_codegen_config",
+      "source": "docs_guides_openapi_step_3_create_nswag_eventshub_nswag_checked_in_codegen_config",
       "target": "src_src_eventshub_openapi_generated_eventshubrpcclient_generated_eventshub_openapi_client_apiexception",
       "relation": "references",
       "_origin": "ast",
       "confidence": "INFERRED",
       "confidence_score": 0.95,
       "context": "ApiException",
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L204",
       "weight": 1.0
     },
@@ -16343,14 +18740,14 @@
       "weight": 1.0
     },
     {
-      "source": "docs_openapi_step_1_create_src_eventshub_openapi_the_standalone_doc_generation_host",
+      "source": "docs_guides_openapi_step_1_create_src_eventshub_openapi_the_standalone_doc_generation_host",
       "target": "src_eventshub_api_controllers_weatherforecastcontroller_eventshub_api_controllers_weatherforecastcontroller",
       "relation": "references",
       "_origin": "ast",
       "confidence": "INFERRED",
       "confidence_score": 0.95,
       "context": "WeatherForecastController",
-      "source_file": "docs/OpenApi.md",
+      "source_file": "docs/guides/OpenApi.md",
       "source_location": "L69",
       "weight": 1.0
     }
