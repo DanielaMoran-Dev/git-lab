@@ -20,3 +20,10 @@
 #echo 'Husky.Net is awesome!'
 
 dotnet husky run
+msg=$(cat "$1")
+pattern='^(feat|fix|chore|docs|refactor|test|hotfix)(\(.+\))?: .{1,}'
+
+if ! echo "$msg" | grep -qE "$pattern"; then
+  echo "Invalid commit message. Use: type: description (e.g. feat: add login form)"
+  exit 1
+fi
