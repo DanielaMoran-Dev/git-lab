@@ -41,6 +41,6 @@
   "39": "README.md",
   "40": "web_eventshub_src_index",
   "41": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
-  "42": "task-runner.json",
+  "42": "commit-msg",
   "43": "pre-commit"
 }

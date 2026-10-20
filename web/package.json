@@ -6,6 +6,7 @@
     "vite-plugin-mkcert": "^2.1.0"
   },
   "dependencies": {
+    "@tanstack/react-query-devtools": "^5.104.5",
     "axios": "^1.20.0"
   },
   "lint-staged": {
