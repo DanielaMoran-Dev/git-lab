@@ -722,6 +722,25 @@
       "source_location": "L14"
     },
     {
+      "id": "src_eventshub_api_controllers_eventshubbasecontroller_eventshub_api_controllers_eventshubbasecontroller",
+      "label": "EventsHubBaseController",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "EventsController",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Api.Controllers",
+        "scope_chain": [
+          "s216"
+        ]
+      },
+      "norm_label": "eventshubbasecontroller",
+      "source_file": "src/EventsHub.Api/Controllers/EventsHubBaseController.cs",
+      "source_location": "L12"
+    },
+    {
       "id": "tests_eventshub_unittest_controllers_eventscontrollertest_eventshub_unittests_controllers_eventscontrollertests",
       "label": "EventsControllerTests",
       "_callable": true,
@@ -741,32 +760,13 @@
       "source_location": "L10"
     },
     {
-      "id": "src_eventshub_api_controllers_eventshubbasecontroller_eventshub_api_controllers_eventshubbasecontroller",
-      "label": "EventsHubBaseController",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "EventsHubBaseController",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Api.Controllers",
-        "scope_chain": [
-          "s216"
-        ]
-      },
-      "norm_label": "eventshubbasecontroller",
-      "source_file": "src/EventsHub.Api/Controllers/EventsHubBaseController.cs",
-      "source_location": "L12"
-    },
-    {
       "id": "src_eventshub_api_controllers_weatherforecastcontroller_eventshub_api_controllers_weatherforecastcontroller",
       "label": "WeatherForecastController",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 35,
-      "community_name": "EventsHubBaseController",
+      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Api.Controllers",
@@ -2179,7 +2179,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 35,
-      "community_name": "EventsHubBaseController",
+      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Api.Controllers",
@@ -4508,7 +4508,7 @@
       "file_type": "code",
       "norm_label": "queryclient",
       "source_file": "web/EventsHub/src/main.tsx",
-      "source_location": "L11"
+      "source_location": "L12"
     },
     {
       "id": "ref_fontsource_roboto",
@@ -4520,6 +4520,17 @@
       "norm_label": "@fontsource/roboto",
       "source_file": "web/EventsHub/package.json",
       "source_location": "L15"
+    },
+    {
+      "id": "ref_mui_icons_material",
+      "label": "@mui/icons-material",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "concept",
+      "norm_label": "@mui/icons-material",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L16"
     },
     {
       "id": "ref_mui_material",
@@ -4564,6 +4575,17 @@
       "norm_label": "@tanstack/react-query",
       "source_file": "package.json",
       "source_location": "L3"
+    },
+    {
+      "id": "ref_tanstack_react_query_devtools",
+      "label": "@tanstack/react-query-devtools",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "concept",
+      "norm_label": "@tanstack/react-query-devtools",
+      "source_file": "web/package.json",
+      "source_location": "L9"
     },
     {
       "id": "docs_guides_husky_setup",
@@ -5213,6 +5235,17 @@
       "file_type": "code",
       "norm_label": "axios",
       "source_file": "web/package.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "web_package_dependencies_tanstack_react_query_devtools",
+      "label": "@tanstack/react-query-devtools",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "web/package.json",
+      "file_type": "code",
+      "norm_label": "@tanstack/react-query-devtools",
+      "source_file": "web/package.json",
       "source_location": "L9"
     },
     {
@@ -5279,7 +5312,7 @@
       "file_type": "code",
       "norm_label": "lint-staged",
       "source_file": "web/package.json",
-      "source_location": "L11"
+      "source_location": "L12"
     },
     {
       "id": "web_package_lint_staged_json_md_css",
@@ -5290,7 +5323,7 @@
       "file_type": "code",
       "norm_label": "*.{json,md,css}",
       "source_file": "web/package.json",
-      "source_location": "L16"
+      "source_location": "L17"
     },
     {
       "id": "web_package_lint_staged_ts_tsx",
@@ -5301,7 +5334,7 @@
       "file_type": "code",
       "norm_label": "*.{ts,tsx}",
       "source_file": "web/package.json",
-      "source_location": "L12"
+      "source_location": "L13"
     },
     {
       "id": "ref_axios",
@@ -5312,7 +5345,7 @@
       "file_type": "concept",
       "norm_label": "axios",
       "source_file": "web/package.json",
-      "source_location": "L9"
+      "source_location": "L10"
     },
     {
       "id": "ref_eslint_config_prettier",
@@ -5414,6 +5447,17 @@
       "source_location": ""
     },
     {
+      "id": "controllerbase",
+      "label": "ControllerBase",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "EventsController",
+      "file_type": "code",
+      "norm_label": "controllerbase",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "handler",
       "label": "Handler",
       "_origin": "ast",
@@ -5454,6 +5498,17 @@
       "community_name": "EventsController",
       "file_type": "code",
       "norm_label": "httpput",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "imediator",
+      "label": "IMediator",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "EventsController",
+      "file_type": "code",
+      "norm_label": "imediator",
       "source_file": "",
       "source_location": ""
     },
@@ -5533,6 +5588,23 @@
       "norm_label": "task",
       "source_file": "",
       "source_location": ""
+    },
+    {
+      "id": "src_eventshub_api_controllers_eventshubbasecontroller_eventshub_api_controllers_eventshubbasecontroller_mediator",
+      "label": "Mediator",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "EventsController",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Api.Controllers",
+        "scope_chain": [
+          "s216"
+        ]
+      },
+      "norm_label": "mediator",
+      "source_file": "src/EventsHub.Api/Controllers/EventsHubBaseController.cs",
+      "source_location": "L18"
     },
     {
       "id": "teardown",
@@ -5674,50 +5746,11 @@
       "source_location": "L1"
     },
     {
-      "id": "controllerbase",
-      "label": "ControllerBase",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "EventsHubBaseController",
-      "file_type": "code",
-      "norm_label": "controllerbase",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "imediator",
-      "label": "IMediator",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "EventsHubBaseController",
-      "file_type": "code",
-      "norm_label": "imediator",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_api_controllers_eventshubbasecontroller_eventshub_api_controllers_eventshubbasecontroller_mediator",
-      "label": "Mediator",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "EventsHubBaseController",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Api.Controllers",
-        "scope_chain": [
-          "s216"
-        ]
-      },
-      "norm_label": "mediator",
-      "source_file": "src/EventsHub.Api/Controllers/EventsHubBaseController.cs",
-      "source_location": "L18"
-    },
-    {
       "id": "src_eventshub_api_controllers_weatherforecastcontroller_cs_httpget",
       "label": "HttpGet",
       "_origin": "ast",
       "community": 35,
-      "community_name": "EventsHubBaseController",
+      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "file_type": "code",
       "norm_label": "httpget",
       "source_file": "",
@@ -5728,7 +5761,7 @@
       "label": "IEnumerable",
       "_origin": "ast",
       "community": 35,
-      "community_name": "EventsHubBaseController",
+      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "file_type": "code",
       "norm_label": "ienumerable",
       "source_file": "",
@@ -5739,7 +5772,7 @@
       "label": "WeatherForecast",
       "_origin": "ast",
       "community": 35,
-      "community_name": "EventsHubBaseController",
+      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "file_type": "code",
       "norm_label": "weatherforecast",
       "source_file": "",
@@ -5750,7 +5783,7 @@
       "label": "OpenApi.md",
       "_origin": "ast",
       "community": 35,
-      "community_name": "EventsHubBaseController",
+      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "openapi.md",
@@ -5762,7 +5795,7 @@
       "label": "Current state on this branch",
       "_origin": "ast",
       "community": 35,
-      "community_name": "EventsHubBaseController",
+      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "current state on this branch",
@@ -5774,7 +5807,7 @@
       "label": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "_origin": "ast",
       "community": 35,
-      "community_name": "EventsHubBaseController",
+      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "manual setup \u2014 openapi doc generation + typed client for the eventshub api",
@@ -5786,7 +5819,7 @@
       "label": "Part 1 \u2014 Manually scaffold the pieces",
       "_origin": "ast",
       "community": 35,
-      "community_name": "EventsHubBaseController",
+      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "part 1 \u2014 manually scaffold the pieces",
@@ -5798,7 +5831,7 @@
       "label": "Part 2 \u2014 Populate the generated content",
       "_origin": "ast",
       "community": 35,
-      "community_name": "EventsHubBaseController",
+      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "part 2 \u2014 populate the generated content",
@@ -5810,7 +5843,7 @@
       "label": "Step 1: Create `src/EventsHub.OpenApi/` (the standalone doc-generation host)",
       "_origin": "ast",
       "community": 35,
-      "community_name": "EventsHubBaseController",
+      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "step 1: create `src/eventshub.openapi/` (the standalone doc-generation host)",
@@ -5822,7 +5855,7 @@
       "label": "Step 2: Create `openapi/` (generated output folder)",
       "_origin": "ast",
       "community": 35,
-      "community_name": "EventsHubBaseController",
+      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "step 2: create `openapi/` (generated output folder)",
@@ -5834,7 +5867,7 @@
       "label": "Step 3: Create `nswag/EventsHub.nswag` (checked-in codegen config)",
       "_origin": "ast",
       "community": 35,
-      "community_name": "EventsHubBaseController",
+      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "step 3: create `nswag/eventshub.nswag` (checked-in codegen config)",
@@ -5846,7 +5879,7 @@
       "label": "Step 4: Register the NSwag CLI as a local tool",
       "_origin": "ast",
       "community": 35,
-      "community_name": "EventsHubBaseController",
+      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "step 4: register the nswag cli as a local tool",
@@ -5858,7 +5891,7 @@
       "label": "Summary of what gets created vs. hand-maintained",
       "_origin": "ast",
       "community": 35,
-      "community_name": "EventsHubBaseController",
+      "community_name": "Manual setup \u2014 OpenAPI doc generation + typed client for the EventsHub API",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "summary of what gets created vs. hand-maintained",
@@ -6294,94 +6327,6 @@
       "source_location": "L1"
     },
     {
-      "id": "web_eventshub_package_dependencies",
-      "label": "dependencies",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "code",
-      "norm_label": "dependencies",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L12"
-    },
-    {
-      "id": "web_eventshub_package_dependencies_emotion_react",
-      "label": "@emotion/react",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "code",
-      "norm_label": "@emotion/react",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L13"
-    },
-    {
-      "id": "web_eventshub_package_dependencies_emotion_styled",
-      "label": "@emotion/styled",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "code",
-      "norm_label": "@emotion/styled",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L14"
-    },
-    {
-      "id": "web_eventshub_package_dependencies_fontsource_roboto",
-      "label": "@fontsource/roboto",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "code",
-      "norm_label": "@fontsource/roboto",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L15"
-    },
-    {
-      "id": "web_eventshub_package_dependencies_mui_icons_material",
-      "label": "@mui/icons-material",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "code",
-      "norm_label": "@mui/icons-material",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L16"
-    },
-    {
-      "id": "web_eventshub_package_dependencies_mui_material",
-      "label": "@mui/material",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "code",
-      "norm_label": "@mui/material",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L17"
-    },
-    {
-      "id": "web_eventshub_package_dependencies_react",
-      "label": "react",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "code",
-      "norm_label": "react",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L18"
-    },
-    {
-      "id": "web_eventshub_package_dependencies_react_dom",
-      "label": "react-dom",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "code",
-      "norm_label": "react-dom",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L19"
-    },
-    {
       "id": "web_eventshub_package_name",
       "label": "name",
       "_origin": "ast",
@@ -6404,61 +6349,6 @@
       "source_location": "L3"
     },
     {
-      "id": "web_eventshub_package_scripts",
-      "label": "scripts",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "code",
-      "norm_label": "scripts",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L6"
-    },
-    {
-      "id": "web_eventshub_package_scripts_build",
-      "label": "build",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "code",
-      "norm_label": "build",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L8"
-    },
-    {
-      "id": "web_eventshub_package_scripts_dev",
-      "label": "dev",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "code",
-      "norm_label": "dev",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L7"
-    },
-    {
-      "id": "web_eventshub_package_scripts_lint",
-      "label": "lint",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "code",
-      "norm_label": "lint",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L9"
-    },
-    {
-      "id": "web_eventshub_package_scripts_preview",
-      "label": "preview",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "code",
-      "norm_label": "preview",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L10"
-    },
-    {
       "id": "web_eventshub_package_type",
       "label": "type",
       "_origin": "ast",
@@ -6479,17 +6369,6 @@
       "norm_label": "version",
       "source_file": "web/EventsHub/package.json",
       "source_location": "L4"
-    },
-    {
-      "id": "web_eventshub_vite_config",
-      "label": "vite.config.ts",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "code",
-      "norm_label": "vite.config.ts",
-      "source_file": "web/EventsHub/vite.config.ts",
-      "source_location": "L1"
     },
     {
       "id": "ref_babel_core",
@@ -6591,28 +6470,6 @@
       "source_location": "L34"
     },
     {
-      "id": "ref_mui_icons_material",
-      "label": "@mui/icons-material",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "concept",
-      "norm_label": "@mui/icons-material",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L16"
-    },
-    {
-      "id": "ref_rolldown_plugin_babel",
-      "label": "@rolldown/plugin-babel",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "concept",
-      "norm_label": "@rolldown/plugin-babel",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L24"
-    },
-    {
       "id": "ref_types_babel_core",
       "label": "@types/babel__core",
       "_origin": "ast",
@@ -6677,28 +6534,6 @@
       "norm_label": "typescript-eslint",
       "source_file": "web/EventsHub/package.json",
       "source_location": "L36"
-    },
-    {
-      "id": "ref_vite",
-      "label": "vite",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "concept",
-      "norm_label": "vite",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L37"
-    },
-    {
-      "id": "ref_vitejs_plugin_react",
-      "label": "@vitejs/plugin-react",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "file_type": "concept",
-      "norm_label": "@vitejs/plugin-react",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L29"
     },
     {
       "id": "web_eventshub_package_json_ref_vite_plugin_mkcert",
@@ -6950,6 +6785,193 @@
       "norm_label": "pre-commit script",
       "source_file": ".husky/pre-commit",
       "source_location": "L1"
+    },
+    {
+      "id": "web_eventshub_package_dependencies",
+      "label": "dependencies",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "dependencies",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L12"
+    },
+    {
+      "id": "web_eventshub_package_dependencies_emotion_react",
+      "label": "@emotion/react",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "@emotion/react",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L13"
+    },
+    {
+      "id": "web_eventshub_package_dependencies_emotion_styled",
+      "label": "@emotion/styled",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "@emotion/styled",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L14"
+    },
+    {
+      "id": "web_eventshub_package_dependencies_fontsource_roboto",
+      "label": "@fontsource/roboto",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "@fontsource/roboto",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L15"
+    },
+    {
+      "id": "web_eventshub_package_dependencies_mui_icons_material",
+      "label": "@mui/icons-material",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "@mui/icons-material",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L16"
+    },
+    {
+      "id": "web_eventshub_package_dependencies_mui_material",
+      "label": "@mui/material",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "@mui/material",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L17"
+    },
+    {
+      "id": "web_eventshub_package_dependencies_react",
+      "label": "react",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "react",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L18"
+    },
+    {
+      "id": "web_eventshub_package_dependencies_react_dom",
+      "label": "react-dom",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "react-dom",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L19"
+    },
+    {
+      "id": "web_eventshub_vite_config",
+      "label": "vite.config.ts",
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "vite.config.ts",
+      "file_type": "code",
+      "norm_label": "vite.config.ts",
+      "source_file": "web/EventsHub/vite.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "ref_rolldown_plugin_babel",
+      "label": "@rolldown/plugin-babel",
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "vite.config.ts",
+      "file_type": "concept",
+      "norm_label": "@rolldown/plugin-babel",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L24"
+    },
+    {
+      "id": "ref_vite",
+      "label": "vite",
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "vite.config.ts",
+      "file_type": "concept",
+      "norm_label": "vite",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L37"
+    },
+    {
+      "id": "ref_vitejs_plugin_react",
+      "label": "@vitejs/plugin-react",
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "vite.config.ts",
+      "file_type": "concept",
+      "norm_label": "@vitejs/plugin-react",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L29"
+    },
+    {
+      "id": "web_eventshub_package_scripts",
+      "label": "scripts",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "scripts",
+      "file_type": "code",
+      "norm_label": "scripts",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "web_eventshub_package_scripts_build",
+      "label": "build",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "scripts",
+      "file_type": "code",
+      "norm_label": "build",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "web_eventshub_package_scripts_dev",
+      "label": "dev",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "scripts",
+      "file_type": "code",
+      "norm_label": "dev",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "web_eventshub_package_scripts_lint",
+      "label": "lint",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "scripts",
+      "file_type": "code",
+      "norm_label": "lint",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "web_eventshub_package_scripts_preview",
+      "label": "preview",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "scripts",
+      "file_type": "code",
+      "norm_label": "preview",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L10"
     },
     {
       "id": "web_eventshub_tsconfig_app",
@@ -8238,18 +8260,6 @@
       "type": "external"
     },
     {
-      "id": "ref_vite_plugin_mkcert",
-      "label": "ref_vite_plugin_mkcert",
-      "_origin": "semantic",
-      "community": 4,
-      "community_name": "EventsHub/package.json",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "ref_vite_plugin_mkcert",
-      "source_file": "",
-      "type": "external"
-    },
-    {
       "id": "web_eventshub_src_index",
       "label": "web_eventshub_src_index",
       "_origin": "semantic",
@@ -8258,6 +8268,18 @@
       "external": true,
       "file_type": "concept",
       "norm_label": "web_eventshub_src_index",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "ref_vite_plugin_mkcert",
+      "label": "ref_vite_plugin_mkcert",
+      "_origin": "semantic",
+      "community": 45,
+      "community_name": "vite.config.ts",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "ref_vite_plugin_mkcert",
       "source_file": "",
       "type": "external"
     }
@@ -12357,6 +12379,18 @@
     },
     {
       "source": "web_package",
+      "target": "ref_axios",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/package.json",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "web_package",
       "target": "ref_eslint_config_prettier",
       "relation": "imports",
       "_origin": "ast",
@@ -12405,7 +12439,7 @@
     },
     {
       "source": "web_package",
-      "target": "ref_axios",
+      "target": "ref_tanstack_react_query_devtools",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12726,6 +12760,18 @@
       "context": "import",
       "source_file": "web/EventsHub/src/main.tsx",
       "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_main",
+      "target": "ref_tanstack_react_query_devtools",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/main.tsx",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -17204,7 +17250,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/EventsHub/src/main.tsx",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -17644,7 +17690,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/package.json",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -17672,6 +17718,17 @@
     {
       "source": "web_package_dependencies",
       "target": "web_package_dependencies_axios",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/package.json",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "web_package_dependencies",
+      "target": "web_package_dependencies_tanstack_react_query_devtools",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -17732,7 +17789,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/package.json",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0
     },
     {
@@ -17743,7 +17800,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/package.json",
-      "source_location": "L16",
+      "source_location": "L17",
       "weight": 1.0
     },
     {

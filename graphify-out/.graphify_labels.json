@@ -34,7 +34,7 @@
   "32": "openspec-propose/SKILL.md",
   "33": "openspec-sync-specs/SKILL.md",
   "34": "openspec-update-change/SKILL.md",
-  "35": "EventsHubBaseController",
+  "35": "Manual setup — OpenAPI doc generation + typed client for the EventsHub API",
   "36": "EventsHub.UnitTests.csproj",
   "37": "Part 1: .NET + npm in the same repo (e.g. EventsHub)",
   "38": "React + TypeScript + Vite",
@@ -42,5 +42,8 @@
   "40": "web_eventshub_src_index",
   "41": "Part 3: npm only, `package.json` in the repo root (Husky v9)",
   "42": "commit-msg",
-  "43": "pre-commit"
+  "43": "pre-commit",
+  "44": "dependencies",
+  "45": "vite.config.ts",
+  "46": "scripts"
 }

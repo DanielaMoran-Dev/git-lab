@@ -1,12 +1,12 @@
 # Graph Report - proyectos  (2026-10-20)
 
 ## Corpus Check
-- 77 files · ~37,215 words
+- 77 files · ~37,234 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 11 file(s) not represented in the graph (top: (none) 9, .nswag 1, .css 1)
 
 ## Summary
-- 607 nodes · 829 edges · 44 communities (32 shown, 12 thin omitted)
+- 609 nodes · 832 edges · 47 communities (35 shown, 12 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 11 edges (avg confidence: 0.9)
 - Token cost: 0 input · 0 output
 
@@ -41,7 +41,7 @@
 - web/package.json
 - tsconfig.json
 - index.d.ts
-- EventsHubBaseController
+- Manual setup — OpenAPI doc generation + typed client for the EventsHub API
 - EventsHub.UnitTests.csproj
 - Part 1: .NET + npm in the same repo (e.g. EventsHub)
 - React + TypeScript + Vite
@@ -50,6 +50,9 @@
 - Part 3: npm only, `package.json` in the repo root (Husky v9)
 - commit-msg
 - pre-commit
+- dependencies
+- vite.config.ts
+- scripts
 
 ## God Nodes (most connected - your core abstractions)
 1. `Event` - 25 edges
@@ -78,7 +81,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (44 total, 12 thin omitted)
+## Communities (47 total, 12 thin omitted)
 
 ### Community 0 - "EventsRpcClient"
 Cohesion: 0.07
@@ -93,12 +96,12 @@ Cohesion: 0.07
 Nodes (27): AutoMapper (13.0.1), MediatR (14.2.0), Microsoft.AspNetCore.Mvc.NewtonsoftJson (10.0.11), Microsoft.AspNetCore.OpenApi (10.0.11), Microsoft.EntityFrameworkCore.Design (10.0.11), Microsoft.EntityFrameworkCore.Sqlite (10.0.11), Moq (4.20.72), Newtonsoft.Json (13.0.4) (+19 more)
 
 ### Community 3 - "EventsController"
-Cohesion: 0.12
-Nodes (18): ActionResult, Handler, HttpDelete, HttpPost, HttpPut, NotFoundObjectResult, ProducesResponseType, ServiceProvider (+10 more)
+Cohesion: 0.10
+Nodes (22): ActionResult, ControllerBase, Handler, HttpDelete, HttpPost, HttpPut, IMediator, NotFoundObjectResult (+14 more)
 
 ### Community 4 - "EventsHub/package.json"
-Cohesion: 0.06
-Nodes (38): @babel/core, babel-plugin-react-compiler, @emotion/react, @emotion/styled, eslint, @eslint/js, eslint-plugin-react-hooks, eslint-plugin-react-refresh (+30 more)
+Cohesion: 0.11
+Nodes (20): @babel/core, babel-plugin-react-compiler, @emotion/react, @emotion/styled, eslint, @eslint/js, eslint-plugin-react-hooks, eslint-plugin-react-refresh (+12 more)
 
 ### Community 5 - "compilerOptions"
 Cohesion: 0.10
@@ -165,8 +168,8 @@ Cohesion: 0.40
 Nodes (5): DbContext, DbContextOptions, DbSet, AppDbContext, Events
 
 ### Community 22 - "ActivityDashboard.tsx"
-Cohesion: 0.11
-Nodes (22): dependencies, @tanstack/react-query, @fontsource/roboto, @mui/material, react, react-dom, @tanstack/react-query, ActivityCard() (+14 more)
+Cohesion: 0.10
+Nodes (24): dependencies, @tanstack/react-query, @fontsource/roboto, @mui/icons-material, @mui/material, react, react-dom, @tanstack/react-query (+16 more)
 
 ### Community 23 - "Part 2: .NET only (Husky.Net)"
 Cohesion: 0.06
@@ -186,11 +189,11 @@ Nodes (11): Check for context, Ending Discovery, Guardrails, Handling Different 
 
 ### Community 27 - "web/package.json"
 Cohesion: 0.12
-Nodes (15): axios, eslint-config-prettier, lint-staged, prettier, dependencies, axios, devDependencies, eslint-config-prettier (+7 more)
+Nodes (16): axios, eslint-config-prettier, lint-staged, prettier, dependencies, axios, @tanstack/react-query-devtools, devDependencies (+8 more)
 
-### Community 35 - "EventsHubBaseController"
-Cohesion: 0.11
-Nodes (17): ControllerBase, Current state on this branch, Manual setup — OpenAPI doc generation + typed client for the EventsHub API, Part 1 — Manually scaffold the pieces, Part 2 — Populate the generated content, Step 1: Create `src/EventsHub.OpenApi/` (the standalone doc-generation host), Step 2: Create `openapi/` (generated output folder), Step 3: Create `nswag/EventsHub.nswag` (checked-in codegen config) (+9 more)
+### Community 35 - "Manual setup — OpenAPI doc generation + typed client for the EventsHub API"
+Cohesion: 0.13
+Nodes (13): Current state on this branch, Manual setup — OpenAPI doc generation + typed client for the EventsHub API, Part 1 — Manually scaffold the pieces, Part 2 — Populate the generated content, Step 1: Create `src/EventsHub.OpenApi/` (the standalone doc-generation host), Step 2: Create `openapi/` (generated output folder), Step 3: Create `nswag/EventsHub.nswag` (checked-in codegen config), Step 4: Register the NSwag CLI as a local tool (+5 more)
 
 ### Community 36 - "EventsHub.UnitTests.csproj"
 Cohesion: 0.14
@@ -208,18 +211,30 @@ Nodes (3): Expanding the ESLint configuration, React Compiler, React + TypeScrip
 Cohesion: 0.13
 Nodes (15): Optional: add Prettier (code formatting), Part 3: npm only, `package.json` in the repo root (Husky v9), Skipping hooks (use sparingly), Step 10: Commit the Husky files, Step 11: Setup for a new teammate or CI, Step 1: Check prerequisites, Step 2: Make sure `package.json` and `.gitignore` exist, Step 3: Install Husky (+7 more)
 
+### Community 44 - "dependencies"
+Cohesion: 0.25
+Nodes (8): dependencies, @emotion/react, @emotion/styled, @fontsource/roboto, @mui/icons-material, @mui/material, react, react-dom
+
+### Community 45 - "vite.config.ts"
+Cohesion: 0.40
+Nodes (4): @rolldown/plugin-babel, vite, ref_vite_plugin_mkcert, @vitejs/plugin-react
+
+### Community 46 - "scripts"
+Cohesion: 0.40
+Nodes (5): scripts, build, dev, lint, preview
+
 ## Knowledge Gaps
-- **279 isolated node(s):** `@tanstack/react-query`, `Mediator`, `net10.0`, `Microsoft.AspNetCore.OpenApi (10.0.11)`, `Microsoft.EntityFrameworkCore.Design (10.0.11)` (+274 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 354 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **280 isolated node(s):** `@tanstack/react-query`, `Mediator`, `net10.0`, `Microsoft.AspNetCore.OpenApi (10.0.11)`, `Microsoft.EntityFrameworkCore.Design (10.0.11)` (+275 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 355 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `WeatherForecastController` connect `EventsHubBaseController` to `EventsHub.Persistence`?**
-  _High betweenness centrality (0.104) - this node is a cross-community bridge._
+- **Why does `WeatherForecastController` connect `Manual setup — OpenAPI doc generation + typed client for the EventsHub API` to `EventsHub.Persistence`, `EventsController`?**
+  _High betweenness centrality (0.103) - this node is a cross-community bridge._
 - **What connects `@tanstack/react-query`, `Mediator`, `net10.0` to the rest of the system?**
-  _279 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _280 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `EventsRpcClient` be split into smaller, more focused modules?**
   _Cohesion score 0.07373271889400922 - nodes in this community are weakly interconnected._
 - **Should `EventsHub.Persistence` be split into smaller, more focused modules?**
@@ -227,6 +242,6 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `EventsHub.UnitTest.csproj` be split into smaller, more focused modules?**
   _Cohesion score 0.07007575757575757 - nodes in this community are weakly interconnected._
 - **Should `EventsController` be split into smaller, more focused modules?**
-  _Cohesion score 0.12433862433862433 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1028225806451613 - nodes in this community are weakly interconnected._
 - **Should `EventsHub/package.json` be split into smaller, more focused modules?**
-  _Cohesion score 0.05731707317073171 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.11255411255411256 - nodes in this community are weakly interconnected._
