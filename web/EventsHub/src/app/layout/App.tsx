@@ -5,18 +5,20 @@ import ActivityDashboard from '../features/activities/dashboard/ActivityDashboar
 import { useActivities } from '../../lib/hooks/useActivities'
 
 function App() {
-  const [selectedActivity, setSelectedActivity] = useState<
-    Activity | undefined
-  >(undefined)
+  const [selectedActivityId, setSelectedActivityId] = useState<string>()
   const [editMode, setEditMode] = useState(false)
   const { activities, isPending } = useActivities()
 
+  const selectedActivity = activities?.find(
+    (activity) => activity.id === selectedActivityId,
+  )
+
   const handleSelectActivity = (id: string) => {
-    setSelectedActivity(activities?.find((x) => x.id === id))
+    setSelectedActivityId(id)
   }
 
   const handleCancelSelectActivity = () => {
-    setSelectedActivity(undefined)
+    setSelectedActivityId(undefined)
   }
 
   const handleOpenForm = (id?: string) => {
@@ -26,20 +28,6 @@ function App() {
   }
 
   const handleFormClose = () => {
-    setEditMode(false)
-  }
-
-  const handleSubmitForm = (activity: Activity) => {
-    //   if (activity.id) {
-    //     setSelectedActivity(activity)
-    //     setActivities(
-    //       activities.map((act) => (act.id === activity.id ? activity : act)),
-    //     )
-    //   } else {
-    //     const newActivity = { ...activity, id: activities.length.toString() }
-    //     setSelectedActivity(newActivity)
-    //     setActivities([...activities, newActivity])
-    console.log(activity)
     setEditMode(false)
   }
 
@@ -64,7 +52,6 @@ function App() {
             editMode={editMode}
             openForm={handleOpenForm}
             closeForm={handleFormClose}
-            submitForm={handleSubmitForm}
             deleteActivity={handleDeleteActivity}
           />
         )}
