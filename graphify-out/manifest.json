@@ -264,9 +264,9 @@
     "semantic_hash": ""
   },
   "web/EventsHub/package.json": {
-    "mtime": 1792506968.3242204,
-    "seen": 1792517839.1622922,
-    "ast_hash": "a855a8bf83651f06e8740424f72481ea",
+    "mtime": 1792676334.1150737,
+    "seen": 1792676360.0665574,
+    "ast_hash": "1121a6e355a367943f68df7147c0a6c6",
     "semantic_hash": ""
   },
   "web/EventsHub/src/lib/types/index.d.ts": {
@@ -276,9 +276,9 @@
     "semantic_hash": ""
   },
   "web/EventsHub/src/main.tsx": {
-    "mtime": 1792517730.6767883,
-    "seen": 1792517839.1623263,
-    "ast_hash": "dfeb8ff61ad2df6e9b7013967a5509a0",
+    "mtime": 1792517893.0865207,
+    "seen": 1792676360.0666425,
+    "ast_hash": "c4fd11a18fddff746c4dc107d875580f",
     "semantic_hash": ""
   },
   "web/EventsHub/tests/EventsHub.UnitTests/EventsHub.UnitTests.csproj": {
@@ -318,9 +318,9 @@
     "semantic_hash": ""
   },
   "web/package.json": {
-    "mtime": 1792517730.6833334,
-    "seen": 1792517839.1623507,
-    "ast_hash": "c00ca98a7f4fba23e8221d63cf37a0e5",
+    "mtime": 1792517884.4892397,
+    "seen": 1792676360.066678,
+    "ast_hash": "ef3dbe6a3d67a92ad28ab6d25d8c0d18",
     "semantic_hash": ""
   },
   ".agents/skills/openspec-apply-change/SKILL.md": {
@@ -468,9 +468,9 @@
     "semantic_hash": ""
   },
   "web/EventsHub/src/app/layout/App.tsx": {
-    "mtime": 1792517730.6747656,
-    "seen": 1792517839.1623144,
-    "ast_hash": "384990d7e43c14cfa3e200f7b5e3c8f5",
+    "mtime": 1792675407.5601704,
+    "seen": 1792676360.066589,
+    "ast_hash": "a728b821ee173f52e68894cb0873b53e",
     "semantic_hash": ""
   },
   "web/EventsHub/src/app/layout/NavBar.tsx": {
@@ -570,15 +570,27 @@
     "semantic_hash": ""
   },
   ".husky/commit-msg": {
-    "mtime": 1792517817.5492291,
-    "seen": 1792517839.162084,
-    "ast_hash": "cc80cba4bda6fc9a98358efcb9c7a940",
+    "mtime": 1792588113.451035,
+    "seen": 1792676360.066318,
+    "ast_hash": "0af23bce2106e32780ac605b8bd2bb95",
     "semantic_hash": ""
   },
   "package.json": {
     "mtime": 1792517730.6717725,
     "seen": 1792517839.1621149,
     "ast_hash": "c2be0e33067851d9195683071bbb42c9",
+    "semantic_hash": ""
+  },
+  "web/EventsHub/src/lib/hooks/useActivities.ts": {
+    "mtime": 1792675870.1879663,
+    "seen": 1792676360.0665996,
+    "ast_hash": "ba0d796e0c921d5fb2df612e5d7affe9",
+    "semantic_hash": ""
+  },
+  "web/EventsHub/src/lib/types/api/agents.ts": {
+    "mtime": 1792676149.9043553,
+    "seen": 1792676360.0666049,
+    "ast_hash": "4a20175cd12d0455214e423980310ffc",
     "semantic_hash": ""
   }
 }

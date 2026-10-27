@@ -1,12 +1,12 @@
-# Graph Report - proyectos  (2026-10-20)
+# Graph Report - proyectos  (2026-10-22)
 
 ## Corpus Check
-- 77 files · ~37,234 words
+- 79 files · ~37,312 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 11 file(s) not represented in the graph (top: (none) 9, .nswag 1, .css 1)
 
 ## Summary
-- 609 nodes · 832 edges · 47 communities (35 shown, 12 thin omitted)
+- 623 nodes · 846 edges · 46 communities (34 shown, 12 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 11 edges (avg confidence: 0.9)
 - Token cost: 0 input · 0 output
 
@@ -51,8 +51,7 @@
 - commit-msg
 - pre-commit
 - dependencies
-- vite.config.ts
-- scripts
+- package.json
 
 ## God Nodes (most connected - your core abstractions)
 1. `Event` - 25 edges
@@ -81,7 +80,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (47 total, 12 thin omitted)
+## Communities (46 total, 12 thin omitted)
 
 ### Community 0 - "EventsRpcClient"
 Cohesion: 0.07
@@ -100,8 +99,8 @@ Cohesion: 0.10
 Nodes (22): ActionResult, ControllerBase, Handler, HttpDelete, HttpPost, HttpPut, IMediator, NotFoundObjectResult (+14 more)
 
 ### Community 4 - "EventsHub/package.json"
-Cohesion: 0.11
-Nodes (20): @babel/core, babel-plugin-react-compiler, @emotion/react, @emotion/styled, eslint, @eslint/js, eslint-plugin-react-hooks, eslint-plugin-react-refresh (+12 more)
+Cohesion: 0.07
+Nodes (32): @babel/core, babel-plugin-react-compiler, @emotion/react, @emotion/styled, eslint, @eslint/js, eslint-plugin-react-hooks, eslint-plugin-react-refresh (+24 more)
 
 ### Community 5 - "compilerOptions"
 Cohesion: 0.10
@@ -169,7 +168,7 @@ Nodes (5): DbContext, DbContextOptions, DbSet, AppDbContext, Events
 
 ### Community 22 - "ActivityDashboard.tsx"
 Cohesion: 0.10
-Nodes (24): dependencies, @tanstack/react-query, @fontsource/roboto, @mui/icons-material, @mui/material, react, react-dom, @tanstack/react-query (+16 more)
+Nodes (25): ref_axios, @fontsource/roboto, @mui/icons-material, @mui/material, react, react-dom, ref_tanstack_react_query, ref_tanstack_react_query_devtools (+17 more)
 
 ### Community 23 - "Part 2: .NET only (Husky.Net)"
 Cohesion: 0.06
@@ -188,8 +187,8 @@ Cohesion: 0.17
 Nodes (11): Check for context, Ending Discovery, Guardrails, Handling Different Entry Points, OpenSpec Awareness, Planning a Change, The Stance, What You Don't Have To Do (+3 more)
 
 ### Community 27 - "web/package.json"
-Cohesion: 0.12
-Nodes (16): axios, eslint-config-prettier, lint-staged, prettier, dependencies, axios, @tanstack/react-query-devtools, devDependencies (+8 more)
+Cohesion: 0.11
+Nodes (17): eslint-config-prettier, lint-staged, prettier, dependencies, axios, @tanstack/react-query-devtools, devDependencies, eslint-config-prettier (+9 more)
 
 ### Community 35 - "Manual setup — OpenAPI doc generation + typed client for the EventsHub API"
 Cohesion: 0.13
@@ -212,29 +211,25 @@ Cohesion: 0.13
 Nodes (15): Optional: add Prettier (code formatting), Part 3: npm only, `package.json` in the repo root (Husky v9), Skipping hooks (use sparingly), Step 10: Commit the Husky files, Step 11: Setup for a new teammate or CI, Step 1: Check prerequisites, Step 2: Make sure `package.json` and `.gitignore` exist, Step 3: Install Husky (+7 more)
 
 ### Community 44 - "dependencies"
-Cohesion: 0.25
-Nodes (8): dependencies, @emotion/react, @emotion/styled, @fontsource/roboto, @mui/icons-material, @mui/material, react, react-dom
+Cohesion: 0.18
+Nodes (11): dependencies, axios, @emotion/react, @emotion/styled, @fontsource/roboto, @mui/icons-material, @mui/material, react (+3 more)
 
-### Community 45 - "vite.config.ts"
-Cohesion: 0.40
-Nodes (4): @rolldown/plugin-babel, vite, ref_vite_plugin_mkcert, @vitejs/plugin-react
-
-### Community 46 - "scripts"
-Cohesion: 0.40
-Nodes (5): scripts, build, dev, lint, preview
+### Community 45 - "package.json"
+Cohesion: 0.50
+Nodes (3): dependencies, @tanstack/react-query, @tanstack/react-query
 
 ## Knowledge Gaps
-- **280 isolated node(s):** `@tanstack/react-query`, `Mediator`, `net10.0`, `Microsoft.AspNetCore.OpenApi (10.0.11)`, `Microsoft.EntityFrameworkCore.Design (10.0.11)` (+275 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 355 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **289 isolated node(s):** `@tanstack/react-query`, `@tanstack/react-query`, `Mediator`, `net10.0`, `Microsoft.AspNetCore.OpenApi (10.0.11)` (+284 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 367 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `WeatherForecastController` connect `Manual setup — OpenAPI doc generation + typed client for the EventsHub API` to `EventsHub.Persistence`, `EventsController`?**
-  _High betweenness centrality (0.103) - this node is a cross-community bridge._
-- **What connects `@tanstack/react-query`, `Mediator`, `net10.0` to the rest of the system?**
-  _280 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.099) - this node is a cross-community bridge._
+- **What connects `@tanstack/react-query`, `@tanstack/react-query`, `Mediator` to the rest of the system?**
+  _289 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `EventsRpcClient` be split into smaller, more focused modules?**
   _Cohesion score 0.07373271889400922 - nodes in this community are weakly interconnected._
 - **Should `EventsHub.Persistence` be split into smaller, more focused modules?**
@@ -244,4 +239,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `EventsController` be split into smaller, more focused modules?**
   _Cohesion score 0.1028225806451613 - nodes in this community are weakly interconnected._
 - **Should `EventsHub/package.json` be split into smaller, more focused modules?**
-  _Cohesion score 0.11255411255411256 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06890756302521009 - nodes in this community are weakly interconnected._

@@ -1795,7 +1795,7 @@
       "file_type": "code",
       "norm_label": "app()",
       "source_file": "web/EventsHub/src/app/layout/App.tsx",
-      "source_location": "L8"
+      "source_location": "L7"
     },
     {
       "id": "web_eventshub_src_app_layout_navbar_navbar",
@@ -1808,6 +1808,30 @@
       "norm_label": "navbar()",
       "source_file": "web/EventsHub/src/app/layout/NavBar.tsx",
       "source_location": "L17"
+    },
+    {
+      "id": "web_eventshub_src_lib_hooks_useactivities_useactivities",
+      "label": "useActivities()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "useactivities()",
+      "source_file": "web/EventsHub/src/lib/hooks/useActivities.ts",
+      "source_location": "L4"
+    },
+    {
+      "id": "web_eventshub_src_lib_types_api_agents_sleep",
+      "label": "sleep()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "sleep()",
+      "source_file": "web/EventsHub/src/lib/types/api/agents.ts",
+      "source_location": "L3"
     },
     {
       "id": "web_eventshub_tests_eventshub_unittests_unittest1_eventshub_unittests_tests_setup",
@@ -4379,39 +4403,6 @@
       "source_location": "L9"
     },
     {
-      "id": "package",
-      "label": "package.json",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "ActivityDashboard.tsx",
-      "file_type": "code",
-      "norm_label": "package.json",
-      "source_file": "package.json",
-      "source_location": "L1"
-    },
-    {
-      "id": "package_dependencies",
-      "label": "dependencies",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "ActivityDashboard.tsx",
-      "file_type": "code",
-      "norm_label": "dependencies",
-      "source_file": "package.json",
-      "source_location": "L2"
-    },
-    {
-      "id": "package_dependencies_tanstack_react_query",
-      "label": "@tanstack/react-query",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "ActivityDashboard.tsx",
-      "file_type": "code",
-      "norm_label": "@tanstack/react-query",
-      "source_file": "package.json",
-      "source_location": "L3"
-    },
-    {
       "id": "web_eventshub_src_app_features_activities_dashboard_activitycard",
       "label": "ActivityCard.tsx",
       "_origin": "ast",
@@ -4489,6 +4480,39 @@
       "source_location": "L1"
     },
     {
+      "id": "web_eventshub_src_lib_hooks_useactivities",
+      "label": "useActivities.ts",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "useactivities.ts",
+      "source_file": "web/EventsHub/src/lib/hooks/useActivities.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "web_eventshub_src_lib_types_api_agents",
+      "label": "agents.ts",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "agents.ts",
+      "source_file": "web/EventsHub/src/lib/types/api/agents.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "web_eventshub_src_lib_types_api_agents_agent",
+      "label": "agent",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "file_type": "code",
+      "norm_label": "agent",
+      "source_file": "web/EventsHub/src/lib/types/api/agents.ts",
+      "source_location": "L10"
+    },
+    {
       "id": "web_eventshub_src_main",
       "label": "main.tsx",
       "_origin": "ast",
@@ -4552,7 +4576,7 @@
       "file_type": "concept",
       "norm_label": "react",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L18"
+      "source_location": "L21"
     },
     {
       "id": "ref_react_dom",
@@ -4563,29 +4587,7 @@
       "file_type": "concept",
       "norm_label": "react-dom",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L19"
-    },
-    {
-      "id": "ref_tanstack_react_query",
-      "label": "@tanstack/react-query",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "ActivityDashboard.tsx",
-      "file_type": "concept",
-      "norm_label": "@tanstack/react-query",
-      "source_file": "package.json",
-      "source_location": "L3"
-    },
-    {
-      "id": "ref_tanstack_react_query_devtools",
-      "label": "@tanstack/react-query-devtools",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "ActivityDashboard.tsx",
-      "file_type": "concept",
-      "norm_label": "@tanstack/react-query-devtools",
-      "source_file": "web/package.json",
-      "source_location": "L9"
+      "source_location": "L22"
     },
     {
       "id": "docs_guides_husky_setup",
@@ -5337,17 +5339,6 @@
       "source_location": "L13"
     },
     {
-      "id": "ref_axios",
-      "label": "axios",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "web/package.json",
-      "file_type": "concept",
-      "norm_label": "axios",
-      "source_file": "web/package.json",
-      "source_location": "L10"
-    },
-    {
       "id": "ref_eslint_config_prettier",
       "label": "eslint-config-prettier",
       "_origin": "ast",
@@ -5379,6 +5370,28 @@
       "norm_label": "prettier",
       "source_file": "web/package.json",
       "source_location": "L5"
+    },
+    {
+      "id": "web_package_json_ref_axios",
+      "label": "axios",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "web/package.json",
+      "file_type": "concept",
+      "norm_label": "axios",
+      "source_file": "web/package.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "web_package_json_ref_tanstack_react_query_devtools",
+      "label": "@tanstack/react-query-devtools",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "web/package.json",
+      "file_type": "concept",
+      "norm_label": "@tanstack/react-query-devtools",
+      "source_file": "web/package.json",
+      "source_location": "L9"
     },
     {
       "id": "web_package_json_ref_vite_plugin_mkcert",
@@ -6349,6 +6362,61 @@
       "source_location": "L3"
     },
     {
+      "id": "web_eventshub_package_scripts",
+      "label": "scripts",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "scripts",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "web_eventshub_package_scripts_build",
+      "label": "build",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "build",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "web_eventshub_package_scripts_dev",
+      "label": "dev",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "dev",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "web_eventshub_package_scripts_lint",
+      "label": "lint",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "lint",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "web_eventshub_package_scripts_preview",
+      "label": "preview",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "preview",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L10"
+    },
+    {
       "id": "web_eventshub_package_type",
       "label": "type",
       "_origin": "ast",
@@ -6371,6 +6439,17 @@
       "source_location": "L4"
     },
     {
+      "id": "web_eventshub_vite_config",
+      "label": "vite.config.ts",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "code",
+      "norm_label": "vite.config.ts",
+      "source_file": "web/EventsHub/vite.config.ts",
+      "source_location": "L1"
+    },
+    {
       "id": "ref_babel_core",
       "label": "@babel/core",
       "_origin": "ast",
@@ -6379,7 +6458,7 @@
       "file_type": "concept",
       "norm_label": "@babel/core",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L22"
+      "source_location": "L25"
     },
     {
       "id": "ref_babel_plugin_react_compiler",
@@ -6390,7 +6469,7 @@
       "file_type": "concept",
       "norm_label": "babel-plugin-react-compiler",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L30"
+      "source_location": "L33"
     },
     {
       "id": "ref_emotion_react",
@@ -6423,7 +6502,7 @@
       "file_type": "concept",
       "norm_label": "eslint",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L31"
+      "source_location": "L34"
     },
     {
       "id": "ref_eslint_js",
@@ -6434,7 +6513,7 @@
       "file_type": "concept",
       "norm_label": "@eslint/js",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L23"
+      "source_location": "L26"
     },
     {
       "id": "ref_eslint_plugin_react_hooks",
@@ -6445,7 +6524,7 @@
       "file_type": "concept",
       "norm_label": "eslint-plugin-react-hooks",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L32"
+      "source_location": "L35"
     },
     {
       "id": "ref_eslint_plugin_react_refresh",
@@ -6456,7 +6535,7 @@
       "file_type": "concept",
       "norm_label": "eslint-plugin-react-refresh",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L33"
+      "source_location": "L36"
     },
     {
       "id": "ref_globals",
@@ -6467,7 +6546,18 @@
       "file_type": "concept",
       "norm_label": "globals",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L34"
+      "source_location": "L37"
+    },
+    {
+      "id": "ref_rolldown_plugin_babel",
+      "label": "@rolldown/plugin-babel",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "concept",
+      "norm_label": "@rolldown/plugin-babel",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L27"
     },
     {
       "id": "ref_types_babel_core",
@@ -6478,7 +6568,7 @@
       "file_type": "concept",
       "norm_label": "@types/babel__core",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L25"
+      "source_location": "L28"
     },
     {
       "id": "ref_types_node",
@@ -6489,7 +6579,7 @@
       "file_type": "concept",
       "norm_label": "@types/node",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L26"
+      "source_location": "L29"
     },
     {
       "id": "ref_types_react",
@@ -6500,7 +6590,7 @@
       "file_type": "concept",
       "norm_label": "@types/react",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L27"
+      "source_location": "L30"
     },
     {
       "id": "ref_types_react_dom",
@@ -6511,7 +6601,7 @@
       "file_type": "concept",
       "norm_label": "@types/react-dom",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L28"
+      "source_location": "L31"
     },
     {
       "id": "ref_typescript",
@@ -6522,7 +6612,7 @@
       "file_type": "concept",
       "norm_label": "typescript",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L35"
+      "source_location": "L38"
     },
     {
       "id": "ref_typescript_eslint",
@@ -6533,7 +6623,62 @@
       "file_type": "concept",
       "norm_label": "typescript-eslint",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L36"
+      "source_location": "L39"
+    },
+    {
+      "id": "ref_vite",
+      "label": "vite",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "concept",
+      "norm_label": "vite",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L40"
+    },
+    {
+      "id": "ref_vitejs_plugin_react",
+      "label": "@vitejs/plugin-react",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "concept",
+      "norm_label": "@vitejs/plugin-react",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L32"
+    },
+    {
+      "id": "web_eventshub_package_json_ref_axios",
+      "label": "axios",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "concept",
+      "norm_label": "axios",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L20"
+    },
+    {
+      "id": "web_eventshub_package_json_ref_tanstack_react_query",
+      "label": "@tanstack/react-query",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "concept",
+      "norm_label": "@tanstack/react-query",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L18"
+    },
+    {
+      "id": "web_eventshub_package_json_ref_tanstack_react_query_devtools",
+      "label": "@tanstack/react-query-devtools",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "file_type": "concept",
+      "norm_label": "@tanstack/react-query-devtools",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L19"
     },
     {
       "id": "web_eventshub_package_json_ref_vite_plugin_mkcert",
@@ -6544,7 +6689,7 @@
       "file_type": "concept",
       "norm_label": "vite-plugin-mkcert",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L38"
+      "source_location": "L41"
     },
     {
       "id": "docs_guides_husky_setup_optional_add_prettier_code_formatting_622",
@@ -6798,6 +6943,17 @@
       "source_location": "L12"
     },
     {
+      "id": "web_eventshub_package_dependencies_axios",
+      "label": "axios",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "axios",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L20"
+    },
+    {
       "id": "web_eventshub_package_dependencies_emotion_react",
       "label": "@emotion/react",
       "_origin": "ast",
@@ -6861,7 +7017,7 @@
       "file_type": "code",
       "norm_label": "react",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L18"
+      "source_location": "L21"
     },
     {
       "id": "web_eventshub_package_dependencies_react_dom",
@@ -6872,106 +7028,73 @@
       "file_type": "code",
       "norm_label": "react-dom",
       "source_file": "web/EventsHub/package.json",
+      "source_location": "L22"
+    },
+    {
+      "id": "web_eventshub_package_dependencies_tanstack_react_query",
+      "label": "@tanstack/react-query",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "@tanstack/react-query",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L18"
+    },
+    {
+      "id": "web_eventshub_package_dependencies_tanstack_react_query_devtools",
+      "label": "@tanstack/react-query-devtools",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "@tanstack/react-query-devtools",
+      "source_file": "web/EventsHub/package.json",
       "source_location": "L19"
     },
     {
-      "id": "web_eventshub_vite_config",
-      "label": "vite.config.ts",
+      "id": "package",
+      "label": "package.json",
       "_origin": "ast",
       "community": 45,
-      "community_name": "vite.config.ts",
+      "community_name": "package.json",
       "file_type": "code",
-      "norm_label": "vite.config.ts",
-      "source_file": "web/EventsHub/vite.config.ts",
+      "norm_label": "package.json",
+      "source_file": "package.json",
       "source_location": "L1"
     },
     {
-      "id": "ref_rolldown_plugin_babel",
-      "label": "@rolldown/plugin-babel",
+      "id": "package_dependencies",
+      "label": "dependencies",
       "_origin": "ast",
       "community": 45,
-      "community_name": "vite.config.ts",
-      "file_type": "concept",
-      "norm_label": "@rolldown/plugin-babel",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L24"
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "dependencies",
+      "source_file": "package.json",
+      "source_location": "L2"
     },
     {
-      "id": "ref_vite",
-      "label": "vite",
+      "id": "package_dependencies_tanstack_react_query",
+      "label": "@tanstack/react-query",
       "_origin": "ast",
       "community": 45,
-      "community_name": "vite.config.ts",
-      "file_type": "concept",
-      "norm_label": "vite",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L37"
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "@tanstack/react-query",
+      "source_file": "package.json",
+      "source_location": "L3"
     },
     {
-      "id": "ref_vitejs_plugin_react",
-      "label": "@vitejs/plugin-react",
+      "id": "package_json_ref_tanstack_react_query",
+      "label": "@tanstack/react-query",
       "_origin": "ast",
       "community": 45,
-      "community_name": "vite.config.ts",
+      "community_name": "package.json",
       "file_type": "concept",
-      "norm_label": "@vitejs/plugin-react",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L29"
-    },
-    {
-      "id": "web_eventshub_package_scripts",
-      "label": "scripts",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "scripts",
-      "file_type": "code",
-      "norm_label": "scripts",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L6"
-    },
-    {
-      "id": "web_eventshub_package_scripts_build",
-      "label": "build",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "scripts",
-      "file_type": "code",
-      "norm_label": "build",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L8"
-    },
-    {
-      "id": "web_eventshub_package_scripts_dev",
-      "label": "dev",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "scripts",
-      "file_type": "code",
-      "norm_label": "dev",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L7"
-    },
-    {
-      "id": "web_eventshub_package_scripts_lint",
-      "label": "lint",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "scripts",
-      "file_type": "code",
-      "norm_label": "lint",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L9"
-    },
-    {
-      "id": "web_eventshub_package_scripts_preview",
-      "label": "preview",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "scripts",
-      "file_type": "code",
-      "norm_label": "preview",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L10"
+      "norm_label": "@tanstack/react-query",
+      "source_file": "package.json",
+      "source_location": "L3"
     },
     {
       "id": "web_eventshub_tsconfig_app",
@@ -7451,7 +7574,7 @@
       "file_type": "code",
       "norm_label": "devdependencies",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L21"
+      "source_location": "L24"
     },
     {
       "id": "web_eventshub_package_devdependencies_babel_core",
@@ -7462,7 +7585,7 @@
       "file_type": "code",
       "norm_label": "@babel/core",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L22"
+      "source_location": "L25"
     },
     {
       "id": "web_eventshub_package_devdependencies_babel_plugin_react_compiler",
@@ -7473,7 +7596,7 @@
       "file_type": "code",
       "norm_label": "babel-plugin-react-compiler",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L30"
+      "source_location": "L33"
     },
     {
       "id": "web_eventshub_package_devdependencies_eslint",
@@ -7484,7 +7607,7 @@
       "file_type": "code",
       "norm_label": "eslint",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L31"
+      "source_location": "L34"
     },
     {
       "id": "web_eventshub_package_devdependencies_eslint_js",
@@ -7495,7 +7618,7 @@
       "file_type": "code",
       "norm_label": "@eslint/js",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L23"
+      "source_location": "L26"
     },
     {
       "id": "web_eventshub_package_devdependencies_eslint_plugin_react_hooks",
@@ -7506,7 +7629,7 @@
       "file_type": "code",
       "norm_label": "eslint-plugin-react-hooks",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L32"
+      "source_location": "L35"
     },
     {
       "id": "web_eventshub_package_devdependencies_eslint_plugin_react_refresh",
@@ -7517,7 +7640,7 @@
       "file_type": "code",
       "norm_label": "eslint-plugin-react-refresh",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L33"
+      "source_location": "L36"
     },
     {
       "id": "web_eventshub_package_devdependencies_globals",
@@ -7528,7 +7651,7 @@
       "file_type": "code",
       "norm_label": "globals",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L34"
+      "source_location": "L37"
     },
     {
       "id": "web_eventshub_package_devdependencies_rolldown_plugin_babel",
@@ -7539,7 +7662,7 @@
       "file_type": "code",
       "norm_label": "@rolldown/plugin-babel",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L24"
+      "source_location": "L27"
     },
     {
       "id": "web_eventshub_package_devdependencies_types_babel_core",
@@ -7550,7 +7673,7 @@
       "file_type": "code",
       "norm_label": "@types/babel__core",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L25"
+      "source_location": "L28"
     },
     {
       "id": "web_eventshub_package_devdependencies_types_node",
@@ -7561,7 +7684,7 @@
       "file_type": "code",
       "norm_label": "@types/node",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L26"
+      "source_location": "L29"
     },
     {
       "id": "web_eventshub_package_devdependencies_types_react",
@@ -7572,7 +7695,7 @@
       "file_type": "code",
       "norm_label": "@types/react",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L27"
+      "source_location": "L30"
     },
     {
       "id": "web_eventshub_package_devdependencies_types_react_dom",
@@ -7583,7 +7706,7 @@
       "file_type": "code",
       "norm_label": "@types/react-dom",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L28"
+      "source_location": "L31"
     },
     {
       "id": "web_eventshub_package_devdependencies_typescript",
@@ -7594,7 +7717,7 @@
       "file_type": "code",
       "norm_label": "typescript",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L35"
+      "source_location": "L38"
     },
     {
       "id": "web_eventshub_package_devdependencies_typescript_eslint",
@@ -7605,7 +7728,7 @@
       "file_type": "code",
       "norm_label": "typescript-eslint",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L36"
+      "source_location": "L39"
     },
     {
       "id": "web_eventshub_package_devdependencies_vite",
@@ -7616,7 +7739,7 @@
       "file_type": "code",
       "norm_label": "vite",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L37"
+      "source_location": "L40"
     },
     {
       "id": "web_eventshub_package_devdependencies_vite_plugin_mkcert",
@@ -7627,7 +7750,7 @@
       "file_type": "code",
       "norm_label": "vite-plugin-mkcert",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L38"
+      "source_location": "L41"
     },
     {
       "id": "web_eventshub_package_devdependencies_vitejs_plugin_react",
@@ -7638,7 +7761,7 @@
       "file_type": "code",
       "norm_label": "@vitejs/plugin-react",
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L29"
+      "source_location": "L32"
     },
     {
       "id": "web_eventshub_tsconfig_node",
@@ -8260,6 +8383,18 @@
       "type": "external"
     },
     {
+      "id": "ref_vite_plugin_mkcert",
+      "label": "ref_vite_plugin_mkcert",
+      "_origin": "semantic",
+      "community": 4,
+      "community_name": "EventsHub/package.json",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "ref_vite_plugin_mkcert",
+      "source_file": "",
+      "type": "external"
+    },
+    {
       "id": "web_eventshub_src_index",
       "label": "web_eventshub_src_index",
       "_origin": "semantic",
@@ -8272,14 +8407,35 @@
       "type": "external"
     },
     {
-      "id": "ref_vite_plugin_mkcert",
-      "label": "ref_vite_plugin_mkcert",
-      "_origin": "semantic",
-      "community": 45,
-      "community_name": "vite.config.ts",
+      "id": "ref_axios",
+      "label": "ref_axios",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
       "external": true,
       "file_type": "concept",
-      "norm_label": "ref_vite_plugin_mkcert",
+      "norm_label": "ref_axios",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "ref_tanstack_react_query",
+      "label": "ref_tanstack_react_query",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "ref_tanstack_react_query",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "ref_tanstack_react_query_devtools",
+      "label": "ref_tanstack_react_query_devtools",
+      "community": 22,
+      "community_name": "ActivityDashboard.tsx",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "ref_tanstack_react_query_devtools",
       "source_file": "",
       "type": "external"
     }
@@ -9087,6 +9243,18 @@
     },
     {
       "source": "web_eventshub_src_app_layout_app_app",
+      "target": "web_eventshub_src_lib_hooks_useactivities_useactivities",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "web/EventsHub/src/app/layout/App.tsx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_layout_app_app",
       "target": "web_eventshub_src_app_layout_navbar_navbar",
       "relation": "calls",
       "_origin": "ast",
@@ -9094,7 +9262,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "web/EventsHub/src/app/layout/App.tsx",
-      "source_location": "L64",
+      "source_location": "L54",
       "weight": 1.0
     },
     {
@@ -9106,7 +9274,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "web/EventsHub/src/app/layout/App.tsx",
-      "source_location": "L69",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_lib_types_api_agents",
+      "target": "web_eventshub_src_lib_types_api_agents_sleep",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "web/EventsHub/src/lib/types/api/agents.ts",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -11995,7 +12175,7 @@
     },
     {
       "source": "package",
-      "target": "ref_tanstack_react_query",
+      "target": "package_json_ref_tanstack_react_query",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12067,7 +12247,7 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "ref_react",
+      "target": "web_eventshub_package_json_ref_tanstack_react_query",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12079,7 +12259,7 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "ref_react_dom",
+      "target": "web_eventshub_package_json_ref_tanstack_react_query_devtools",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12091,7 +12271,31 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "ref_babel_core",
+      "target": "web_eventshub_package_json_ref_axios",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_package",
+      "target": "ref_react",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_package",
+      "target": "ref_react_dom",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12103,31 +12307,7 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "ref_eslint_js",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L23",
-      "weight": 1.0
-    },
-    {
-      "source": "web_eventshub_package",
-      "target": "ref_rolldown_plugin_babel",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L24",
-      "weight": 1.0
-    },
-    {
-      "source": "web_eventshub_package",
-      "target": "ref_types_babel_core",
+      "target": "ref_babel_core",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12139,7 +12319,7 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "ref_types_node",
+      "target": "ref_eslint_js",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12151,7 +12331,7 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "ref_types_react",
+      "target": "ref_rolldown_plugin_babel",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12163,7 +12343,7 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "ref_types_react_dom",
+      "target": "ref_types_babel_core",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12175,7 +12355,7 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "ref_vitejs_plugin_react",
+      "target": "ref_types_node",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12187,7 +12367,7 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "ref_babel_plugin_react_compiler",
+      "target": "ref_types_react",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12199,7 +12379,7 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "ref_eslint",
+      "target": "ref_types_react_dom",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12211,7 +12391,7 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "ref_eslint_plugin_react_hooks",
+      "target": "ref_vitejs_plugin_react",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12223,7 +12403,7 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "ref_eslint_plugin_react_refresh",
+      "target": "ref_babel_plugin_react_compiler",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12235,7 +12415,7 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "ref_globals",
+      "target": "ref_eslint",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12247,7 +12427,7 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "ref_typescript",
+      "target": "ref_eslint_plugin_react_hooks",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12259,7 +12439,7 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "ref_typescript_eslint",
+      "target": "ref_eslint_plugin_react_refresh",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12271,7 +12451,7 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "ref_vite",
+      "target": "ref_globals",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12283,7 +12463,7 @@
     },
     {
       "source": "web_eventshub_package",
-      "target": "web_eventshub_package_json_ref_vite_plugin_mkcert",
+      "target": "ref_typescript",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12291,6 +12471,42 @@
       "context": "import",
       "source_file": "web/EventsHub/package.json",
       "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_package",
+      "target": "ref_typescript_eslint",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_package",
+      "target": "ref_vite",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_package",
+      "target": "web_eventshub_package_json_ref_vite_plugin_mkcert",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L41",
       "weight": 1.0
     },
     {
@@ -12350,7 +12566,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "web/EventsHub/src/app/layout/App.tsx",
-      "source_location": "L4",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -12362,7 +12578,31 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "web/EventsHub/src/app/layout/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_layout_app",
+      "target": "web_eventshub_src_lib_hooks_useactivities_useactivities",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/layout/App.tsx",
       "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_lib_hooks_useactivities",
+      "target": "web_eventshub_src_lib_types_api_agents_agent",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/lib/hooks/useActivities.ts",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -12379,7 +12619,7 @@
     },
     {
       "source": "web_package",
-      "target": "ref_axios",
+      "target": "web_package_json_ref_axios",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12439,7 +12679,7 @@
     },
     {
       "source": "web_package",
-      "target": "ref_tanstack_react_query_devtools",
+      "target": "web_package_json_ref_tanstack_react_query_devtools",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12668,7 +12908,7 @@
     },
     {
       "source": "web_eventshub_src_app_layout_app",
-      "target": "ref_axios",
+      "target": "ref_react",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12680,7 +12920,7 @@
     },
     {
       "source": "web_eventshub_src_app_layout_app",
-      "target": "ref_react",
+      "target": "web_eventshub_src_app_layout_navbar",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12692,7 +12932,7 @@
     },
     {
       "source": "web_eventshub_src_app_layout_app",
-      "target": "web_eventshub_src_app_layout_navbar",
+      "target": "web_eventshub_src_app_features_activities_dashboard_activitydashboard",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12704,7 +12944,7 @@
     },
     {
       "source": "web_eventshub_src_app_layout_app",
-      "target": "web_eventshub_src_app_features_activities_dashboard_activitydashboard",
+      "target": "web_eventshub_src_lib_hooks_useactivities",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12712,18 +12952,6 @@
       "context": "import",
       "source_file": "web/EventsHub/src/app/layout/App.tsx",
       "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "web_eventshub_src_app_layout_app",
-      "target": "ref_tanstack_react_query",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "web/EventsHub/src/app/layout/App.tsx",
-      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -12748,6 +12976,42 @@
       "context": "import",
       "source_file": "web/EventsHub/src/app/layout/NavBar.tsx",
       "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_lib_hooks_useactivities",
+      "target": "ref_tanstack_react_query",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/lib/hooks/useActivities.ts",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_lib_hooks_useactivities",
+      "target": "web_eventshub_src_lib_types_api_agents",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/lib/hooks/useActivities.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_lib_types_api_agents",
+      "target": "ref_axios",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/lib/types/api/agents.ts",
+      "source_location": "L1",
       "weight": 1.0
     },
     {
@@ -16700,7 +16964,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/EventsHub/package.json",
-      "source_location": "L21",
+      "source_location": "L24",
       "weight": 1.0
     },
     {
@@ -16804,7 +17068,7 @@
     },
     {
       "source": "web_eventshub_package_dependencies",
-      "target": "web_eventshub_package_dependencies_react",
+      "target": "web_eventshub_package_dependencies_tanstack_react_query",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16815,7 +17079,7 @@
     },
     {
       "source": "web_eventshub_package_dependencies",
-      "target": "web_eventshub_package_dependencies_react_dom",
+      "target": "web_eventshub_package_dependencies_tanstack_react_query_devtools",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16825,8 +17089,30 @@
       "weight": 1.0
     },
     {
-      "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_babel_core",
+      "source": "web_eventshub_package_dependencies",
+      "target": "web_eventshub_package_dependencies_axios",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_package_dependencies",
+      "target": "web_eventshub_package_dependencies_react",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_package_dependencies",
+      "target": "web_eventshub_package_dependencies_react_dom",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16837,29 +17123,7 @@
     },
     {
       "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_eslint_js",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L23",
-      "weight": 1.0
-    },
-    {
-      "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_rolldown_plugin_babel",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "web/EventsHub/package.json",
-      "source_location": "L24",
-      "weight": 1.0
-    },
-    {
-      "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_types_babel_core",
+      "target": "web_eventshub_package_devdependencies_babel_core",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16870,7 +17134,7 @@
     },
     {
       "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_types_node",
+      "target": "web_eventshub_package_devdependencies_eslint_js",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16881,7 +17145,7 @@
     },
     {
       "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_types_react",
+      "target": "web_eventshub_package_devdependencies_rolldown_plugin_babel",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16892,7 +17156,7 @@
     },
     {
       "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_types_react_dom",
+      "target": "web_eventshub_package_devdependencies_types_babel_core",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16903,7 +17167,7 @@
     },
     {
       "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_vitejs_plugin_react",
+      "target": "web_eventshub_package_devdependencies_types_node",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16914,7 +17178,7 @@
     },
     {
       "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_babel_plugin_react_compiler",
+      "target": "web_eventshub_package_devdependencies_types_react",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16925,7 +17189,7 @@
     },
     {
       "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_eslint",
+      "target": "web_eventshub_package_devdependencies_types_react_dom",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16936,7 +17200,7 @@
     },
     {
       "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_eslint_plugin_react_hooks",
+      "target": "web_eventshub_package_devdependencies_vitejs_plugin_react",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16947,7 +17211,7 @@
     },
     {
       "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_eslint_plugin_react_refresh",
+      "target": "web_eventshub_package_devdependencies_babel_plugin_react_compiler",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16958,7 +17222,7 @@
     },
     {
       "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_globals",
+      "target": "web_eventshub_package_devdependencies_eslint",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16969,7 +17233,7 @@
     },
     {
       "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_typescript",
+      "target": "web_eventshub_package_devdependencies_eslint_plugin_react_hooks",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16980,7 +17244,7 @@
     },
     {
       "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_typescript_eslint",
+      "target": "web_eventshub_package_devdependencies_eslint_plugin_react_refresh",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -16991,7 +17255,7 @@
     },
     {
       "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_vite",
+      "target": "web_eventshub_package_devdependencies_globals",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -17002,13 +17266,46 @@
     },
     {
       "source": "web_eventshub_package_devdependencies",
-      "target": "web_eventshub_package_devdependencies_vite_plugin_mkcert",
+      "target": "web_eventshub_package_devdependencies_typescript",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/EventsHub/package.json",
       "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_package_devdependencies",
+      "target": "web_eventshub_package_devdependencies_typescript_eslint",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_package_devdependencies",
+      "target": "web_eventshub_package_devdependencies_vite",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_package_devdependencies",
+      "target": "web_eventshub_package_devdependencies_vite_plugin_mkcert",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/package.json",
+      "source_location": "L41",
       "weight": 1.0
     },
     {
@@ -17206,7 +17503,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/EventsHub/src/app/layout/App.tsx",
-      "source_location": "L8",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -17229,6 +17526,28 @@
       "confidence_score": 1.0,
       "source_file": "web/EventsHub/src/app/layout/NavBar.tsx",
       "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_lib_hooks_useactivities",
+      "target": "web_eventshub_src_lib_hooks_useactivities_useactivities",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/src/lib/hooks/useActivities.ts",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_lib_types_api_agents",
+      "target": "web_eventshub_src_lib_types_api_agents_agent",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/EventsHub/src/lib/types/api/agents.ts",
+      "source_location": "L10",
       "weight": 1.0
     },
     {

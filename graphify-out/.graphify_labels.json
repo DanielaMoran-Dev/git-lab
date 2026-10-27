@@ -44,6 +44,5 @@
   "42": "commit-msg",
   "43": "pre-commit",
   "44": "dependencies",
-  "45": "vite.config.ts",
-  "46": "scripts"
+  "45": "package.json"
 }
