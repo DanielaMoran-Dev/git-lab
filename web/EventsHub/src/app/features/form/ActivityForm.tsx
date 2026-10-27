@@ -71,7 +71,7 @@ export default function ActivityForm({ activity, closeForm }: Props) {
             type="submit"
             color="success"
             variant="contained"
-            loading={updateActivity.isPending || createActivity.isPending}
+            loading={updateActivity.isPending}
           >
             Submit
           </Button>
