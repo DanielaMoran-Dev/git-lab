@@ -8,6 +8,7 @@ import {
   Typography,
 } from '@mui/material'
 import { useActivities } from '../../../../lib/hooks/useActivities'
+import { Link } from 'react-router'
 
 type Props = {
   activity: Activity
@@ -44,6 +45,14 @@ export default function ActivityCard({ activity }: Props) {
             color="error"
           >
             Delete
+          </Button>
+          <Button
+            component={Link}
+            to={`/activities/${activity.id}`}
+            size="medium"
+            variant="outlined"
+          >
+            View
           </Button>
         </Box>
       </CardActions>

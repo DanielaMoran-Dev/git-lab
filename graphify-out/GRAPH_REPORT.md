@@ -1,14 +1,19 @@
-# Graph Report - proyectos  (2026-10-22)
+# Graph Report - proyectos  (2026-11-03)
 
 ## Corpus Check
-- 79 files · ~37,312 words
+- 82 files · ~37,319 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 11 file(s) not represented in the graph (top: (none) 9, .nswag 1, .css 1)
 
 ## Summary
-- 623 nodes · 846 edges · 46 communities (34 shown, 12 thin omitted)
+- 626 nodes · 864 edges · 45 communities (33 shown, 12 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 11 edges (avg confidence: 0.9)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `425886f7`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - EventsRpcClient
@@ -33,8 +38,8 @@
 - Handler
 - ref_app_layout_index_css
 - AppDbContext
-- ActivityDashboard.tsx
-- Part 2: .NET only (Husky.Net)
+- Routers.tsx
+- Part 1: .NET + npm in the same repo (e.g. EventsHub)
 - Tests
 - AppDbContextModelSnapshot
 - openspec-explore/SKILL.md
@@ -43,14 +48,13 @@
 - index.d.ts
 - Manual setup — OpenAPI doc generation + typed client for the EventsHub API
 - EventsHub.UnitTests.csproj
-- Part 1: .NET + npm in the same repo (e.g. EventsHub)
+- Part 4: npm only, `package.json` in a subfolder (Husky v9)
 - React + TypeScript + Vite
 - README.md
 - web_eventshub_src_index
 - Part 3: npm only, `package.json` in the repo root (Husky v9)
 - commit-msg
 - pre-commit
-- dependencies
 - package.json
 
 ## God Nodes (most connected - your core abstractions)
@@ -80,7 +84,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (46 total, 12 thin omitted)
+## Communities (45 total, 12 thin omitted)
 
 ### Community 0 - "EventsRpcClient"
 Cohesion: 0.07
@@ -99,8 +103,8 @@ Cohesion: 0.10
 Nodes (22): ActionResult, ControllerBase, Handler, HttpDelete, HttpPost, HttpPut, IMediator, NotFoundObjectResult (+14 more)
 
 ### Community 4 - "EventsHub/package.json"
-Cohesion: 0.07
-Nodes (32): @babel/core, babel-plugin-react-compiler, @emotion/react, @emotion/styled, eslint, @eslint/js, eslint-plugin-react-hooks, eslint-plugin-react-refresh (+24 more)
+Cohesion: 0.05
+Nodes (45): @babel/core, babel-plugin-react-compiler, @emotion/react, @emotion/styled, eslint, @eslint/js, eslint-plugin-react-hooks, eslint-plugin-react-refresh (+37 more)
 
 ### Community 5 - "compilerOptions"
 Cohesion: 0.10
@@ -166,13 +170,13 @@ Nodes (7): Query, CancellationToken, Task, GetEventDetails, Handler, Query, Id
 Cohesion: 0.40
 Nodes (5): DbContext, DbContextOptions, DbSet, AppDbContext, Events
 
-### Community 22 - "ActivityDashboard.tsx"
-Cohesion: 0.10
-Nodes (25): ref_axios, @fontsource/roboto, @mui/icons-material, @mui/material, react, react-dom, ref_tanstack_react_query, ref_tanstack_react_query_devtools (+17 more)
+### Community 22 - "Routers.tsx"
+Cohesion: 0.11
+Nodes (23): ref_axios, @fontsource/roboto, @mui/material, react, react-dom, react-router, ref_tanstack_react_query, ref_tanstack_react_query_devtools (+15 more)
 
-### Community 23 - "Part 2: .NET only (Husky.Net)"
+### Community 23 - "Part 1: .NET + npm in the same repo (e.g. EventsHub)"
 Cohesion: 0.06
-Nodes (31): How to use this guide, Installing Husky in a Project: .NET and npm, Optional: add Prettier (code formatting), Part 2: .NET only (Husky.Net), Part 4: npm only, `package.json` in a subfolder (Husky v9), Skipping hooks (use sparingly), Skipping hooks (use sparingly), Step 10: Commit the Husky files (+23 more)
+Nodes (32): How to use this guide, Installing Husky in a Project: .NET and npm, Optional: add Prettier (code formatting), Part 1: .NET + npm in the same repo (e.g. EventsHub), Part 2: .NET only (Husky.Net), Skipping hooks (use sparingly), Skipping hooks (use sparingly), Step 10: Commit the Husky files (+24 more)
 
 ### Community 24 - "Tests"
 Cohesion: 0.29
@@ -198,9 +202,9 @@ Nodes (13): Current state on this branch, Manual setup — OpenAPI doc generatio
 Cohesion: 0.14
 Nodes (12): EventsHub.API, EventsHub.Application, EventsHub.Domain, EventsHub.OpenApi, EventsHub.Persistence, net10.0, coverlet.collector (6.0.4), Microsoft.NET.Test.Sdk (17.14.0) (+4 more)
 
-### Community 37 - "Part 1: .NET + npm in the same repo (e.g. EventsHub)"
-Cohesion: 0.13
-Nodes (15): Optional: add Prettier (code formatting), Part 1: .NET + npm in the same repo (e.g. EventsHub), Skipping hooks (use sparingly), Step 10: Commit the Husky files, Step 11: Setup for a new teammate or CI, Step 1: Check prerequisites, Step 2: Install Husky.Net as a local tool, Step 3: Install the Git hooks (+7 more)
+### Community 37 - "Part 4: npm only, `package.json` in a subfolder (Husky v9)"
+Cohesion: 0.14
+Nodes (14): Optional: add Prettier (code formatting), Part 4: npm only, `package.json` in a subfolder (Husky v9), Skipping hooks (use sparingly), Step 10: Setup for a new teammate or CI, Step 1: Check prerequisites, Step 2: Install Husky, Step 3: Point the `prepare` script at the subfolder, Step 4: Install the hooks (+6 more)
 
 ### Community 38 - "React + TypeScript + Vite"
 Cohesion: 0.50
@@ -210,26 +214,22 @@ Nodes (3): Expanding the ESLint configuration, React Compiler, React + TypeScrip
 Cohesion: 0.13
 Nodes (15): Optional: add Prettier (code formatting), Part 3: npm only, `package.json` in the repo root (Husky v9), Skipping hooks (use sparingly), Step 10: Commit the Husky files, Step 11: Setup for a new teammate or CI, Step 1: Check prerequisites, Step 2: Make sure `package.json` and `.gitignore` exist, Step 3: Install Husky (+7 more)
 
-### Community 44 - "dependencies"
-Cohesion: 0.18
-Nodes (11): dependencies, axios, @emotion/react, @emotion/styled, @fontsource/roboto, @mui/icons-material, @mui/material, react (+3 more)
-
 ### Community 45 - "package.json"
 Cohesion: 0.50
 Nodes (3): dependencies, @tanstack/react-query, @tanstack/react-query
 
 ## Knowledge Gaps
-- **289 isolated node(s):** `@tanstack/react-query`, `@tanstack/react-query`, `Mediator`, `net10.0`, `Microsoft.AspNetCore.OpenApi (10.0.11)` (+284 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 367 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **285 isolated node(s):** `@tanstack/react-query`, `@tanstack/react-query`, `Mediator`, `net10.0`, `Microsoft.AspNetCore.OpenApi (10.0.11)` (+280 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 363 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `WeatherForecastController` connect `Manual setup — OpenAPI doc generation + typed client for the EventsHub API` to `EventsHub.Persistence`, `EventsController`?**
-  _High betweenness centrality (0.099) - this node is a cross-community bridge._
+  _High betweenness centrality (0.098) - this node is a cross-community bridge._
 - **What connects `@tanstack/react-query`, `@tanstack/react-query`, `Mediator` to the rest of the system?**
-  _289 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _285 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `EventsRpcClient` be split into smaller, more focused modules?**
   _Cohesion score 0.07373271889400922 - nodes in this community are weakly interconnected._
 - **Should `EventsHub.Persistence` be split into smaller, more focused modules?**
@@ -239,4 +239,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `EventsController` be split into smaller, more focused modules?**
   _Cohesion score 0.1028225806451613 - nodes in this community are weakly interconnected._
 - **Should `EventsHub/package.json` be split into smaller, more focused modules?**
-  _Cohesion score 0.06890756302521009 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.047872340425531915 - nodes in this community are weakly interconnected._
