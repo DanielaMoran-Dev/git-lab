@@ -1,17 +1,17 @@
-# Graph Report - proyectos  (2026-11-03)
+# Graph Report - proyectos  (2026-11-04)
 
 ## Corpus Check
-- 82 files · ~37,319 words
+- 82 files · ~37,404 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 11 file(s) not represented in the graph (top: (none) 9, .nswag 1, .css 1)
 
 ## Summary
-- 626 nodes · 864 edges · 45 communities (33 shown, 12 thin omitted)
+- 626 nodes · 868 edges · 45 communities (33 shown, 12 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 11 edges (avg confidence: 0.9)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `425886f7`
+- Built from commit: `2f8bd205`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -171,7 +171,7 @@ Cohesion: 0.40
 Nodes (5): DbContext, DbContextOptions, DbSet, AppDbContext, Events
 
 ### Community 22 - "Routers.tsx"
-Cohesion: 0.11
+Cohesion: 0.12
 Nodes (23): ref_axios, @fontsource/roboto, @mui/material, react, react-dom, react-router, ref_tanstack_react_query, ref_tanstack_react_query_devtools (+15 more)
 
 ### Community 23 - "Part 1: .NET + npm in the same repo (e.g. EventsHub)"

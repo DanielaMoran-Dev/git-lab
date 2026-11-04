@@ -1706,7 +1706,7 @@
       "file_type": "code",
       "norm_label": "activitydetail()",
       "source_file": "web/EventsHub/src/app/features/activities/details/ActivityDetail.tsx",
-      "source_location": "L11"
+      "source_location": "L12"
     },
     {
       "id": "web_eventshub_src_app_features_form_activityform_activityform",
@@ -1718,7 +1718,7 @@
       "file_type": "code",
       "norm_label": "activityform()",
       "source_file": "web/EventsHub/src/app/features/form/ActivityForm.tsx",
-      "source_location": "L4"
+      "source_location": "L5"
     },
     {
       "id": "web_eventshub_src_app_features_home_homepage_homepage",
@@ -9270,6 +9270,18 @@
       "weight": 1.0
     },
     {
+      "source": "web_eventshub_src_app_features_activities_details_activitydetail_activitydetail",
+      "target": "web_eventshub_src_lib_hooks_useactivities_useactivities",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "web/EventsHub/src/app/features/activities/details/ActivityDetail.tsx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
       "source": "web_eventshub_src_app_features_form_activityform_activityform",
       "target": "web_eventshub_src_lib_hooks_useactivities_useactivities",
       "relation": "calls",
@@ -9278,7 +9290,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "web/EventsHub/src/app/features/form/ActivityForm.tsx",
-      "source_location": "L5",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -12558,7 +12570,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityCard.tsx",
-      "source_location": "L11",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -12595,6 +12607,18 @@
       "context": "import",
       "source_file": "web/EventsHub/src/app/features/activities/dashboard/ActivityList.tsx",
       "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_details_activitydetail",
+      "target": "web_eventshub_src_lib_hooks_useactivities_useactivities",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/activities/details/ActivityDetail.tsx",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -12887,7 +12911,7 @@
     },
     {
       "source": "web_eventshub_src_app_features_activities_dashboard_activitycard",
-      "target": "ref_react_router",
+      "target": "web_eventshub_src_lib_hooks_useactivities",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12899,7 +12923,7 @@
     },
     {
       "source": "web_eventshub_src_app_features_activities_dashboard_activitycard",
-      "target": "web_eventshub_src_lib_hooks_useactivities",
+      "target": "ref_react_router",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12983,6 +13007,18 @@
     },
     {
       "source": "web_eventshub_src_app_features_activities_details_activitydetail",
+      "target": "web_eventshub_src_lib_hooks_useactivities",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/activities/details/ActivityDetail.tsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_activities_details_activitydetail",
       "target": "ref_mui_material",
       "relation": "imports_from",
       "_origin": "ast",
@@ -13015,6 +13051,18 @@
       "context": "import",
       "source_file": "web/EventsHub/src/app/features/form/ActivityForm.tsx",
       "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "web_eventshub_src_app_features_form_activityform",
+      "target": "ref_react_router",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "web/EventsHub/src/app/features/form/ActivityForm.tsx",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -17704,7 +17752,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/EventsHub/src/app/features/activities/details/ActivityDetail.tsx",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -17715,7 +17763,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/EventsHub/src/app/features/form/ActivityForm.tsx",
-      "source_location": "L4",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -19484,5 +19532,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "425886f7ad2f6cc02899862f800d2c1ffffa2b1a"
+  "built_at_commit": "2f8bd20517bd358843c653096f8731fd08d6f2ef"
 }

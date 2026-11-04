@@ -480,9 +480,9 @@
     "semantic_hash": ""
   },
   "web/EventsHub/src/app/features/activities/dashboard/ActivityCard.tsx": {
-    "mtime": 1793712589.9379146,
-    "seen": 1793712609.3257005,
-    "ast_hash": "36e0a959264a7af409c9836ee23f0424",
+    "mtime": 1793713018.6075091,
+    "seen": 1793811570.9216387,
+    "ast_hash": "d70edbc56a03c18ed623963f3f1d23cc",
     "semantic_hash": ""
   },
   "web/EventsHub/src/app/features/activities/dashboard/ActivityDashboard.tsx": {
@@ -492,15 +492,15 @@
     "semantic_hash": ""
   },
   "web/EventsHub/src/app/features/activities/dashboard/ActivityList.tsx": {
-    "mtime": 1793281157.245455,
-    "seen": 1793712609.325711,
+    "mtime": 1793811695.9480212,
+    "seen": 1793811864.958297,
     "ast_hash": "29bd06e45925c8fc067667b8af6b28fb",
     "semantic_hash": ""
   },
   "web/EventsHub/src/app/features/activities/details/ActivityDetail.tsx": {
-    "mtime": 1793712521.3400552,
-    "seen": 1793712609.325714,
-    "ast_hash": "5de4c76da736ff009d2c5ae7c07235c9",
+    "mtime": 1793810802.7422662,
+    "seen": 1793811570.9216564,
+    "ast_hash": "8ca4f201e10134f64b09578bd7817e92",
     "semantic_hash": ""
   },
   "web/EventsHub/public/Images/categoryImages/culture.jpg": {
@@ -540,9 +540,9 @@
     "semantic_hash": ""
   },
   "web/EventsHub/src/app/features/form/ActivityForm.tsx": {
-    "mtime": 1793281157.3124561,
-    "seen": 1793712609.325718,
-    "ast_hash": "bc2965e7e5683339043e52b160eafa10",
+    "mtime": 1793813306.8254828,
+    "seen": 1793813469.3768413,
+    "ast_hash": "2dee0c7a0a1f5a0f263720395b75ebb9",
     "semantic_hash": ""
   },
   ".husky/pre-commit": {
@@ -582,9 +582,9 @@
     "semantic_hash": ""
   },
   "web/EventsHub/src/lib/hooks/useActivities.ts": {
-    "mtime": 1793108974.5427122,
-    "seen": 1793712609.325735,
-    "ast_hash": "1b6ad5c056442b9e44dffb2f21ade307",
+    "mtime": 1793813444.320065,
+    "seen": 1793813469.376875,
+    "ast_hash": "9c94f2f1c978eefd281859a9a8a939c8",
     "semantic_hash": ""
   },
   "web/EventsHub/src/lib/types/api/agents.ts": {
@@ -600,9 +600,9 @@
     "semantic_hash": ""
   },
   "web/EventsHub/src/app/router/Routers.tsx": {
-    "mtime": 1793712415.9360192,
-    "seen": 1793712609.3257318,
-    "ast_hash": "23266941e3fdc5e5e8c0ecc77eec405a",
+    "mtime": 1793810645.6316068,
+    "seen": 1793811570.9216826,
+    "ast_hash": "6f631f20c68477e88240bbd7577933c8",
     "semantic_hash": ""
   },
   "web/EventsHub/src/shared/components/MenuItemLink.tsx": {
