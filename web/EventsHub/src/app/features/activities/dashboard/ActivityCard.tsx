@@ -34,9 +34,6 @@ export default function ActivityCard({ activity }: Props) {
       >
         <Chip label={activity.category} variant="outlined" />
         <Box sx={{ display: 'flex', gap: 3 }}>
-          <Button onClick={() => {}} size="medium" variant="contained">
-            View
-          </Button>
           <Button
             onClick={() => deleteActivity.mutateAsync(activity)}
             loading={deleteActivity.isPending}
@@ -50,7 +47,7 @@ export default function ActivityCard({ activity }: Props) {
             component={Link}
             to={`/activities/${activity.id}`}
             size="medium"
-            variant="outlined"
+            variant="contained"
           >
             View
           </Button>
