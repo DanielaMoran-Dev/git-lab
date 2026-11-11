@@ -1,5 +1,5 @@
 info:
-  name: Events - List -200
+  name: Events - List - 200
   type: http
   seq: 1
 
@@ -12,14 +12,13 @@ runtime:
   scripts:
     - type: tests
       code: |-
-        test("Status code is 200 OK", function(){
+        test("Status code is 200 OK", function() {
           expect(res.getStatus()).to.equal(200);
         });
 
-        test("Response returns right data", 
-          function(){
-            const body = res.getBody();
-            expect(body).to.be.an("array");
+        test("Response returns an array", function() {
+          const body = res.getBody();
+          expect(body).to.be.an("array");
         });
 
 settings:
@@ -27,4 +26,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
-  forwardAuthorizationHeader: true
+  forwardAuthorizationHeader: false

@@ -1,8 +1,8 @@
 import { createBrowserRouter } from 'react-router'
 import App from '../layout/App'
 import ActivityDashboard from '../features/activities/dashboard/ActivityDashboard'
-import ActivityForm from '../features/form/ActivityForm'
 import HomePage from '../features/home/HomePage'
+import ActivityForm from '../features/form/ActivityForm'
 import ActivityDetailPage from '../features/activities/details/ActivityDetailPage'
 
 export const router = createBrowserRouter([

@@ -1,5 +1,5 @@
 info:
-  name: Events - Get -200
+  name: Events - Get - 200
   type: http
   seq: 2
 
@@ -8,7 +8,7 @@ http:
   url: "{{baseUrl}}/events/:eventId"
   params:
     - name: eventId
-      value: 0b49dcdd-af40-4fa8-b5cd-fcc9dbbdb74e
+      value: 55a58d3c-efae-4674-8122-b4383195445a
       type: path
   auth: inherit
 
@@ -16,7 +16,7 @@ runtime:
   scripts:
     - type: tests
       code: |-
-        test("Status code is 200 OK", function(){
+        test("Status code is 200 OK", function() {
           expect(res.getStatus()).to.equal(200);
         });
 
@@ -25,4 +25,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
-  forwardAuthorizationHeader: true
+  forwardAuthorizationHeader: false

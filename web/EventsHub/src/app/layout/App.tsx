@@ -5,15 +5,16 @@ import HomePage from '../features/home/HomePage'
 
 function App() {
   const location = useLocation()
+
   return (
-    <Box sx={{ bgcolor: '#dff2eb', minHeight: '100vh' }}>
+    <Box sx={{ bgcolor: '#eeeeee', minHeight: '100vh' }}>
       <CssBaseline />
       {location.pathname === '/' ? (
         <HomePage />
       ) : (
         <>
           <NavBar />
-          <Container maxWidth="xl" sx={{ marginTop: 3.5 }}>
+          <Container maxWidth="xl" sx={{ mt: 3 }}>
             <Outlet />
           </Container>
         </>

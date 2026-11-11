@@ -1,5 +1,5 @@
 info:
-  name: Events - Get -404
+  name: Events - Get - 404
   type: http
   seq: 3
 
@@ -16,14 +16,13 @@ runtime:
   scripts:
     - type: tests
       code: |-
-        test("Status code is 404 Not Fount", function(){
+        test("Status code is 404 Not Found", function() {
           expect(res.getStatus()).to.equal(404);
         });
 
-        test("Response returns an array", 
-          function(){
-            const body = res.getBody();
-            expect(body).to.equal("The event was not found");
+        test("Response returns an array", function() {
+          const body = res.getBody();
+          expect(body).to.equal("The event was not found");
         });
 
 settings:
@@ -31,4 +30,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
-  forwardAuthorizationHeader: true
+  forwardAuthorizationHeader: false

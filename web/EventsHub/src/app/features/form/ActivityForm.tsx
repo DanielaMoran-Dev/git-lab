@@ -46,9 +46,9 @@ export default function ActivityForm() {
         <TextField
           name="description"
           label="Description"
+          defaultValue={activity?.description}
           multiline
           rows={3}
-          defaultValue={activity?.description}
         />
         <TextField
           name="category"
@@ -73,7 +73,7 @@ export default function ActivityForm() {
             type="submit"
             color="success"
             variant="contained"
-            loading={updateActivity.isPending}
+            loading={updateActivity.isPending || createActivity.isPending}
           >
             Submit
           </Button>

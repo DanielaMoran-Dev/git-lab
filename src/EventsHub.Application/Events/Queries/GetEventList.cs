@@ -1,3 +1,4 @@
+using System.Security.Cryptography;
 using EventsHub.Domain;
 using EventsHub.Persistence;
 using MediatR;
@@ -19,14 +20,13 @@ public class GetEventList
                 for (int i = 0; i < 10; i++)
                 {
                     cancellationToken.ThrowIfCancellationRequested();
-                    await Task.Delay(1000, cancellationToken);
-                    logger.LogInformation($"Task {i} has completed.");
+                    await Task.Delay(0, cancellationToken);
+                    logger.LogInformation($"Task {i} has completed!");
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                logger.LogInformation("Task was CENCELED!");
-                throw;
+                logger.LogInformation("Task was CANCELLED!");
             }
 
             return await context.Events.ToListAsync(cancellationToken);

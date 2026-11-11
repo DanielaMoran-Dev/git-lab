@@ -58,7 +58,7 @@ export default function ActivityDetailsChat() {
                 </Box>
 
                 <Typography sx={{ whiteSpace: 'pre-wrap' }}>
-                  Comment goes here
+                  COMENTARIOS VAN AQUÍ
                 </Typography>
               </Box>
             </Box>

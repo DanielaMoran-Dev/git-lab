@@ -5,10 +5,10 @@ import ActivityFilters from './ActivityFilters'
 export default function ActivityDashboard() {
   return (
     <Grid container spacing={3}>
-      <Grid size={8}>
+      <Grid size={9}>
         <ActivityList />
       </Grid>
-      <Grid size={4}>
+      <Grid size={3}>
         <ActivityFilters />
       </Grid>
     </Grid>

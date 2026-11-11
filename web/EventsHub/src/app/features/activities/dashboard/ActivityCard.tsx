@@ -11,6 +11,7 @@ import {
   Typography,
 } from '@mui/material'
 import { Link } from 'react-router'
+import { formatDate } from '../../../../lib/utils/util'
 
 type Props = {
   activity: Activity
@@ -19,14 +20,9 @@ type Props = {
 export default function ActivityCard({ activity }: Props) {
   const isHost = false
   const isGoing = false
-  const isCancelled = false
-
   const label = isHost ? 'You are hosting' : 'You are going'
-  const color: 'secondary' | 'warning' | 'default' = isHost
-    ? 'secondary'
-    : isGoing
-      ? 'warning'
-      : 'default'
+  const isCancelled = false
+  const color = isHost ? 'secondary' : isGoing ? 'warning' : 'default'
 
   return (
     <Card elevation={3} sx={{ borderRadius: 3 }}>
@@ -45,28 +41,55 @@ export default function ActivityCard({ activity }: Props) {
           }}
           subheader={
             <>
-              Hosted by{' '}
-              <Link to={'/profiles/spongebob'}>SpongeBob SquarePants</Link>
+              Hosted by <Link to={`/profiles/spongebob`}>SpongeBob</Link>
             </>
           }
         />
-
         <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2, mr: 2 }}>
           {(isHost || isGoing) && (
             <Chip label={label} color={color} sx={{ borderRadius: 2 }} />
           )}
           {isCancelled && (
-            <Chip label="Cancelled" color="error" sx={{ borderRadius: 2 }} />
+            <Chip label="Canceller" color="error" sx={{ borderRadius: 2 }} />
           )}
         </Box>
       </Box>
 
+      <Divider sx={{ mb: 3 }} />
+
       <CardContent sx={{ p: 0 }}>
-        <Box sx={{ display: 'flex', alignItems: 'center', mb: 2, px: 2 }}>
-          <AccessTime sx={{ mr: 1 }} />
-          <Typography variant="body2">{activity.date}</Typography>
-          <Place sx={{ ml: 3, mr: 1 }} />
-          <Typography variant="body2">{activity.venue}</Typography>
+        <Box
+          sx={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            alignItems: 'center',
+            gap: 2,
+            mb: 2,
+            px: 2,
+          }}
+        >
+          <Box sx={{ display: 'flex', alignItems: 'center', minWidth: 0 }}>
+            <AccessTime sx={{ mr: 1, flexShrink: 0 }} />
+            <Typography variant="body2" sx={{ overflowWrap: 'anywhere' }}>
+              {formatDate(activity.date)}
+            </Typography>
+          </Box>
+          <Box
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              flex: '1 1 180px',
+              minWidth: 0,
+            }}
+          >
+            <Place sx={{ mr: 1, flexShrink: 0 }} />
+            <Typography
+              variant="body2"
+              sx={{ minWidth: 0, overflowWrap: 'anywhere' }}
+            >
+              {activity.venue}
+            </Typography>
+          </Box>
         </Box>
         <Divider />
         <Box
@@ -75,12 +98,13 @@ export default function ActivityCard({ activity }: Props) {
             gap: 2,
             backgroundColor: 'grey.200',
             py: 3,
-            p1: 3,
+            pl: 3,
           }}
         >
-          AQUI VAN A IR LOS ASISTENTES
+          AQUÍ VAN A IR LOS ASISTENTES
         </Box>
       </CardContent>
+
       <CardContent sx={{ pb: 2 }}>
         <Typography variant="body2">{activity.description}</Typography>
         <Button

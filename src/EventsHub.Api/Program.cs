@@ -1,7 +1,8 @@
-using Microsoft.EntityFrameworkCore;
-using EventsHub.Persistence;
-using EventsHub.Application.Events.Queries;
 using EventsHub.Application.Core;
+using EventsHub.Application.Core.Mapping;
+using EventsHub.Application.Events.Queries;
+using EventsHub.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,23 +14,22 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 });
 builder.Services.AddCors();
 builder.Services.AddMediatR(opt =>
-    opt.RegisterServicesFromAssemblyContaining<GetEventList.Handler>());
-
-builder.Services.AddAutoMapper(typeof(MappingProfiles).Assembly);
+    opt.RegisterServicesFromAssemblyContaining<GetEventList.Handler>()
+);
+builder.Services.AddMapper(typeof(MappingProfiles).Assembly);
 
 var app = builder.Build();
 
+// Configure the HTTP request pipeline.
 app.UseCors(opt => opt
     .AllowAnyHeader()
     .AllowAnyMethod()
     .WithOrigins("http://localhost:3000", "https://localhost:3000"));
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment()) { }
 
 using var scope = app.Services.CreateScope();
 var services = scope.ServiceProvider;
-
 try
 {
     var context = services.GetRequiredService<AppDbContext>();
@@ -39,7 +39,7 @@ try
 catch (Exception ex)
 {
     var logger = services.GetRequiredService<ILogger<Program>>();
-    logger.LogError(ex, "An error ocurred during database migration");
+    logger.LogError(ex, "An error occurred during database migration.");
 }
 
 app.MapControllers();

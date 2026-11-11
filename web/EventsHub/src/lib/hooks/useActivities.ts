@@ -10,16 +10,15 @@ export const useActivities = (id?: string) => {
       const response = await agent.get<Activity[]>('/events')
       return response.data
     },
-    enabled: !id,
   })
 
   const { data: activity, isLoading: isLoadingActivity } = useQuery({
-    queryKey: ['activity', id],
+    queryKey: ['activities', id],
     queryFn: async () => {
       const response = await agent.get<Activity>(`/events/${id}`)
       return response.data
     },
-    enabled: !!id,
+    enabled: !!id, // !!undefined === false
   })
 
   const updateActivity = useMutation({
@@ -35,11 +34,7 @@ export const useActivities = (id?: string) => {
 
   const createActivity = useMutation({
     mutationFn: async (activity: Activity) => {
-      const response = await agent.post('/events', {
-        ...activity,
-        latitude: activity.latitude ?? '',
-        longitude: activity.longitude ?? '',
-      })
+      const response = await agent.post('/events', activity)
       return response.data
     },
     onSuccess: async () => {
@@ -50,8 +45,8 @@ export const useActivities = (id?: string) => {
   })
 
   const deleteActivity = useMutation({
-    mutationFn: async (activity: Activity) => {
-      await agent.delete(`/events/${activity.id}`)
+    mutationFn: async (id: string) => {
+      await agent.delete(`/events/${id}`)
     },
     onSuccess: async () => {
       await queryClient.invalidateQueries({
