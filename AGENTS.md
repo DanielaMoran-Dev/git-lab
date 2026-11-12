@@ -2,17 +2,17 @@
 
 ## Project Structure & Module Organization
 
-EventsHub is a full-stack web service project. Backend code lives under `src/`: `EventsHub.Api` exposes ASP.NET Core controllers, `EventsHub.Application` holds application logic, `EventsHub.Domain` contains domain models such as `Event`, `EventsHub.Persistence` contains EF Core context, migrations, and seed data, and `EventsHub.OpenApi`/`src/openapi` handle OpenAPI output and generated clients. Unit tests are in `tests/EventsHub.UnitTest`; YAML-based integration/API collections are in `tests/EventsHub.IntegrationTests`. The React/Vite frontend is in `web/EventsHub`, with components and styles in `web/EventsHub/src` and static assets in `web/EventsHub/public` or `web/EventsHub/src/assets`.
+EventsHub is a full-stack web service project. Backend code lives under `src/`: `EventsHub.Api` exposes ASP.NET Core controllers, `EventsHub.Application` holds application logic, `EventsHub.Domain` contains domain models such as `Event`, `EventsHub.Persistence` contains EF Core context, migrations, and seed data, and `EventsHub.OpenApi`/`src/openapi` handle OpenAPI output and generated clients. Unit tests are in `tests/EventsHub.Api.UnitTests`; YAML-based integration/API collections are in `tests/EventsHub.IntegrationTests`. The React/Vite frontend is in `web`, with components and styles in `web/src` and static assets in `web/public` or `web/src/assets`.
 
 ## Build, Test, and Development Commands
 
-- `dotnet build src/EventsHub.Api/EventsHub.API.csproj` builds the API and referenced backend projects.
-- `dotnet run --project src/EventsHub.Api/EventsHub.API.csproj` starts the local API and applies EF Core migrations on startup.
-- `dotnet test tests/EventsHub.UnitTest/EventsHub.UnitTest.csproj` runs NUnit unit tests.
-- `cd web/EventsHub && npm install` installs frontend dependencies.
-- `cd web/EventsHub && npm run dev` starts the Vite development server.
-- `cd web/EventsHub && npm run build` type-checks and builds the frontend.
-- `cd web/EventsHub && npm run lint` runs ESLint on TypeScript/React files.
+- `dotnet build src/EventsHub.Api/EventsHub.Api.csproj` builds the API and referenced backend projects.
+- `dotnet run --project src/EventsHub.Api/EventsHub.Api.csproj` starts the local API and applies EF Core migrations on startup.
+- `dotnet test tests/EventsHub.Api.UnitTests/EventsHub.UnitTests.csproj` runs NUnit unit tests.
+- `cd web && npm install` installs frontend dependencies.
+- `cd web && npm run dev` starts the Vite development server.
+- `cd web && npm run build` type-checks and builds the frontend.
+- `cd web && npm run lint` runs ESLint on TypeScript/React files.
 
 ## Coding Style & Naming Conventions
 
@@ -20,7 +20,7 @@ Use nullable-enabled C# with implicit usings, matching the existing `.csproj` se
 
 ## Testing Guidelines
 
-Backend unit tests use NUnit with `Microsoft.NET.Test.Sdk` and `NUnit3TestAdapter`. Add focused tests beside related test classes under `tests/EventsHub.UnitTest`, and use `GlobalTestSetup` for shared database setup where applicable. Keep arrange/act/assert sections clear. Integration scenarios are stored as YAML collections under `tests/EventsHub.IntegrationTests`; add new endpoint cases in the matching feature folder.
+Backend unit tests use NUnit with `Microsoft.NET.Test.Sdk` and `NUnit3TestAdapter`. Add focused tests beside related test classes under `tests/EventsHub.Api.UnitTests`, and use `GlobalTestSetup` for shared database setup where applicable. Keep arrange/act/assert sections clear. Integration scenarios are stored as YAML collections under `tests/EventsHub.IntegrationTests`; add new endpoint cases in the matching feature folder.
 
 ## Commit & Pull Request Guidelines
 
@@ -37,7 +37,6 @@ This project has a knowledge graph at graphify-out/ with god nodes, community st
 When the user types `/graphify`, use the installed graphify skill or instructions before doing anything else.
 
 Rules:
-
 - For codebase questions, first run `graphify query "<question>"` when graphify-out/graph.json exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
 - Dirty graphify-out/ files are expected after hooks or incremental updates; dirty graph files are not a reason to skip graphify. Only skip graphify if the task is about stale or incorrect graph output, or the user explicitly says not to use it.
 - If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.

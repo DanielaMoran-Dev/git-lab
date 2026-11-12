@@ -1,10 +1,11 @@
 {
+  "$schema": "https://alirezanet.github.io/Husky.Net/schema.json",
   "tasks": [
     {
       "name": "Format staged C# files",
       "group": "pre-commit",
       "command": "dotnet",
-      "args": ["format", "EventsHub.slnx", "--include", "${staged}"],
+      "args": ["format", "--include", "${staged}"],
       "include": ["**/*.cs"]
     },
     {

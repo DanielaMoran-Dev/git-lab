@@ -7,14 +7,14 @@ other context from this repo's history.
 ---
 
 You are working in the `EventsHub` repository (repo root =
-`c:\sources\uaa\2026\EventsHub`, a Windows machine, PowerShell as the primary
+`<repository-root>`, a Windows machine, PowerShell as the primary
 shell). It's a two-app repo: a .NET 10 backend under `src/`/`tests/`, and a
 React + TypeScript + Vite frontend under `web/`. Your task is to install two
 developer-tooling packages into this repo and verify both work:
 
 1. **Graphify** ([Graphify-Labs/graphify](https://github.com/safishamsi/graphify),
    PyPI package `graphifyy`) — turns the codebase into a queryable knowledge
-   graph, exposed as a `/graphify` skill for Claude Code (and other AI
+   graph, exposed as a `/graphify` skill for Codex / ChatGPT (and other AI
    coding assistants).
 2. **OpenSpec** ([Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec),
    npm package `@fission-ai/openspec`) — a spec-driven development workflow:
@@ -46,14 +46,14 @@ Confirm the CLI is on PATH:
 graphify --version
 ```
 
-### Register the Claude Code skill
+### Register the Codex / ChatGPT skill
 
-This repo is primarily used with Claude Code (see `.claude/skills/` already
+This repo is primarily used with Codex / ChatGPT (see `.agents/skills/` already
 in the repo), so register it project-scoped so the registration is committed
 to git for other contributors:
 
 ```powershell
-graphify install --project
+graphify install --platform codex --project
 ```
 
 If you also use another assistant in this repo, register it too, e.g.:
@@ -152,23 +152,23 @@ openspec --version
 From the repo root:
 
 ```powershell
-openspec init --tools claude
+openspec init --tools codex
 ```
 
 This creates:
 
 - `openspec/specs/` — the current, agreed specs
 - `openspec/changes/archive/` — completed change proposals, archived
-- `.claude/skills/openspec-*/SKILL.md` — one skill file per OpenSpec
+- `.agents/skills/openspec-*/SKILL.md` — one skill file per OpenSpec
   workflow you selected, using this repo's existing skill-discovery
-  convention (same mechanism as `.claude/skills/architecture-docs/`) — no
-  separate import step needed, a fresh Claude Code session picks these up
+  convention (same mechanism as `.agents/skills/architecture-docs/`) — no
+  separate import step needed, a fresh Codex / ChatGPT session picks these up
   automatically
-- `.claude/commands/opsx/<id>.md` — command files, invoked as `/opsx:propose`,
+- `.codex/prompts/<id>.md` — command files, invoked as `/opsx:propose`,
   `/opsx:apply`, etc.
 
-If you use another assistant alongside Claude Code, pass a comma-separated
-list instead, e.g. `--tools claude,cursor`. Run `openspec init --help` to
+If you use another assistant alongside Codex / ChatGPT, pass a comma-separated
+list instead, e.g. `--tools codex,cursor`. Run `openspec init --help` to
 see the full list of supported `--tools` IDs.
 
 ### Verify
@@ -180,7 +180,7 @@ openspec validate    # should report no structural issues
 
 Also confirm `/opsx:propose` (or the equivalent listed by `openspec init`'s
 "Getting started" hint) shows up as an available slash command in a new
-Claude Code session.
+Codex / ChatGPT session.
 
 ## Step 3 — Report back
 
@@ -201,7 +201,7 @@ Once both are installed, summarize:
   contributor who wants to use `/graphify` or the OpenSpec workflow needs to
   run Step 1/Step 2's install commands themselves once. Only the
   _initialized, repo-scoped_ output (`graphify-out/`, `.graphifyignore`,
-  `openspec/`, `.claude/skills/...`) is meant to be committed.
+  `openspec/`, `.agents/skills/...`) is meant to be committed.
 - `graphify hook install` writes to `.git/hooks/`, which git never tracks —
   so the auto-rebuild-on-commit behavior is also per-machine. Each
   contributor who wants commits/checkouts to auto-refresh the graph needs to

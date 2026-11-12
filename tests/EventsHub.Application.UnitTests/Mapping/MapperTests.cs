@@ -115,7 +115,7 @@ public class MapperTests
 
         var ex = Assert.Throws<InvalidOperationException>(() => new Mapper(profile));
 
-        Assert.That(ex!.Message, Does.Contain(nameof(Immutable)));
+        Assert.That(ex.Message, Does.Contain(nameof(Immutable)));
     }
 
     // ---- Nested and collection members ----
@@ -199,7 +199,7 @@ public class MapperTests
 
         foreach (var ex in new[] { ex1, ex2 })
         {
-            Assert.That(ex!.Message, Does.Contain(nameof(Unrelated)).And.Contain(nameof(PersonView)));
+            Assert.That(ex.Message, Does.Contain(nameof(Unrelated)).And.Contain(nameof(PersonView)));
         }
     }
 
@@ -211,7 +211,7 @@ public class MapperTests
 
         var ex = Assert.Throws<InvalidOperationException>(() => new Mapper(first, second));
 
-        Assert.That(ex!.Message, Does.Contain("Duplicate").And.Contain(nameof(Person)).And.Contain(nameof(PersonView)));
+        Assert.That(ex.Message, Does.Contain("Duplicate").And.Contain(nameof(Person)).And.Contain(nameof(PersonView)));
     }
 
     [Test]

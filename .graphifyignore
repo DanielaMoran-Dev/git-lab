@@ -1,0 +1,12 @@
+web/node_modules/
+web/dist/
+**/bin/
+**/obj/
+src/EventsHub.OpenApi/Generated/
+src/openapi/
+
+.tmp/
+**/node_modules/
+.git/
+.codex/skills/
+.agents/skills/

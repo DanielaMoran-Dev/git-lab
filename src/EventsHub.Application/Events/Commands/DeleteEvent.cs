@@ -1,4 +1,3 @@
-
 using EventsHub.Persistence;
 using MediatR;
 
@@ -20,6 +19,7 @@ public class DeleteEvent
                 ?? throw new Exception("Event not found");
 
             context.Remove(@event);
+
             await context.SaveChangesAsync(cancellationToken);
         }
     }

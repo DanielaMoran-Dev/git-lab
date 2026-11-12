@@ -438,3 +438,9 @@ graphify-out/*
 !graphify-out/.graphify_labels.json
 !graphify-out/.graphify_labels.json.sig
 
+
+
+# Local synchronization backups and generated leftovers
+.tmp/
+web/EventsHub/
+*.graphify-bak
