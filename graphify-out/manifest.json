@@ -42,9 +42,9 @@
     "semantic_hash": ""
   },
   "src/EventsHub.Api/Program.cs": {
-    "mtime": 1794415706.772087,
-    "seen": 1794416079.3546474,
-    "ast_hash": "7a1ff052b9742e0ef04bd5d96e7049b8",
+    "mtime": 1795198852.1818004,
+    "seen": 1795234795.1769357,
+    "ast_hash": "b6868cd0572d02efb5e6d3d2754265e4",
     "semantic_hash": ""
   },
   "src/EventsHub.Api/Properties/launchSettings.json": {
@@ -60,15 +60,15 @@
     "semantic_hash": ""
   },
   "src/EventsHub.Api/appsettings.Development.json": {
-    "mtime": 1794415706.8219433,
-    "seen": 1794416079.354662,
-    "ast_hash": "f83196436377421f959cfbaf27976319",
+    "mtime": 1795198579.656359,
+    "seen": 1795234795.1769655,
+    "ast_hash": "3ef0cf76313e492e9cba58366a662a24",
     "semantic_hash": ""
   },
   "src/EventsHub.Api/appsettings.json": {
-    "mtime": 1794415706.8249881,
-    "seen": 1794416079.3546662,
-    "ast_hash": "f83196436377421f959cfbaf27976319",
+    "mtime": 1795198532.2011817,
+    "seen": 1795234795.1769707,
+    "ast_hash": "3ef0cf76313e492e9cba58366a662a24",
     "semantic_hash": ""
   },
   "src/EventsHub.Application/Core/MappingProfiles.cs": {
@@ -156,22 +156,22 @@
     "semantic_hash": ""
   },
   "src/EventsHub.Persistence/AppDbContext.cs": {
-    "mtime": 1794503459.1073713,
-    "seen": 1794503825.5966158,
-    "ast_hash": "66828ae1318aba198612fc1882b2ba45",
+    "mtime": 1795234743.747249,
+    "seen": 1795234795.1771,
+    "ast_hash": "7bc3d712b18707c93127de6ce9926bb7",
     "semantic_hash": ""
   },
   "src/EventsHub.Persistence/DbInitializer.cs": {
-    "mtime": 1794415707.1455326,
-    "seen": 1794416079.3547769,
-    "ast_hash": "8b26a5846eb55cf29b6b022c722a7749",
+    "mtime": 1795232929.987835,
+    "seen": 1795234795.1771061,
+    "ast_hash": "751e31fa9eb82d4e18a7aa0d8961af34",
     "semantic_hash": ""
   },
   "src/EventsHub.Persistence/EventsHub.Persistence.csproj": {
-    "mtime": 1794415707.148938,
-    "seen": 1794416079.3547816,
-    "ast_hash": "d2b1844ca17c880c2c97add3046281e1",
-    "semantic_hash": "d2b1844ca17c880c2c97add3046281e1"
+    "mtime": 1795146003.4183564,
+    "seen": 1795234795.1771104,
+    "ast_hash": "ded33c4135b4b2a3081edfc38aa62e99",
+    "semantic_hash": ""
   },
   "src/EventsHub.Persistence/Migrations/AppDbContextModelSnapshot.cs": {
     "mtime": 1794496588.992391,
@@ -318,8 +318,8 @@
     "semantic_hash": ""
   },
   "tests/EventsHub.Application.UnitTests/EventsHub.Application.UnitTests.csproj": {
-    "mtime": 1794415707.2600455,
-    "seen": 1794416079.354807,
+    "mtime": 1795025262.0797668,
+    "seen": 1795234795.1771483,
     "ast_hash": "401b879a350005d278701991b8f780ad",
     "semantic_hash": ""
   },
@@ -390,9 +390,9 @@
     "semantic_hash": ""
   },
   "tests/EventsHub.Api.UnitTests/Controllers/EventsControllerTests.cs": {
-    "mtime": 1794503459.1093678,
-    "seen": 1794503825.5966372,
-    "ast_hash": "8b55c86e95901e519c76f2f949671fc9",
+    "mtime": 1795025262.072762,
+    "seen": 1795234795.177133,
+    "ast_hash": "d586c0981af06f8ca3a7c36d5f4fb638",
     "semantic_hash": ""
   },
   "tests/EventsHub.Api.UnitTests/EventsHub.UnitTests.csproj": {
@@ -402,8 +402,8 @@
     "semantic_hash": ""
   },
   "tests/EventsHub.Api.UnitTests/GlobalTestSetup.cs": {
-    "mtime": 1794496382.9799232,
-    "seen": 1794496668.7422428,
+    "mtime": 1795025262.075761,
+    "seen": 1795234795.177143,
     "ast_hash": "eb98ccdeab1f8695adff4803af9dac6a",
     "semantic_hash": ""
   },

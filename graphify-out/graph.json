@@ -4,26 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "id": "src_eventshub_persistence_migrations_20260828131904_initialcreate_designer_eventshub_persistence_migrations_initialcreate",
-      "label": "InitialCreate",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Application.Core.Mapping",
-      "file_type": "code",
-      "metadata": {
-        "is_partial": true,
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s296"
-        ]
-      },
-      "norm_label": "initialcreate",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260828131904_InitialCreate.Designer.cs",
-      "source_location": "L13"
-    },
-    {
       "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_eventshub_persistence_migrations_appdbcontextmodelsnapshot",
       "label": "AppDbContextModelSnapshot",
       "_callable": true,
@@ -63,8 +43,8 @@
       "source_location": "L10"
     },
     {
-      "id": "src_eventshub_persistence_dbinitializer_eventshub_persistence_dbinitializer",
-      "label": "DbInitializer",
+      "id": "src_eventshub_persistence_migrations_20260828131904_initialcreate_designer_eventshub_persistence_migrations_initialcreate",
+      "label": "InitialCreate",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
@@ -72,14 +52,15 @@
       "community_name": "GlobalTestSetup",
       "file_type": "code",
       "metadata": {
-        "namespace": "EventsHub.Persistence",
+        "is_partial": true,
+        "namespace": "EventsHub.Persistence.Migrations",
         "scope_chain": [
-          "s27"
+          "s296"
         ]
       },
-      "norm_label": "dbinitializer",
-      "source_file": "src/EventsHub.Persistence/DbInitializer.cs",
-      "source_location": "L5"
+      "norm_label": "initialcreate",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260828131904_InitialCreate.Designer.cs",
+      "source_location": "L13"
     },
     {
       "id": "tests_eventshub_api_unittests_globaltestsetup_eventshub_unittests_globaltestsetup",
@@ -197,13 +178,32 @@
       "source_location": "L3"
     },
     {
+      "id": "src_eventshub_application_core_mappingprofiles_eventshub_application_core_mappingprofiles",
+      "label": "MappingProfiles",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "MappingProfiles",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Application.Core",
+        "scope_chain": [
+          "s70"
+        ]
+      },
+      "norm_label": "mappingprofiles",
+      "source_file": "src/EventsHub.Application/Core/MappingProfiles.cs",
+      "source_location": "L6"
+    },
+    {
       "id": "src_eventshub_application_events_commands_editevent_eventshub_application_events_commands_editevent",
       "label": "EditEvent",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 17,
-      "community_name": "Decisions",
+      "community_name": "MappingProfiles",
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Commands",
@@ -216,32 +216,13 @@
       "source_location": "L8"
     },
     {
-      "id": "src_eventshub_application_events_commands_createevent_eventshub_application_events_commands_createevent",
-      "label": "CreateEvent",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s73"
-        ]
-      },
-      "norm_label": "createevent",
-      "source_file": "src/EventsHub.Application/Events/Commands/CreateEvent.cs",
-      "source_location": "L7"
-    },
-    {
       "id": "src_eventshub_application_events_commands_createevent_eventshub_application_events_commands_handler",
       "label": "Handler",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
+      "community_name": "Command",
       "file_type": "code",
       "metadata": {
         "is_nested_type": true,
@@ -255,52 +236,13 @@
       "source_location": "L14"
     },
     {
-      "id": "src_eventshub_application_events_commands_deleteevent_eventshub_application_events_commands_command",
-      "label": "Command",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "code",
-      "metadata": {
-        "is_nested_type": true,
-        "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s45"
-        ]
-      },
-      "norm_label": "command",
-      "source_file": "src/EventsHub.Application/Events/Commands/DeleteEvent.cs",
-      "source_location": "L8"
-    },
-    {
-      "id": "src_eventshub_application_events_commands_deleteevent_eventshub_application_events_commands_deleteevent",
-      "label": "DeleteEvent",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s45"
-        ]
-      },
-      "norm_label": "deleteevent",
-      "source_file": "src/EventsHub.Application/Events/Commands/DeleteEvent.cs",
-      "source_location": "L6"
-    },
-    {
       "id": "src_eventshub_application_events_commands_deleteevent_eventshub_application_events_commands_handler",
       "label": "Handler",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
+      "community_name": "Command",
       "file_type": "code",
       "metadata": {
         "is_nested_type": true,
@@ -344,7 +286,7 @@
       "metadata": {
         "namespace": "EventsHub.UnitTests.Controllers",
         "scope_chain": [
-          "s357"
+          "s368"
         ]
       },
       "norm_label": "eventscontrollertests",
@@ -429,13 +371,32 @@
       "source_location": "L5"
     },
     {
+      "id": "src_eventshub_application_core_mapping_imapper_eventshub_application_core_mapping_imapper",
+      "label": "IMapper",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "IMapper",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Application.Core.Mapping",
+        "scope_chain": [
+          "s0"
+        ]
+      },
+      "norm_label": "imapper",
+      "source_file": "src/EventsHub.Application/Core/Mapping/IMapper.cs",
+      "source_location": "L4"
+    },
+    {
       "id": "src_eventshub_application_events_commands_editevent_eventshub_application_events_commands_handler",
       "label": "Handler",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 38,
-      "community_name": "Handler",
+      "community_name": "IMapper",
       "file_type": "code",
       "metadata": {
         "is_nested_type": true,
@@ -481,6 +442,44 @@
       "source_location": "L6"
     },
     {
+      "id": "src_eventshub_persistence_dbinitializer_eventshub_persistence_dbinitializer",
+      "label": "DbInitializer",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "AppDbContext",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence",
+        "scope_chain": [
+          "s25"
+        ]
+      },
+      "norm_label": "dbinitializer",
+      "source_file": "src/EventsHub.Persistence/DbInitializer.cs",
+      "source_location": "L5"
+    },
+    {
+      "id": "src_eventshub_application_events_queries_geteventdetails_eventshub_application_events_queries_geteventdetails",
+      "label": "GetEventDetails",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "Handler",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Application.Events.Queries",
+        "scope_chain": [
+          "s73"
+        ]
+      },
+      "norm_label": "geteventdetails",
+      "source_file": "src/EventsHub.Application/Events/Queries/GetEventDetails.cs",
+      "source_location": "L7"
+    },
+    {
       "id": "src_eventshub_application_events_queries_geteventdetails_eventshub_application_events_queries_handler",
       "label": "Handler",
       "_callable": true,
@@ -499,6 +498,26 @@
       "norm_label": "handler",
       "source_file": "src/EventsHub.Application/Events/Queries/GetEventDetails.cs",
       "source_location": "L14"
+    },
+    {
+      "id": "src_eventshub_application_events_queries_geteventdetails_eventshub_application_events_queries_query",
+      "label": "Query",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "Handler",
+      "file_type": "code",
+      "metadata": {
+        "is_nested_type": true,
+        "namespace": "EventsHub.Application.Events.Queries",
+        "scope_chain": [
+          "s73"
+        ]
+      },
+      "norm_label": "query",
+      "source_file": "src/EventsHub.Application/Events/Queries/GetEventDetails.cs",
+      "source_location": "L9"
     },
     {
       "id": "src_eventshub_application_events_queries_geteventlist_eventshub_application_events_queries_geteventlist",
@@ -558,25 +577,6 @@
       "norm_label": "query",
       "source_file": "src/EventsHub.Application/Events/Queries/GetEventList.cs",
       "source_location": "L11"
-    },
-    {
-      "id": "src_eventshub_application_core_mapping_imapper_eventshub_application_core_mapping_imapper",
-      "label": "IMapper",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 47,
-      "community_name": "IMapper",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Application.Core.Mapping",
-        "scope_chain": [
-          "s0"
-        ]
-      },
-      "norm_label": "imapper",
-      "source_file": "src/EventsHub.Application/Core/Mapping/IMapper.cs",
-      "source_location": "L4"
     },
     {
       "id": "src_eventshub_application_core_mapping_mapper_eventshub_application_core_mapping_mapper",
@@ -693,25 +693,6 @@
       "source_location": "L62"
     },
     {
-      "id": "src_eventshub_application_core_mappingprofiles_eventshub_application_core_mappingprofiles",
-      "label": "MappingProfiles",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 55,
-      "community_name": "MappingProfiles",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Application.Core",
-        "scope_chain": [
-          "s70"
-        ]
-      },
-      "norm_label": "mappingprofiles",
-      "source_file": "src/EventsHub.Application/Core/MappingProfiles.cs",
-      "source_location": "L6"
-    },
-    {
       "id": "src_eventshub_application_events_commands_createevent_eventshub_application_events_commands_command",
       "label": "Command",
       "_callable": true,
@@ -732,6 +713,45 @@
       "source_location": "L9"
     },
     {
+      "id": "src_eventshub_application_events_commands_deleteevent_eventshub_application_events_commands_command",
+      "label": "Command",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 57,
+      "community_name": "IRequest",
+      "file_type": "code",
+      "metadata": {
+        "is_nested_type": true,
+        "namespace": "EventsHub.Application.Events.Commands",
+        "scope_chain": [
+          "s45"
+        ]
+      },
+      "norm_label": "command",
+      "source_file": "src/EventsHub.Application/Events/Commands/DeleteEvent.cs",
+      "source_location": "L8"
+    },
+    {
+      "id": "src_eventshub_application_events_commands_deleteevent_eventshub_application_events_commands_deleteevent",
+      "label": "DeleteEvent",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 57,
+      "community_name": "IRequest",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Application.Events.Commands",
+        "scope_chain": [
+          "s45"
+        ]
+      },
+      "norm_label": "deleteevent",
+      "source_file": "src/EventsHub.Application/Events/Commands/DeleteEvent.cs",
+      "source_location": "L6"
+    },
+    {
       "id": "src_eventshub_application_events_commands_editevent_eventshub_application_events_commands_command",
       "label": "Command",
       "_callable": true,
@@ -750,45 +770,6 @@
       "norm_label": "command",
       "source_file": "src/EventsHub.Application/Events/Commands/EditEvent.cs",
       "source_location": "L10"
-    },
-    {
-      "id": "src_eventshub_application_events_queries_geteventdetails_eventshub_application_events_queries_geteventdetails",
-      "label": "GetEventDetails",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 57,
-      "community_name": "IRequest",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Application.Events.Queries",
-        "scope_chain": [
-          "s73"
-        ]
-      },
-      "norm_label": "geteventdetails",
-      "source_file": "src/EventsHub.Application/Events/Queries/GetEventDetails.cs",
-      "source_location": "L7"
-    },
-    {
-      "id": "src_eventshub_application_events_queries_geteventdetails_eventshub_application_events_queries_query",
-      "label": "Query",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 57,
-      "community_name": "IRequest",
-      "file_type": "code",
-      "metadata": {
-        "is_nested_type": true,
-        "namespace": "EventsHub.Application.Events.Queries",
-        "scope_chain": [
-          "s73"
-        ]
-      },
-      "norm_label": "query",
-      "source_file": "src/EventsHub.Application/Events/Queries/GetEventDetails.cs",
-      "source_location": "L9"
     },
     {
       "id": "tests_eventshub_application_unittests_mapping_mapperfixtures_eventshub_application_unittests_mapping_childdest",
@@ -981,6 +962,25 @@
       "source_location": "L6"
     },
     {
+      "id": "src_eventshub_application_events_commands_createevent_eventshub_application_events_commands_createevent",
+      "label": "CreateEvent",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 78,
+      "community_name": "Part 2 \u2014 Layers in a .NET Solution",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Application.Events.Commands",
+        "scope_chain": [
+          "s73"
+        ]
+      },
+      "norm_label": "createevent",
+      "source_file": "src/EventsHub.Application/Events/Commands/CreateEvent.cs",
+      "source_location": "L7"
+    },
+    {
       "id": "src_eventshub_domain_event_eventshub_domain_event",
       "label": "Event",
       "_callable": true,
@@ -998,90 +998,6 @@
       "norm_label": "event",
       "source_file": "src/EventsHub.Domain/Event.cs",
       "source_location": "L3"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260828131904_initialcreate_designer_eventshub_persistence_migrations_initialcreate_buildtargetmodel",
-      "label": ".BuildTargetModel()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Application.Core.Mapping",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s296"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "HasAnnotation",
-            "receiver_type": "ModelBuilder",
-            "lang": "csharp",
-            "line": "L21"
-          },
-          {
-            "callee": "Entity",
-            "receiver_type": "ModelBuilder",
-            "lang": "csharp",
-            "line": "L23"
-          }
-        ]
-      },
-      "norm_label": ".buildtargetmodel()",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260828131904_InitialCreate.Designer.cs",
-      "source_location": "L18"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260828131904_initialcreate_eventshub_persistence_migrations_initialcreate_down",
-      "label": ".Down()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Application.Core.Mapping",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s90"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "DropTable",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L38"
-          }
-        ]
-      },
-      "norm_label": ".down()",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260828131904_InitialCreate.cs",
-      "source_location": "L36"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260828131904_initialcreate_eventshub_persistence_migrations_initialcreate_up",
-      "label": ".Up()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Application.Core.Mapping",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Persistence.Migrations",
-        "scope_chain": [
-          "s90"
-        ],
-        "unresolved_calls": [
-          {
-            "callee": "CreateTable",
-            "receiver_type": "MigrationBuilder",
-            "lang": "csharp",
-            "line": "L14"
-          }
-        ]
-      },
-      "norm_label": ".up()",
-      "source_file": "src/EventsHub.Persistence/Migrations/20260828131904_InitialCreate.cs",
-      "source_location": "L12"
     },
     {
       "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot_eventshub_persistence_migrations_appdbcontextmodelsnapshot_buildmodel",
@@ -1116,22 +1032,88 @@
       "source_location": "L15"
     },
     {
-      "id": "src_eventshub_persistence_dbinitializer_eventshub_persistence_dbinitializer_seeddataasync",
-      "label": ".SeedDataAsync()",
+      "id": "src_eventshub_persistence_migrations_20260828131904_initialcreate_designer_eventshub_persistence_migrations_initialcreate_buildtargetmodel",
+      "label": ".BuildTargetModel()",
       "_callable": true,
       "_origin": "ast",
       "community": 12,
       "community_name": "GlobalTestSetup",
       "file_type": "code",
       "metadata": {
-        "namespace": "EventsHub.Persistence",
+        "namespace": "EventsHub.Persistence.Migrations",
         "scope_chain": [
-          "s27"
+          "s296"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "HasAnnotation",
+            "receiver_type": "ModelBuilder",
+            "lang": "csharp",
+            "line": "L21"
+          },
+          {
+            "callee": "Entity",
+            "receiver_type": "ModelBuilder",
+            "lang": "csharp",
+            "line": "L23"
+          }
         ]
       },
-      "norm_label": ".seeddataasync()",
-      "source_file": "src/EventsHub.Persistence/DbInitializer.cs",
-      "source_location": "L7"
+      "norm_label": ".buildtargetmodel()",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260828131904_InitialCreate.Designer.cs",
+      "source_location": "L18"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260828131904_initialcreate_eventshub_persistence_migrations_initialcreate_down",
+      "label": ".Down()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "GlobalTestSetup",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s90"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "DropTable",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L38"
+          }
+        ]
+      },
+      "norm_label": ".down()",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260828131904_InitialCreate.cs",
+      "source_location": "L36"
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260828131904_initialcreate_eventshub_persistence_migrations_initialcreate_up",
+      "label": ".Up()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "GlobalTestSetup",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence.Migrations",
+        "scope_chain": [
+          "s90"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "CreateTable",
+            "receiver_type": "MigrationBuilder",
+            "lang": "csharp",
+            "line": "L14"
+          }
+        ]
+      },
+      "norm_label": ".up()",
+      "source_file": "src/EventsHub.Persistence/Migrations/20260828131904_InitialCreate.cs",
+      "source_location": "L12"
     },
     {
       "id": "tests_eventshub_api_unittests_globaltestsetup_eventshub_unittests_globaltestsetup_setup",
@@ -1603,7 +1585,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
+      "community_name": "Command",
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Commands",
@@ -1621,7 +1603,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
+      "community_name": "Command",
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Commands",
@@ -1774,7 +1756,7 @@
       "metadata": {
         "namespace": "EventsHub.UnitTests.Controllers",
         "scope_chain": [
-          "s357"
+          "s368"
         ],
         "unresolved_calls": [
           {
@@ -1812,7 +1794,7 @@
       "metadata": {
         "namespace": "EventsHub.UnitTests.Controllers",
         "scope_chain": [
-          "s357"
+          "s368"
         ],
         "unresolved_calls": [
           {
@@ -1856,7 +1838,7 @@
       "metadata": {
         "namespace": "EventsHub.UnitTests.Controllers",
         "scope_chain": [
-          "s357"
+          "s368"
         ],
         "unresolved_calls": [
           {
@@ -1894,7 +1876,7 @@
       "metadata": {
         "namespace": "EventsHub.UnitTests.Controllers",
         "scope_chain": [
-          "s357"
+          "s368"
         ],
         "unresolved_calls": [
           {
@@ -1920,7 +1902,7 @@
       "metadata": {
         "namespace": "EventsHub.UnitTests.Controllers",
         "scope_chain": [
-          "s357"
+          "s368"
         ],
         "unresolved_calls": [
           {
@@ -1946,7 +1928,7 @@
       "metadata": {
         "namespace": "EventsHub.UnitTests.Controllers",
         "scope_chain": [
-          "s357"
+          "s368"
         ],
         "unresolved_calls": [
           {
@@ -2209,7 +2191,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 38,
-      "community_name": "Handler",
+      "community_name": "IMapper",
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Core.Mapping",
@@ -2227,7 +2209,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 38,
-      "community_name": "Handler",
+      "community_name": "IMapper",
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Events.Commands",
@@ -2238,6 +2220,24 @@
       "norm_label": ".handle()",
       "source_file": "src/EventsHub.Application/Events/Commands/EditEvent.cs",
       "source_location": "L17"
+    },
+    {
+      "id": "src_eventshub_persistence_dbinitializer_eventshub_persistence_dbinitializer_seeddataasync",
+      "label": ".SeedDataAsync()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "AppDbContext",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence",
+        "scope_chain": [
+          "s25"
+        ]
+      },
+      "norm_label": ".seeddataasync()",
+      "source_file": "src/EventsHub.Persistence/DbInitializer.cs",
+      "source_location": "L7"
     },
     {
       "id": "src_eventshub_application_events_queries_geteventdetails_eventshub_application_events_queries_handler_handle",
@@ -2301,7 +2301,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 47,
-      "community_name": "IMapper",
+      "community_name": ".AddMapper",
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.Application.Core.Mapping",
@@ -2561,12 +2561,12 @@
       "_callable": true,
       "_origin": "ast",
       "community": 55,
-      "community_name": "MappingProfiles",
+      "community_name": ".Setup",
       "file_type": "code",
       "metadata": {
         "namespace": "EventsHub.UnitTests.Controllers",
         "scope_chain": [
-          "s357"
+          "s368"
         ],
         "unresolved_calls": [
           {
@@ -3220,6 +3220,38 @@
       "source_location": "L9"
     },
     {
+      "id": "src_eventshub_persistence_appdbcontext_eventshub_persistence_appdbcontext_onmodelcreating",
+      "label": ".OnModelCreating()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 79,
+      "community_name": ".OnModelCreating",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Persistence",
+        "scope_chain": [
+          "s62"
+        ],
+        "unresolved_calls": [
+          {
+            "callee": "Entity",
+            "receiver_type": "ModelBuilder",
+            "lang": "csharp",
+            "line": "L16"
+          },
+          {
+            "callee": "SpecifyKind",
+            "receiver_type": "DateTime",
+            "lang": "csharp",
+            "line": "L19"
+          }
+        ]
+      },
+      "norm_label": ".onmodelcreating()",
+      "source_file": "src/EventsHub.Persistence/AppDbContext.cs",
+      "source_location": "L10"
+    },
+    {
       "id": "csharp_namespace:12a7d59dc9ada733",
       "label": "EventsHub.Domain",
       "_origin": "ast",
@@ -3394,28 +3426,6 @@
       "source_file": "src/EventsHub.Application/Core/MappingProfiles.cs",
       "source_location": "L4",
       "type": "namespace"
-    },
-    {
-      "id": "migration",
-      "label": "Migration",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Application.Core.Mapping",
-      "file_type": "code",
-      "norm_label": "migration",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "migrationbuilder",
-      "label": "MigrationBuilder",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Application.Core.Mapping",
-      "file_type": "code",
-      "norm_label": "migrationbuilder",
-      "source_file": "",
-      "source_location": ""
     },
     {
       "id": "modelsnapshot",
@@ -3594,17 +3604,6 @@
       "source_location": "L1"
     },
     {
-      "id": "src_eventshub_persistence_migrations_20260828131904_initialcreate_cs_datetime",
-      "label": "DateTime",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Application.Core.Mapping",
-      "file_type": "code",
-      "norm_label": "datetime",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "src_eventshub_persistence_migrations_20260828131904_initialcreate_designer",
       "label": "20260828131904_InitialCreate.Designer.cs",
       "_origin": "ast",
@@ -3614,28 +3613,6 @@
       "norm_label": "20260828131904_initialcreate.designer.cs",
       "source_file": "src/EventsHub.Persistence/Migrations/20260828131904_InitialCreate.Designer.cs",
       "source_location": "L1"
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260828131904_initialcreate_designer_cs_datetime",
-      "label": "DateTime",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Application.Core.Mapping",
-      "file_type": "code",
-      "norm_label": "datetime",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_eventshub_persistence_migrations_20260828131904_initialcreate_designer_cs_modelbuilder",
-      "label": "ModelBuilder",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Application.Core.Mapping",
-      "file_type": "code",
-      "norm_label": "modelbuilder",
-      "source_file": "",
-      "source_location": ""
     },
     {
       "id": "src_eventshub_persistence_migrations_appdbcontextmodelsnapshot",
@@ -3758,18 +3735,6 @@
       "norm_label": "mappingprofilestests.cs",
       "source_file": "tests/EventsHub.Application.UnitTests/Mapping/MappingProfilesTests.cs",
       "source_location": "L1"
-    },
-    {
-      "id": "src_eventshub_persistence_readme_contents",
-      "label": "Contents",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "EventsHub.Application.Core.Mapping",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "contents",
-      "source_file": "src/EventsHub.Persistence/README.md",
-      "source_location": "L6"
     },
     {
       "id": "docs_guides_husky_setup_optional_add_prettier_code_formatting",
@@ -4276,6 +4241,28 @@
       "source_location": "L18"
     },
     {
+      "id": "migration",
+      "label": "Migration",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "GlobalTestSetup",
+      "file_type": "code",
+      "norm_label": "migration",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "migrationbuilder",
+      "label": "MigrationBuilder",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "GlobalTestSetup",
+      "file_type": "code",
+      "norm_label": "migrationbuilder",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "onetimesetup",
       "label": "OneTimeSetUp",
       "_origin": "ast",
@@ -4298,13 +4285,35 @@
       "source_location": ""
     },
     {
-      "id": "src_eventshub_persistence_dbinitializer_cs_task",
-      "label": "Task",
+      "id": "src_eventshub_persistence_migrations_20260828131904_initialcreate_cs_datetime",
+      "label": "DateTime",
       "_origin": "ast",
       "community": 12,
       "community_name": "GlobalTestSetup",
       "file_type": "code",
-      "norm_label": "task",
+      "norm_label": "datetime",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260828131904_initialcreate_designer_cs_datetime",
+      "label": "DateTime",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "GlobalTestSetup",
+      "file_type": "code",
+      "norm_label": "datetime",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_eventshub_persistence_migrations_20260828131904_initialcreate_designer_cs_modelbuilder",
+      "label": "ModelBuilder",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "GlobalTestSetup",
+      "file_type": "code",
+      "norm_label": "modelbuilder",
       "source_file": "",
       "source_location": ""
     },
@@ -4337,6 +4346,102 @@
       "source_location": "L9"
     },
     {
+      "id": "agents",
+      "label": "AGENTS.md",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "GlobalTestSetup",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "agents.md",
+      "source_file": "AGENTS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_build_test_and_development_commands",
+      "label": "Build, Test, and Development Commands",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "GlobalTestSetup",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "build, test, and development commands",
+      "source_file": "AGENTS.md",
+      "source_location": "L7"
+    },
+    {
+      "id": "agents_coding_style_naming_conventions",
+      "label": "Coding Style & Naming Conventions",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "GlobalTestSetup",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "coding style & naming conventions",
+      "source_file": "AGENTS.md",
+      "source_location": "L17"
+    },
+    {
+      "id": "agents_commit_pull_request_guidelines",
+      "label": "Commit & Pull Request Guidelines",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "GlobalTestSetup",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "commit & pull request guidelines",
+      "source_file": "AGENTS.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "agents_graphify",
+      "label": "graphify",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "GlobalTestSetup",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "graphify",
+      "source_file": "AGENTS.md",
+      "source_location": "L33"
+    },
+    {
+      "id": "agents_project_structure_module_organization",
+      "label": "Project Structure & Module Organization",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "GlobalTestSetup",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "project structure & module organization",
+      "source_file": "AGENTS.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "agents_repository_guidelines",
+      "label": "Repository Guidelines",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "GlobalTestSetup",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "repository guidelines",
+      "source_file": "AGENTS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_security_configuration_tips",
+      "label": "Security & Configuration Tips",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "GlobalTestSetup",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "security & configuration tips",
+      "source_file": "AGENTS.md",
+      "source_location": "L29"
+    },
+    {
       "id": "agents_testing_guidelines",
       "label": "Testing Guidelines",
       "_origin": "ast",
@@ -4349,64 +4454,16 @@
       "source_location": "L21"
     },
     {
-      "id": "docs_architecture_request_walkthrough",
-      "label": "Request walkthrough",
+      "id": "src_eventshub_persistence_readme_contents",
+      "label": "Contents",
       "_origin": "ast",
       "community": 12,
       "community_name": "GlobalTestSetup",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "request walkthrough",
-      "source_file": "docs/Architecture.md",
-      "source_location": "L43"
-    },
-    {
-      "id": "src_eventshub_persistence_readme_eventshub_persistence",
-      "label": "EventsHub.Persistence",
-      "_origin": "ast",
-      "community": 12,
-      "community_name": "GlobalTestSetup",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "eventshub.persistence",
+      "norm_label": "contents",
       "source_file": "src/EventsHub.Persistence/README.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_eventshub_persistence_readme_seed_data_caveat",
-      "label": "Seed data caveat",
-      "_origin": "ast",
-      "community": 12,
-      "community_name": "GlobalTestSetup",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "seed data caveat",
-      "source_file": "src/EventsHub.Persistence/README.md",
-      "source_location": "L51"
-    },
-    {
-      "id": "src_eventshub_persistence_readme_who_uses_it",
-      "label": "Who uses it",
-      "_origin": "ast",
-      "community": 12,
-      "community_name": "GlobalTestSetup",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "who uses it",
-      "source_file": "src/EventsHub.Persistence/README.md",
-      "source_location": "L23"
-    },
-    {
-      "id": "src_eventshub_persistence_readme_working_with_migrations",
-      "label": "Working with migrations",
-      "_origin": "ast",
-      "community": 12,
-      "community_name": "GlobalTestSetup",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "working with migrations",
-      "source_file": "src/EventsHub.Persistence/README.md",
-      "source_location": "L34"
+      "source_location": "L6"
     },
     {
       "id": "src_eventshub_api_properties_launchsettings",
@@ -4764,6 +4821,18 @@
       "source_location": "L39"
     },
     {
+      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_goals_non_goals",
+      "label": "Goals / Non-Goals",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "TypeMap",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "goals / non-goals",
+      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
+      "source_location": "L9"
+    },
+    {
       "id": "src_eventshub_openapi_properties_launchsettings",
       "label": "EventsHub.OpenApi/Properties/launchSettings.json",
       "_origin": "ast",
@@ -4973,7 +5042,7 @@
       "label": "design.md",
       "_origin": "ast",
       "community": 17,
-      "community_name": "Decisions",
+      "community_name": "MappingProfiles",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "design.md",
@@ -4985,7 +5054,7 @@
       "label": "1. Namespace and layout",
       "_origin": "ast",
       "community": 17,
-      "community_name": "Decisions",
+      "community_name": "MappingProfiles",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "1. namespace and layout",
@@ -4993,83 +5062,11 @@
       "source_location": "L25"
     },
     {
-      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_3_members_from_the_source_are_matched_case_sensitively",
-      "label": "3. Members from the source are matched case-sensitively",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Decisions",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3. members from the source are matched case-sensitively",
-      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
-      "source_location": "L45"
-    },
-    {
-      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_4_nested_and_collection_members",
-      "label": "4. Nested and collection members",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Decisions",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "4. nested and collection members",
-      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
-      "source_location": "L49"
-    },
-    {
-      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_5_new_instance_creation",
-      "label": "5. New-instance creation",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Decisions",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "5. new-instance creation",
-      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
-      "source_location": "L53"
-    },
-    {
-      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_6_errors_and_lifetime",
-      "label": "6. Errors and lifetime",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Decisions",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "6. errors and lifetime",
-      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
-      "source_location": "L57"
-    },
-    {
-      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_7_startup_wiring",
-      "label": "7. Startup wiring",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Decisions",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "7. startup wiring",
-      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
-      "source_location": "L65"
-    },
-    {
-      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_8_tests",
-      "label": "8. Tests",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Decisions",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "8. tests",
-      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
-      "source_location": "L69"
-    },
-    {
       "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_context",
       "label": "Context",
       "_origin": "ast",
       "community": 17,
-      "community_name": "Decisions",
+      "community_name": "MappingProfiles",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "context",
@@ -5077,23 +5074,11 @@
       "source_location": "L3"
     },
     {
-      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_decisions",
-      "label": "Decisions",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Decisions",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "decisions",
-      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
-      "source_location": "L23"
-    },
-    {
       "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_design",
       "label": "Design",
       "_origin": "ast",
       "community": 17,
-      "community_name": "Decisions",
+      "community_name": "MappingProfiles",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "design",
@@ -5101,23 +5086,11 @@
       "source_location": "L1"
     },
     {
-      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_goals_non_goals",
-      "label": "Goals / Non-Goals",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Decisions",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "goals / non-goals",
-      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
-      "source_location": "L9"
-    },
-    {
       "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_migration_plan",
       "label": "Migration Plan",
       "_origin": "ast",
       "community": 17,
-      "community_name": "Decisions",
+      "community_name": "MappingProfiles",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "migration plan",
@@ -5129,7 +5102,7 @@
       "label": "Open Questions",
       "_origin": "ast",
       "community": 17,
-      "community_name": "Decisions",
+      "community_name": "MappingProfiles",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "open questions",
@@ -5141,12 +5114,24 @@
       "label": "Risks / Trade-offs",
       "_origin": "ast",
       "community": 17,
-      "community_name": "Decisions",
+      "community_name": "MappingProfiles",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "risks / trade-offs",
       "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
       "source_location": "L73"
+    },
+    {
+      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_tasks_4_documentation",
+      "label": "4. Documentation",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "MappingProfiles",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. documentation",
+      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/tasks.md",
+      "source_location": "L24"
     },
     {
       "id": "docs_fundamentals_cqrsfundamentals_20_testing_cqrs_systems_intermediate",
@@ -5312,17 +5297,6 @@
       "source_location": null
     },
     {
-      "id": "nuget_microsoft_entityframeworkcore_sqlite",
-      "label": "Microsoft.EntityFrameworkCore.Sqlite (10.0.11)",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "EventsHub.UnitTests.csproj",
-      "file_type": "code",
-      "norm_label": "microsoft.entityframeworkcore.sqlite (10.0.11)",
-      "source_file": "src/EventsHub.Persistence/EventsHub.Persistence.csproj",
-      "source_location": null
-    },
-    {
       "id": "nuget_moq",
       "label": "Moq (4.20.72)",
       "_origin": "ast",
@@ -5342,6 +5316,17 @@
       "file_type": "code",
       "norm_label": "newtonsoft.json (13.0.4)",
       "source_file": "src/EventsHub.OpenApi/EventsHub.OpenApi.csproj",
+      "source_location": null
+    },
+    {
+      "id": "nuget_npgsql_entityframeworkcore_postgresql",
+      "label": "Npgsql.EntityFrameworkCore.PostgreSQL (10.0.3)",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "EventsHub.UnitTests.csproj",
+      "file_type": "code",
+      "norm_label": "npgsql.entityframeworkcore.postgresql (10.0.3)",
+      "source_file": "src/EventsHub.Persistence/EventsHub.Persistence.csproj",
       "source_location": null
     },
     {
@@ -6037,7 +6022,7 @@
       "label": "Command",
       "_origin": "ast",
       "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
+      "community_name": "Command",
       "file_type": "code",
       "norm_label": "command",
       "source_file": "",
@@ -6048,7 +6033,7 @@
       "label": "IRequestHandler",
       "_origin": "ast",
       "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
+      "community_name": "Command",
       "file_type": "code",
       "norm_label": "irequesthandler",
       "source_file": "",
@@ -6059,7 +6044,7 @@
       "label": "CancellationToken",
       "_origin": "ast",
       "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
+      "community_name": "Command",
       "file_type": "code",
       "norm_label": "cancellationtoken",
       "source_file": "",
@@ -6070,7 +6055,7 @@
       "label": "Task",
       "_origin": "ast",
       "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
+      "community_name": "Command",
       "file_type": "code",
       "norm_label": "task",
       "source_file": "",
@@ -6081,7 +6066,7 @@
       "label": "CancellationToken",
       "_origin": "ast",
       "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
+      "community_name": "Command",
       "file_type": "code",
       "norm_label": "cancellationtoken",
       "source_file": "",
@@ -6092,448 +6077,11 @@
       "label": "Task",
       "_origin": "ast",
       "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
+      "community_name": "Command",
       "file_type": "code",
       "norm_label": "task",
       "source_file": "",
       "source_location": ""
-    },
-    {
-      "id": "src_eventshub_application_events_commands_deleteevent_eventshub_application_events_commands_command_id",
-      "label": "Id",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Application.Events.Commands",
-        "scope_chain": [
-          "s45"
-        ]
-      },
-      "norm_label": "id",
-      "source_file": "src/EventsHub.Application/Events/Commands/DeleteEvent.cs",
-      "source_location": "L10"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals",
-      "label": "CleanArchitectureFundamentals.md",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "cleanarchitecturefundamentals.md",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_10_project_references_and_enforcing_the_dependency_direction_intermediate",
-      "label": "10. Project References and Enforcing the Dependency Direction \u2014 Intermediate",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "10. project references and enforcing the dependency direction \u2014 intermediate",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L375"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_11_dependency_injection_and_the_composition_root_intermediate",
-      "label": "11. Dependency Injection and the Composition Root \u2014 Intermediate",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "11. dependency injection and the composition root \u2014 intermediate",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L408"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_12_repository_and_unit_of_work_advanced",
-      "label": "12. Repository and Unit of Work \u2014 Advanced",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "12. repository and unit of work \u2014 advanced",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L444"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_13_cqrs_commands_vs_queries_intermediate",
-      "label": "13. CQRS: Commands vs. Queries \u2014 Intermediate",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "13. cqrs: commands vs. queries \u2014 intermediate",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L478"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_14_mediatr_and_pipeline_behaviors_advanced",
-      "label": "14. MediatR and Pipeline Behaviors \u2014 Advanced",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "14. mediatr and pipeline behaviors \u2014 advanced",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L510"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_15_the_result_pattern_vs_exceptions_intermediate",
-      "label": "15. The Result Pattern vs. Exceptions \u2014 Intermediate",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "15. the result pattern vs. exceptions \u2014 intermediate",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L591"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_16_mapping_and_dto_boundaries_intermediate",
-      "label": "16. Mapping and DTO Boundaries \u2014 Intermediate",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "16. mapping and dto boundaries \u2014 intermediate",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L659"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_17_validation_with_fluentvalidation_intermediate",
-      "label": "17. Validation with FluentValidation \u2014 Intermediate",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "17. validation with fluentvalidation \u2014 intermediate",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L703"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_18_logging_caching_and_authentication_authorization_intermediate",
-      "label": "18. Logging, Caching, and Authentication / Authorization \u2014 Intermediate",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "18. logging, caching, and authentication / authorization \u2014 intermediate",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L743"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_19_api_contracts_and_openapi_intermediate",
-      "label": "19. API Contracts and OpenAPI \u2014 Intermediate",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "19. api contracts and openapi \u2014 intermediate",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L790"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_1_what_clean_architecture_is_and_the_problem_it_solves_general",
-      "label": "1. What Clean Architecture Is and the Problem It Solves \u2014 General",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1. what clean architecture is and the problem it solves \u2014 general",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L28"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_20_configuration_and_the_options_pattern_general",
-      "label": "20. Configuration and the Options Pattern \u2014 General",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "20. configuration and the options pattern \u2014 general",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L821"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_21_unit_testing_the_domain_and_application_layers_general",
-      "label": "21. Unit Testing the Domain and Application Layers \u2014 General",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "21. unit testing the domain and application layers \u2014 general",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L882"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_22_mocking_boundaries_intermediate",
-      "label": "22. Mocking Boundaries \u2014 Intermediate",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "22. mocking boundaries \u2014 intermediate",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L936"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_23_integration_testing_with_webapplicationfactory_and_a_test_database_advanced",
-      "label": "23. Integration Testing with WebApplicationFactory and a Test Database \u2014 Advanced",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "23. integration testing with webapplicationfactory and a test database \u2014 advanced",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L973"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_24_architecture_tests_advanced",
-      "label": "24. Architecture Tests \u2014 Advanced",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "24. architecture tests \u2014 advanced",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L1027"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_2_origins_and_related_styles_hexagonal_onion_and_clean_general",
-      "label": "2. Origins and Related Styles: Hexagonal, Onion, and Clean \u2014 General",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "2. origins and related styles: hexagonal, onion, and clean \u2014 general",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L45"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_3_the_dependency_rule_general",
-      "label": "3. The Dependency Rule \u2014 General",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3. the dependency rule \u2014 general",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L73"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_4_the_concentric_circles_diagram_general",
-      "label": "4. The Concentric-Circles Diagram \u2014 General",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "4. the concentric-circles diagram \u2014 general",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L123"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_5_solid_principles_as_the_basis_intermediate",
-      "label": "5. SOLID Principles as the Basis \u2014 Intermediate",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "5. solid principles as the basis \u2014 intermediate",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L153"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_6_the_domain_layer_intermediate",
-      "label": "6. The Domain Layer \u2014 Intermediate",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "6. the domain layer \u2014 intermediate",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L175"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_7_the_application_layer_intermediate",
-      "label": "7. The Application Layer \u2014 Intermediate",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "7. the application layer \u2014 intermediate",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L248"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_8_the_infrastructure_persistence_layer_intermediate",
-      "label": "8. The Infrastructure / Persistence Layer \u2014 Intermediate",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "8. the infrastructure / persistence layer \u2014 intermediate",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L284"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_9_the_presentation_api_layer_general",
-      "label": "9. The Presentation / API Layer \u2014 General",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "9. the presentation / api layer \u2014 general",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L341"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_authentication_and_authorization",
-      "label": "Authentication and authorization",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "authentication and authorization",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L773"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_caching",
-      "label": "Caching",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "caching",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L759"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_clean_architecture_fundamentals",
-      "label": "Clean Architecture Fundamentals",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "clean architecture fundamentals",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_glossary",
-      "label": "Glossary",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "glossary",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L1336"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_logging",
-      "label": "Logging",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "logging",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L749"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_part_1_foundations",
-      "label": "Part 1 \u2014 Foundations",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "part 1 \u2014 foundations",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L26"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_part_2_layers_in_a_net_solution",
-      "label": "Part 2 \u2014 Layers in a .NET Solution",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "part 2 \u2014 layers in a .net solution",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L173"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_part_3_key_patterns",
-      "label": "Part 3 \u2014 Key Patterns",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "part 3 \u2014 key patterns",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L406"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_part_4_cross_cutting_concerns",
-      "label": "Part 4 \u2014 Cross-Cutting Concerns",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "part 4 \u2014 cross-cutting concerns",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L741"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_part_5_testing",
-      "label": "Part 5 \u2014 Testing",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "Clean Architecture Fundamentals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "part 5 \u2014 testing",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L869"
     },
     {
       "id": "docs_fundamentals_cqrsfundamentals_14_event_sourcing_advanced",
@@ -7394,12 +6942,24 @@
       "metadata": {
         "namespace": "EventsHub.UnitTests.Controllers",
         "scope_chain": [
-          "s357"
+          "s368"
         ]
       },
       "norm_label": "db",
       "source_file": "tests/EventsHub.Api.UnitTests/Controllers/EventsControllerTests.cs",
       "source_location": "L20"
+    },
+    {
+      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_8_tests",
+      "label": "8. Tests",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "EventsControllerTests",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "8. tests",
+      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
+      "source_location": "L69"
     },
     {
       "id": "src_eventshub_api_readme_testing",
@@ -8605,54 +8165,6 @@
       "source_location": "L33"
     },
     {
-      "id": "src_eventshub_api_readme_eventshub_api",
-      "label": "EventsHub.Api",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "EventsHubBaseController",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "eventshub.api",
-      "source_file": "src/EventsHub.Api/README.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_eventshub_api_readme_regenerating_the_openapi_client",
-      "label": "Regenerating the OpenAPI client",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "EventsHubBaseController",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "regenerating the openapi client",
-      "source_file": "src/EventsHub.Api/README.md",
-      "source_location": "L96"
-    },
-    {
-      "id": "src_eventshub_api_readme_running_it",
-      "label": "Running it",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "EventsHubBaseController",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "running it",
-      "source_file": "src/EventsHub.Api/README.md",
-      "source_location": "L54"
-    },
-    {
-      "id": "src_eventshub_api_readme_what_it_does",
-      "label": "What it does",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "EventsHubBaseController",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "what it does",
-      "source_file": "src/EventsHub.Api/README.md",
-      "source_location": "L8"
-    },
-    {
       "id": "docs_guides_gitinpracticeguide",
       "label": "GitInPracticeGuide.md",
       "_origin": "ast",
@@ -8797,11 +8309,22 @@
       "source_location": "L272"
     },
     {
+      "id": "src_eventshub_application_core_mapping_imapper",
+      "label": "IMapper.cs",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "IMapper",
+      "file_type": "code",
+      "norm_label": "imapper.cs",
+      "source_file": "src/EventsHub.Application/Core/Mapping/IMapper.cs",
+      "source_location": "L1"
+    },
+    {
       "id": "src_eventshub_application_events_commands_editevent_cs_cancellationtoken",
       "label": "CancellationToken",
       "_origin": "ast",
       "community": 38,
-      "community_name": "Handler",
+      "community_name": "IMapper",
       "file_type": "code",
       "norm_label": "cancellationtoken",
       "source_file": "",
@@ -8812,7 +8335,7 @@
       "label": "Task",
       "_origin": "ast",
       "community": 38,
-      "community_name": "Handler",
+      "community_name": "IMapper",
       "file_type": "code",
       "norm_label": "task",
       "source_file": "",
@@ -8823,7 +8346,7 @@
       "label": "proposal.md",
       "_origin": "ast",
       "community": 38,
-      "community_name": "Handler",
+      "community_name": "IMapper",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "proposal.md",
@@ -8835,7 +8358,7 @@
       "label": "Capabilities",
       "_origin": "ast",
       "community": 38,
-      "community_name": "Handler",
+      "community_name": "IMapper",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "capabilities",
@@ -8847,7 +8370,7 @@
       "label": "Impact",
       "_origin": "ast",
       "community": 38,
-      "community_name": "Handler",
+      "community_name": "IMapper",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "impact",
@@ -8859,7 +8382,7 @@
       "label": "Modified Capabilities",
       "_origin": "ast",
       "community": 38,
-      "community_name": "Handler",
+      "community_name": "IMapper",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "modified capabilities",
@@ -8871,7 +8394,7 @@
       "label": "New Capabilities",
       "_origin": "ast",
       "community": 38,
-      "community_name": "Handler",
+      "community_name": "IMapper",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "new capabilities",
@@ -8883,7 +8406,7 @@
       "label": "Proposal",
       "_origin": "ast",
       "community": 38,
-      "community_name": "Handler",
+      "community_name": "IMapper",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "proposal",
@@ -8895,7 +8418,7 @@
       "label": "What Changes",
       "_origin": "ast",
       "community": 38,
-      "community_name": "Handler",
+      "community_name": "IMapper",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "what changes",
@@ -8907,7 +8430,7 @@
       "label": "Why",
       "_origin": "ast",
       "community": 38,
-      "community_name": "Handler",
+      "community_name": "IMapper",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "why",
@@ -9282,6 +8805,17 @@
       "source_location": "L8"
     },
     {
+      "id": "src_eventshub_persistence_dbinitializer_cs_task",
+      "label": "Task",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "AppDbContext",
+      "file_type": "code",
+      "norm_label": "task",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "docs_architecture_architectural_pattern",
       "label": "Architectural pattern",
       "_origin": "ast",
@@ -9330,6 +8864,18 @@
       "source_location": "L104"
     },
     {
+      "id": "docs_architecture_request_walkthrough",
+      "label": "Request walkthrough",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "AppDbContext",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "request walkthrough",
+      "source_file": "docs/Architecture.md",
+      "source_location": "L43"
+    },
+    {
       "id": "docs_architecture_system_overview",
       "label": "System overview",
       "_origin": "ast",
@@ -9342,39 +8888,51 @@
       "source_location": "L10"
     },
     {
-      "id": "readme_eventshub",
-      "label": "EventsHub",
+      "id": "src_eventshub_persistence_readme_eventshub_persistence",
+      "label": "EventsHub.Persistence",
       "_origin": "ast",
       "community": 41,
       "community_name": "AppDbContext",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "eventshub",
-      "source_file": "README.md",
+      "norm_label": "eventshub.persistence",
+      "source_file": "src/EventsHub.Persistence/README.md",
       "source_location": "L1"
     },
     {
-      "id": "readme_how_the_pieces_connect",
-      "label": "How the pieces connect",
+      "id": "src_eventshub_persistence_readme_seed_data_caveat",
+      "label": "Seed data caveat",
       "_origin": "ast",
       "community": 41,
       "community_name": "AppDbContext",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "how the pieces connect",
-      "source_file": "README.md",
-      "source_location": "L17"
+      "norm_label": "seed data caveat",
+      "source_file": "src/EventsHub.Persistence/README.md",
+      "source_location": "L51"
     },
     {
-      "id": "readme_quick_start",
-      "label": "Quick start",
+      "id": "src_eventshub_persistence_readme_who_uses_it",
+      "label": "Who uses it",
       "_origin": "ast",
       "community": 41,
       "community_name": "AppDbContext",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "quick start",
-      "source_file": "README.md",
+      "norm_label": "who uses it",
+      "source_file": "src/EventsHub.Persistence/README.md",
+      "source_location": "L23"
+    },
+    {
+      "id": "src_eventshub_persistence_readme_working_with_migrations",
+      "label": "Working with migrations",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "AppDbContext",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "working with migrations",
+      "source_file": "src/EventsHub.Persistence/README.md",
       "source_location": "L34"
     },
     {
@@ -9482,6 +9040,23 @@
       "source_location": ""
     },
     {
+      "id": "src_eventshub_application_events_queries_geteventdetails_eventshub_application_events_queries_query_id",
+      "label": "Id",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "Handler",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Application.Events.Queries",
+        "scope_chain": [
+          "s73"
+        ]
+      },
+      "norm_label": "id",
+      "source_file": "src/EventsHub.Application/Events/Queries/GetEventDetails.cs",
+      "source_location": "L11"
+    },
+    {
       "id": "src_eventshub_application_events_queries_geteventlist_cs_cancellationtoken",
       "label": "CancellationToken",
       "_origin": "ast",
@@ -9525,18 +9100,6 @@
       "norm_label": "25. folder and project structure: layer-based vs. feature-based \u2014 intermediate",
       "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
       "source_location": "L1092"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_26_common_mistakes_anemic_domain_leaky_abstractions_over_engineering_intermediate",
-      "label": "26. Common Mistakes: Anemic Domain, Leaky Abstractions, Over-Engineering \u2014 Intermediate",
-      "_origin": "ast",
-      "community": 45,
-      "community_name": "Part 6 \u2014 Practice and Pitfalls",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "26. common mistakes: anemic domain, leaky abstractions, over-engineering \u2014 intermediate",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L1154"
     },
     {
       "id": "docs_fundamentals_cleanarchitecturefundamentals_27_when_not_to_use_clean_architecture_general",
@@ -9599,42 +9162,6 @@
       "source_location": "L1098"
     },
     {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_leaky_abstractions",
-      "label": "Leaky abstractions",
-      "_origin": "ast",
-      "community": 45,
-      "community_name": "Part 6 \u2014 Practice and Pitfalls",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "leaky abstractions",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L1184"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_other_frequent_problems",
-      "label": "Other frequent problems",
-      "_origin": "ast",
-      "community": 45,
-      "community_name": "Part 6 \u2014 Practice and Pitfalls",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "other frequent problems",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L1203"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_over_engineering",
-      "label": "Over-engineering",
-      "_origin": "ast",
-      "community": 45,
-      "community_name": "Part 6 \u2014 Practice and Pitfalls",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "over-engineering",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L1195"
-    },
-    {
       "id": "docs_fundamentals_cleanarchitecturefundamentals_part_6_practice_and_pitfalls",
       "label": "Part 6 \u2014 Practice and Pitfalls",
       "_origin": "ast",
@@ -9681,18 +9208,6 @@
       "norm_label": "stretch goals",
       "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
       "source_location": "L1317"
-    },
-    {
-      "id": "docs_fundamentals_cleanarchitecturefundamentals_the_anemic_domain_model",
-      "label": "The anemic domain model",
-      "_origin": "ast",
-      "community": 45,
-      "community_name": "Part 6 \u2014 Practice and Pitfalls",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "the anemic domain model",
-      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
-      "source_location": "L1158"
     },
     {
       "id": "docs_guides_openapisetup",
@@ -9819,7 +9334,7 @@
       "label": "Assembly",
       "_origin": "ast",
       "community": 47,
-      "community_name": "IMapper",
+      "community_name": ".AddMapper",
       "file_type": "code",
       "norm_label": "assembly",
       "source_file": "",
@@ -9830,41 +9345,18 @@
       "label": "IServiceCollection",
       "_origin": "ast",
       "community": 47,
-      "community_name": "IMapper",
+      "community_name": ".AddMapper",
       "file_type": "code",
       "norm_label": "iservicecollection",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "src_eventshub_application_core_mapping_imapper",
-      "label": "IMapper.cs",
-      "_origin": "ast",
-      "community": 47,
-      "community_name": "IMapper",
-      "file_type": "code",
-      "norm_label": "imapper.cs",
-      "source_file": "src/EventsHub.Application/Core/Mapping/IMapper.cs",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_eventshub_api_readme_wiring_program_cs",
-      "label": "Wiring (`Program.cs`)",
-      "_origin": "ast",
-      "community": 47,
-      "community_name": "IMapper",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "wiring (`program.cs`)",
-      "source_file": "src/EventsHub.Api/README.md",
-      "source_location": "L21"
-    },
-    {
       "id": "src_eventshub_application_readme_adding_a_mapping_profile",
       "label": "Adding a mapping profile",
       "_origin": "ast",
       "community": 47,
-      "community_name": "IMapper",
+      "community_name": ".AddMapper",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "adding a mapping profile",
@@ -9876,7 +9368,7 @@
       "label": "Adding a use case",
       "_origin": "ast",
       "community": 47,
-      "community_name": "IMapper",
+      "community_name": ".AddMapper",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "adding a use case",
@@ -9888,7 +9380,7 @@
       "label": "Contents",
       "_origin": "ast",
       "community": 47,
-      "community_name": "IMapper",
+      "community_name": ".AddMapper",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "contents",
@@ -9900,7 +9392,7 @@
       "label": "EventsHub.Application",
       "_origin": "ast",
       "community": 47,
-      "community_name": "IMapper",
+      "community_name": ".AddMapper",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "eventshub.application",
@@ -9912,7 +9404,7 @@
       "label": "How it connects to the rest of the solution",
       "_origin": "ast",
       "community": 47,
-      "community_name": "IMapper",
+      "community_name": ".AddMapper",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "how it connects to the rest of the solution",
@@ -9924,7 +9416,7 @@
       "label": "Known rough edges",
       "_origin": "ast",
       "community": 47,
-      "community_name": "IMapper",
+      "community_name": ".AddMapper",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "known rough edges",
@@ -10100,42 +9592,6 @@
       "source_location": "L5"
     },
     {
-      "id": "docs_fundamentals_dbcontextfundamentals_10_performance_query_optimization",
-      "label": "10. Performance & Query Optimization",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "10. performance & query optimization",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L572"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_11_dbcontext_pooling_advanced_lifetime_management",
-      "label": "11. `DbContext` Pooling & Advanced Lifetime Management",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "11. `dbcontext` pooling & advanced lifetime management",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L628"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_12_testing_with_dbcontext",
-      "label": "12. Testing with `DbContext`",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "12. testing with `dbcontext`",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L669"
-    },
-    {
       "id": "docs_fundamentals_dbcontextfundamentals_13_common_pitfalls_anti_patterns",
       "label": "13. Common Pitfalls & Anti-Patterns",
       "_origin": "ast",
@@ -10184,66 +9640,6 @@
       "source_location": "L40"
     },
     {
-      "id": "docs_fundamentals_dbcontextfundamentals_1_what_is_dbcontext",
-      "label": "1. What Is `DbContext`?",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1. what is `dbcontext`?",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L15"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_2_configuration_setup",
-      "label": "2. Configuration & Setup",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "2. configuration & setup",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L174"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_3_querying_data",
-      "label": "3. Querying Data",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3. querying data",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L235"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_4_change_tracking",
-      "label": "4. Change Tracking",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "4. change tracking",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L292"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_5_saving_changes",
-      "label": "5. Saving Changes",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "5. saving changes",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L343"
-    },
-    {
       "id": "docs_fundamentals_dbcontextfundamentals_6_dbcontext_lifetime_scope",
       "label": "6. `DbContext` Lifetime & Scope",
       "_origin": "ast",
@@ -10268,126 +9664,6 @@
       "source_location": "L394"
     },
     {
-      "id": "docs_fundamentals_dbcontextfundamentals_8_loading_strategies_in_depth",
-      "label": "8. Loading Strategies in Depth",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "8. loading strategies in depth",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L407"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_9_transactions_concurrency_control",
-      "label": "9. Transactions & Concurrency Control",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "9. transactions & concurrency control",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L483"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_abstraction_for_unit_testing",
-      "label": "Abstraction for Unit Testing",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "abstraction for unit testing",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L683"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_adddbcontextpool",
-      "label": "`AddDbContextPool`",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`adddbcontextpool`",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L632"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_asnotracking",
-      "label": "`AsNoTracking()`",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`asnotracking()`",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L277"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_avoiding_n_1_systematically",
-      "label": "Avoiding N+1 Systematically",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "avoiding n+1 systematically",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L590"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_bulk_operations_executeupdate_executedelete",
-      "label": "Bulk Operations: `ExecuteUpdate` / `ExecuteDelete`",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "bulk operations: `executeupdate` / `executedelete`",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L594"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_choosing_a_strategy",
-      "label": "Choosing a Strategy",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "choosing a strategy",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L473"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_client_side_vs_server_side_evaluation",
-      "label": "Client-Side vs. Server-Side Evaluation",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "client-side vs. server-side evaluation",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L268"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_compiled_queries",
-      "label": "Compiled Queries",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "compiled queries",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L576"
-    },
-    {
       "id": "docs_fundamentals_dbcontextfundamentals_concrete_failure_scenarios",
       "label": "Concrete Failure Scenarios",
       "_origin": "ast",
@@ -10400,54 +9676,6 @@
       "source_location": "L386"
     },
     {
-      "id": "docs_fundamentals_dbcontextfundamentals_concurrency_tokens_preview",
-      "label": "Concurrency Tokens (Preview)",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "concurrency tokens (preview)",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L364"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_dbcontext_vs_dbset_t",
-      "label": "`DbContext` vs. `DbSet<T>`",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`dbcontext` vs. `dbset<t>`",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L27"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_deferred_vs_immediate_execution",
-      "label": "Deferred vs. Immediate Execution",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "deferred vs. immediate execution",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L254"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_eager_loading_include_theninclude",
-      "label": "Eager Loading \u2014 `.Include()` / `.ThenInclude()`",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "eager loading \u2014 `.include()` / `.theninclude()`",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L413"
-    },
-    {
       "id": "docs_fundamentals_dbcontextfundamentals_entity_framework_core_dbcontext_deep_dive",
       "label": "Entity Framework Core: DbContext Deep Dive",
       "_origin": "ast",
@@ -10458,198 +9686,6 @@
       "norm_label": "entity framework core: dbcontext deep dive",
       "source_file": "docs/fundamentals/DbContextFundamentals.md",
       "source_location": "L1"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_entity_states",
-      "label": "Entity States",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "entity states",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L303"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_explicit_loading",
-      "label": "Explicit Loading",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "explicit loading",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L438"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_fluent_api_vs_data_annotations",
-      "label": "Fluent API vs. Data Annotations",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "fluent api vs. data annotations",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L210"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_idbcontextfactory_t",
-      "label": "`IDbContextFactory<T>`",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "`idbcontextfactory<t>`",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L643"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_implicit_transactions",
-      "label": "Implicit Transactions",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "implicit transactions",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L360"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_indexing_from_the_ef_side",
-      "label": "Indexing from the EF Side",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "indexing from the ef side",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L615"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_lazy_loading",
-      "label": "Lazy Loading",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "lazy loading",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L452"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_manual_transactions",
-      "label": "Manual Transactions",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "manual transactions",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L487"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_optimistic_concurrency_control",
-      "label": "Optimistic Concurrency Control",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "optimistic concurrency control",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L512"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_pessimistic_concurrency_brief",
-      "label": "Pessimistic Concurrency (Brief)",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "pessimistic concurrency (brief)",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L566"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_provider_options_for_tests",
-      "label": "Provider Options for Tests",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "provider options for tests",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L673"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_query_splitting_trade_offs",
-      "label": "Query Splitting Trade-offs",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "query splitting trade-offs",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L611"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_seeding_data_for_integration_tests",
-      "label": "Seeding Data for Integration Tests",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "seeding data for integration tests",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L687"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_snapshot_based_change_detection",
-      "label": "Snapshot-Based Change Detection",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "snapshot-based change detection",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L324"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_tracking_vs_no_tracking_revisited",
-      "label": "Tracking vs. No-Tracking, Revisited",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "tracking vs. no-tracking, revisited",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L332"
-    },
-    {
-      "id": "docs_fundamentals_dbcontextfundamentals_where_it_fits_in_an_application",
-      "label": "Where It Fits in an Application",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Entity Framework Core: DbContext Deep Dive",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "where it fits in an application",
-      "source_file": "docs/fundamentals/DbContextFundamentals.md",
-      "source_location": "L32"
     },
     {
       "id": "src_eventshub_application_core_mapping_mapper",
@@ -10696,100 +9732,100 @@
       "source_location": ""
     },
     {
-      "id": "agents",
-      "label": "AGENTS.md",
+      "id": "docs_fundamentals_cleanarchitecturefundamentals",
+      "label": "CleanArchitectureFundamentals.md",
       "_origin": "ast",
       "community": 51,
-      "community_name": "Repository Guidelines",
+      "community_name": "Clean Architecture Fundamentals",
       "file_type": "document",
       "node_kind": "page",
-      "norm_label": "agents.md",
-      "source_file": "AGENTS.md",
+      "norm_label": "cleanarchitecturefundamentals.md",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
       "source_location": "L1"
     },
     {
-      "id": "agents_build_test_and_development_commands",
-      "label": "Build, Test, and Development Commands",
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_21_unit_testing_the_domain_and_application_layers_general",
+      "label": "21. Unit Testing the Domain and Application Layers \u2014 General",
       "_origin": "ast",
       "community": 51,
-      "community_name": "Repository Guidelines",
+      "community_name": "Clean Architecture Fundamentals",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "build, test, and development commands",
-      "source_file": "AGENTS.md",
-      "source_location": "L7"
+      "norm_label": "21. unit testing the domain and application layers \u2014 general",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L882"
     },
     {
-      "id": "agents_coding_style_naming_conventions",
-      "label": "Coding Style & Naming Conventions",
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_22_mocking_boundaries_intermediate",
+      "label": "22. Mocking Boundaries \u2014 Intermediate",
       "_origin": "ast",
       "community": 51,
-      "community_name": "Repository Guidelines",
+      "community_name": "Clean Architecture Fundamentals",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "coding style & naming conventions",
-      "source_file": "AGENTS.md",
-      "source_location": "L17"
+      "norm_label": "22. mocking boundaries \u2014 intermediate",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L936"
     },
     {
-      "id": "agents_commit_pull_request_guidelines",
-      "label": "Commit & Pull Request Guidelines",
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_23_integration_testing_with_webapplicationfactory_and_a_test_database_advanced",
+      "label": "23. Integration Testing with WebApplicationFactory and a Test Database \u2014 Advanced",
       "_origin": "ast",
       "community": 51,
-      "community_name": "Repository Guidelines",
+      "community_name": "Clean Architecture Fundamentals",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "commit & pull request guidelines",
-      "source_file": "AGENTS.md",
-      "source_location": "L25"
+      "norm_label": "23. integration testing with webapplicationfactory and a test database \u2014 advanced",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L973"
     },
     {
-      "id": "agents_graphify",
-      "label": "graphify",
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_24_architecture_tests_advanced",
+      "label": "24. Architecture Tests \u2014 Advanced",
       "_origin": "ast",
       "community": 51,
-      "community_name": "Repository Guidelines",
+      "community_name": "Clean Architecture Fundamentals",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "graphify",
-      "source_file": "AGENTS.md",
-      "source_location": "L33"
+      "norm_label": "24. architecture tests \u2014 advanced",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L1027"
     },
     {
-      "id": "agents_project_structure_module_organization",
-      "label": "Project Structure & Module Organization",
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_clean_architecture_fundamentals",
+      "label": "Clean Architecture Fundamentals",
       "_origin": "ast",
       "community": 51,
-      "community_name": "Repository Guidelines",
+      "community_name": "Clean Architecture Fundamentals",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "project structure & module organization",
-      "source_file": "AGENTS.md",
-      "source_location": "L3"
-    },
-    {
-      "id": "agents_repository_guidelines",
-      "label": "Repository Guidelines",
-      "_origin": "ast",
-      "community": 51,
-      "community_name": "Repository Guidelines",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "repository guidelines",
-      "source_file": "AGENTS.md",
+      "norm_label": "clean architecture fundamentals",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
       "source_location": "L1"
     },
     {
-      "id": "agents_security_configuration_tips",
-      "label": "Security & Configuration Tips",
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_glossary",
+      "label": "Glossary",
       "_origin": "ast",
       "community": 51,
-      "community_name": "Repository Guidelines",
+      "community_name": "Clean Architecture Fundamentals",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "security & configuration tips",
-      "source_file": "AGENTS.md",
-      "source_location": "L29"
+      "norm_label": "glossary",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L1336"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_part_5_testing",
+      "label": "Part 5 \u2014 Testing",
+      "_origin": "ast",
+      "community": 51,
+      "community_name": "Clean Architecture Fundamentals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "part 5 \u2014 testing",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L869"
     },
     {
       "id": "src_eventshub_application_core_mapping_mappingservicecollectionextensions_cs_type",
@@ -10853,6 +9889,30 @@
       "source_location": "L12"
     },
     {
+      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_tasks",
+      "label": "tasks.md",
+      "_origin": "ast",
+      "community": 54,
+      "community_name": "Profile",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "tasks.md",
+      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/tasks.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_tasks_1_test_project",
+      "label": "1. Test project",
+      "_origin": "ast",
+      "community": 54,
+      "community_name": "Profile",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. test project",
+      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/tasks.md",
+      "source_location": "L3"
+    },
+    {
       "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_tasks_2_mapper_core_alongside_automapper",
       "label": "2. Mapper core (alongside AutoMapper)",
       "_origin": "ast",
@@ -10865,57 +9925,11 @@
       "source_location": "L8"
     },
     {
-      "id": "handler",
-      "label": "Handler",
-      "_origin": "ast",
-      "community": 55,
-      "community_name": "MappingProfiles",
-      "file_type": "code",
-      "norm_label": "handler",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "setup",
-      "label": "SetUp",
-      "_origin": "ast",
-      "community": 55,
-      "community_name": "MappingProfiles",
-      "file_type": "code",
-      "norm_label": "setup",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_tasks",
-      "label": "tasks.md",
-      "_origin": "ast",
-      "community": 55,
-      "community_name": "MappingProfiles",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "tasks.md",
-      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/tasks.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_tasks_1_test_project",
-      "label": "1. Test project",
-      "_origin": "ast",
-      "community": 55,
-      "community_name": "MappingProfiles",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1. test project",
-      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/tasks.md",
-      "source_location": "L3"
-    },
-    {
       "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_tasks_3_cut_over_and_remove_automapper",
       "label": "3. Cut over and remove AutoMapper",
       "_origin": "ast",
-      "community": 55,
-      "community_name": "MappingProfiles",
+      "community": 54,
+      "community_name": "Profile",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "3. cut over and remove automapper",
@@ -10923,23 +9937,11 @@
       "source_location": "L17"
     },
     {
-      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_tasks_4_documentation",
-      "label": "4. Documentation",
-      "_origin": "ast",
-      "community": 55,
-      "community_name": "MappingProfiles",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "4. documentation",
-      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/tasks.md",
-      "source_location": "L24"
-    },
-    {
       "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_tasks_5_final_integration_check",
       "label": "5. Final integration check",
       "_origin": "ast",
-      "community": 55,
-      "community_name": "MappingProfiles",
+      "community": 54,
+      "community_name": "Profile",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "5. final integration check",
@@ -10950,13 +9952,35 @@
       "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_tasks_tasks",
       "label": "Tasks",
       "_origin": "ast",
-      "community": 55,
-      "community_name": "MappingProfiles",
+      "community": 54,
+      "community_name": "Profile",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "tasks",
       "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/tasks.md",
       "source_location": "L1"
+    },
+    {
+      "id": "handler",
+      "label": "Handler",
+      "_origin": "ast",
+      "community": 55,
+      "community_name": ".Setup",
+      "file_type": "code",
+      "norm_label": "handler",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "setup",
+      "label": "SetUp",
+      "_origin": "ast",
+      "community": 55,
+      "community_name": ".Setup",
+      "file_type": "code",
+      "norm_label": "setup",
+      "source_file": "",
+      "source_location": ""
     },
     {
       "id": "docs_fundamentals_cqrsfundamentals_10_single_database_separated_models_intermediate",
@@ -11191,6 +10215,23 @@
       "source_location": "L11"
     },
     {
+      "id": "src_eventshub_application_events_commands_deleteevent_eventshub_application_events_commands_command_id",
+      "label": "Id",
+      "_origin": "ast",
+      "community": 57,
+      "community_name": "IRequest",
+      "file_type": "code",
+      "metadata": {
+        "namespace": "EventsHub.Application.Events.Commands",
+        "scope_chain": [
+          "s45"
+        ]
+      },
+      "norm_label": "id",
+      "source_file": "src/EventsHub.Application/Events/Commands/DeleteEvent.cs",
+      "source_location": "L10"
+    },
+    {
       "id": "src_eventshub_application_events_commands_editevent_eventshub_application_events_commands_command_event",
       "label": "Event",
       "_origin": "ast",
@@ -11206,23 +10247,6 @@
       "norm_label": "event",
       "source_file": "src/EventsHub.Application/Events/Commands/EditEvent.cs",
       "source_location": "L12"
-    },
-    {
-      "id": "src_eventshub_application_events_queries_geteventdetails_eventshub_application_events_queries_query_id",
-      "label": "Id",
-      "_origin": "ast",
-      "community": 57,
-      "community_name": "IRequest",
-      "file_type": "code",
-      "metadata": {
-        "namespace": "EventsHub.Application.Events.Queries",
-        "scope_chain": [
-          "s73"
-        ]
-      },
-      "norm_label": "id",
-      "source_file": "src/EventsHub.Application/Events/Queries/GetEventDetails.cs",
-      "source_location": "L11"
     },
     {
       "id": "web_eslint_config",
@@ -13001,6 +12025,173 @@
       "source_location": "L3"
     },
     {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_10_project_references_and_enforcing_the_dependency_direction_intermediate",
+      "label": "10. Project References and Enforcing the Dependency Direction \u2014 Intermediate",
+      "_origin": "ast",
+      "community": 78,
+      "community_name": "Part 2 \u2014 Layers in a .NET Solution",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "10. project references and enforcing the dependency direction \u2014 intermediate",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L375"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_13_cqrs_commands_vs_queries_intermediate",
+      "label": "13. CQRS: Commands vs. Queries \u2014 Intermediate",
+      "_origin": "ast",
+      "community": 78,
+      "community_name": "Part 2 \u2014 Layers in a .NET Solution",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "13. cqrs: commands vs. queries \u2014 intermediate",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L478"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_6_the_domain_layer_intermediate",
+      "label": "6. The Domain Layer \u2014 Intermediate",
+      "_origin": "ast",
+      "community": 78,
+      "community_name": "Part 2 \u2014 Layers in a .NET Solution",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "6. the domain layer \u2014 intermediate",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L175"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_7_the_application_layer_intermediate",
+      "label": "7. The Application Layer \u2014 Intermediate",
+      "_origin": "ast",
+      "community": 78,
+      "community_name": "Part 2 \u2014 Layers in a .NET Solution",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "7. the application layer \u2014 intermediate",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L248"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_8_the_infrastructure_persistence_layer_intermediate",
+      "label": "8. The Infrastructure / Persistence Layer \u2014 Intermediate",
+      "_origin": "ast",
+      "community": 78,
+      "community_name": "Part 2 \u2014 Layers in a .NET Solution",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "8. the infrastructure / persistence layer \u2014 intermediate",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L284"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_9_the_presentation_api_layer_general",
+      "label": "9. The Presentation / API Layer \u2014 General",
+      "_origin": "ast",
+      "community": 78,
+      "community_name": "Part 2 \u2014 Layers in a .NET Solution",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "9. the presentation / api layer \u2014 general",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L341"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_part_2_layers_in_a_net_solution",
+      "label": "Part 2 \u2014 Layers in a .NET Solution",
+      "_origin": "ast",
+      "community": 78,
+      "community_name": "Part 2 \u2014 Layers in a .NET Solution",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "part 2 \u2014 layers in a .net solution",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L173"
+    },
+    {
+      "id": "src_eventshub_persistence_appdbcontext_cs_modelbuilder",
+      "label": "ModelBuilder",
+      "_origin": "ast",
+      "community": 79,
+      "community_name": ".OnModelCreating",
+      "file_type": "code",
+      "norm_label": "modelbuilder",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_12_testing_with_dbcontext",
+      "label": "12. Testing with `DbContext`",
+      "_origin": "ast",
+      "community": 79,
+      "community_name": ".OnModelCreating",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "12. testing with `dbcontext`",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L669"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_2_configuration_setup",
+      "label": "2. Configuration & Setup",
+      "_origin": "ast",
+      "community": 79,
+      "community_name": ".OnModelCreating",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. configuration & setup",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L174"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_abstraction_for_unit_testing",
+      "label": "Abstraction for Unit Testing",
+      "_origin": "ast",
+      "community": 79,
+      "community_name": ".OnModelCreating",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "abstraction for unit testing",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L683"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_fluent_api_vs_data_annotations",
+      "label": "Fluent API vs. Data Annotations",
+      "_origin": "ast",
+      "community": 79,
+      "community_name": ".OnModelCreating",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "fluent api vs. data annotations",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L210"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_provider_options_for_tests",
+      "label": "Provider Options for Tests",
+      "_origin": "ast",
+      "community": 79,
+      "community_name": ".OnModelCreating",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "provider options for tests",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L673"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_seeding_data_for_integration_tests",
+      "label": "Seeding Data for Integration Tests",
+      "_origin": "ast",
+      "community": 79,
+      "community_name": ".OnModelCreating",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "seeding data for integration tests",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L687"
+    },
+    {
       "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_specs_object_mapping_spec",
       "label": "2026-09-29-replace-automapper-with-custom-mapper/specs/object-mapping/spec.md",
       "_origin": "ast",
@@ -13325,6 +12516,666 @@
       "source_location": "L1"
     },
     {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_11_dependency_injection_and_the_composition_root_intermediate",
+      "label": "11. Dependency Injection and the Composition Root \u2014 Intermediate",
+      "_origin": "ast",
+      "community": 80,
+      "community_name": "Part 3 \u2014 Key Patterns",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "11. dependency injection and the composition root \u2014 intermediate",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L408"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_12_repository_and_unit_of_work_advanced",
+      "label": "12. Repository and Unit of Work \u2014 Advanced",
+      "_origin": "ast",
+      "community": 80,
+      "community_name": "Part 3 \u2014 Key Patterns",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "12. repository and unit of work \u2014 advanced",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L444"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_14_mediatr_and_pipeline_behaviors_advanced",
+      "label": "14. MediatR and Pipeline Behaviors \u2014 Advanced",
+      "_origin": "ast",
+      "community": 80,
+      "community_name": "Part 3 \u2014 Key Patterns",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "14. mediatr and pipeline behaviors \u2014 advanced",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L510"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_15_the_result_pattern_vs_exceptions_intermediate",
+      "label": "15. The Result Pattern vs. Exceptions \u2014 Intermediate",
+      "_origin": "ast",
+      "community": 80,
+      "community_name": "Part 3 \u2014 Key Patterns",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "15. the result pattern vs. exceptions \u2014 intermediate",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L591"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_16_mapping_and_dto_boundaries_intermediate",
+      "label": "16. Mapping and DTO Boundaries \u2014 Intermediate",
+      "_origin": "ast",
+      "community": 80,
+      "community_name": "Part 3 \u2014 Key Patterns",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "16. mapping and dto boundaries \u2014 intermediate",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L659"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_17_validation_with_fluentvalidation_intermediate",
+      "label": "17. Validation with FluentValidation \u2014 Intermediate",
+      "_origin": "ast",
+      "community": 80,
+      "community_name": "Part 3 \u2014 Key Patterns",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "17. validation with fluentvalidation \u2014 intermediate",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L703"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_part_3_key_patterns",
+      "label": "Part 3 \u2014 Key Patterns",
+      "_origin": "ast",
+      "community": 80,
+      "community_name": "Part 3 \u2014 Key Patterns",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "part 3 \u2014 key patterns",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L406"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_18_logging_caching_and_authentication_authorization_intermediate",
+      "label": "18. Logging, Caching, and Authentication / Authorization \u2014 Intermediate",
+      "_origin": "ast",
+      "community": 81,
+      "community_name": "18. Logging, Caching, and Authentication / Authorization \u2014 Intermediate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "18. logging, caching, and authentication / authorization \u2014 intermediate",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L743"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_19_api_contracts_and_openapi_intermediate",
+      "label": "19. API Contracts and OpenAPI \u2014 Intermediate",
+      "_origin": "ast",
+      "community": 81,
+      "community_name": "18. Logging, Caching, and Authentication / Authorization \u2014 Intermediate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "19. api contracts and openapi \u2014 intermediate",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L790"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_20_configuration_and_the_options_pattern_general",
+      "label": "20. Configuration and the Options Pattern \u2014 General",
+      "_origin": "ast",
+      "community": 81,
+      "community_name": "18. Logging, Caching, and Authentication / Authorization \u2014 Intermediate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "20. configuration and the options pattern \u2014 general",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L821"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_authentication_and_authorization",
+      "label": "Authentication and authorization",
+      "_origin": "ast",
+      "community": 81,
+      "community_name": "18. Logging, Caching, and Authentication / Authorization \u2014 Intermediate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "authentication and authorization",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L773"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_caching",
+      "label": "Caching",
+      "_origin": "ast",
+      "community": 81,
+      "community_name": "18. Logging, Caching, and Authentication / Authorization \u2014 Intermediate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "caching",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L759"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_logging",
+      "label": "Logging",
+      "_origin": "ast",
+      "community": 81,
+      "community_name": "18. Logging, Caching, and Authentication / Authorization \u2014 Intermediate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "logging",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L749"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_part_4_cross_cutting_concerns",
+      "label": "Part 4 \u2014 Cross-Cutting Concerns",
+      "_origin": "ast",
+      "community": 81,
+      "community_name": "18. Logging, Caching, and Authentication / Authorization \u2014 Intermediate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "part 4 \u2014 cross-cutting concerns",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L741"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_1_what_clean_architecture_is_and_the_problem_it_solves_general",
+      "label": "1. What Clean Architecture Is and the Problem It Solves \u2014 General",
+      "_origin": "ast",
+      "community": 82,
+      "community_name": "Part 1 \u2014 Foundations",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. what clean architecture is and the problem it solves \u2014 general",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L28"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_2_origins_and_related_styles_hexagonal_onion_and_clean_general",
+      "label": "2. Origins and Related Styles: Hexagonal, Onion, and Clean \u2014 General",
+      "_origin": "ast",
+      "community": 82,
+      "community_name": "Part 1 \u2014 Foundations",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. origins and related styles: hexagonal, onion, and clean \u2014 general",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L45"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_3_the_dependency_rule_general",
+      "label": "3. The Dependency Rule \u2014 General",
+      "_origin": "ast",
+      "community": 82,
+      "community_name": "Part 1 \u2014 Foundations",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. the dependency rule \u2014 general",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L73"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_4_the_concentric_circles_diagram_general",
+      "label": "4. The Concentric-Circles Diagram \u2014 General",
+      "_origin": "ast",
+      "community": 82,
+      "community_name": "Part 1 \u2014 Foundations",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. the concentric-circles diagram \u2014 general",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L123"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_5_solid_principles_as_the_basis_intermediate",
+      "label": "5. SOLID Principles as the Basis \u2014 Intermediate",
+      "_origin": "ast",
+      "community": 82,
+      "community_name": "Part 1 \u2014 Foundations",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. solid principles as the basis \u2014 intermediate",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L153"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_part_1_foundations",
+      "label": "Part 1 \u2014 Foundations",
+      "_origin": "ast",
+      "community": 82,
+      "community_name": "Part 1 \u2014 Foundations",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "part 1 \u2014 foundations",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L26"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_10_performance_query_optimization",
+      "label": "10. Performance & Query Optimization",
+      "_origin": "ast",
+      "community": 83,
+      "community_name": "10. Performance & Query Optimization",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "10. performance & query optimization",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L572"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_avoiding_n_1_systematically",
+      "label": "Avoiding N+1 Systematically",
+      "_origin": "ast",
+      "community": 83,
+      "community_name": "10. Performance & Query Optimization",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "avoiding n+1 systematically",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L590"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_bulk_operations_executeupdate_executedelete",
+      "label": "Bulk Operations: `ExecuteUpdate` / `ExecuteDelete`",
+      "_origin": "ast",
+      "community": 83,
+      "community_name": "10. Performance & Query Optimization",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "bulk operations: `executeupdate` / `executedelete`",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L594"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_compiled_queries",
+      "label": "Compiled Queries",
+      "_origin": "ast",
+      "community": 83,
+      "community_name": "10. Performance & Query Optimization",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "compiled queries",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L576"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_indexing_from_the_ef_side",
+      "label": "Indexing from the EF Side",
+      "_origin": "ast",
+      "community": 83,
+      "community_name": "10. Performance & Query Optimization",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "indexing from the ef side",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L615"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_query_splitting_trade_offs",
+      "label": "Query Splitting Trade-offs",
+      "_origin": "ast",
+      "community": 83,
+      "community_name": "10. Performance & Query Optimization",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "query splitting trade-offs",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L611"
+    },
+    {
+      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_3_members_from_the_source_are_matched_case_sensitively",
+      "label": "3. Members from the source are matched case-sensitively",
+      "_origin": "ast",
+      "community": 84,
+      "community_name": "Decisions",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. members from the source are matched case-sensitively",
+      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
+      "source_location": "L45"
+    },
+    {
+      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_4_nested_and_collection_members",
+      "label": "4. Nested and collection members",
+      "_origin": "ast",
+      "community": 84,
+      "community_name": "Decisions",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. nested and collection members",
+      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_5_new_instance_creation",
+      "label": "5. New-instance creation",
+      "_origin": "ast",
+      "community": 84,
+      "community_name": "Decisions",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. new-instance creation",
+      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
+      "source_location": "L53"
+    },
+    {
+      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_6_errors_and_lifetime",
+      "label": "6. Errors and lifetime",
+      "_origin": "ast",
+      "community": 84,
+      "community_name": "Decisions",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "6. errors and lifetime",
+      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
+      "source_location": "L57"
+    },
+    {
+      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_7_startup_wiring",
+      "label": "7. Startup wiring",
+      "_origin": "ast",
+      "community": 84,
+      "community_name": "Decisions",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "7. startup wiring",
+      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
+      "source_location": "L65"
+    },
+    {
+      "id": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_decisions",
+      "label": "Decisions",
+      "_origin": "ast",
+      "community": 84,
+      "community_name": "Decisions",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "decisions",
+      "source_file": "openspec/changes/archive/2026-09-29-replace-automapper-with-custom-mapper/design.md",
+      "source_location": "L23"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_26_common_mistakes_anemic_domain_leaky_abstractions_over_engineering_intermediate",
+      "label": "26. Common Mistakes: Anemic Domain, Leaky Abstractions, Over-Engineering \u2014 Intermediate",
+      "_origin": "ast",
+      "community": 85,
+      "community_name": "26. Common Mistakes: Anemic Domain, Leaky Abstractions, Over-Engineering \u2014 Intermediate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "26. common mistakes: anemic domain, leaky abstractions, over-engineering \u2014 intermediate",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L1154"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_leaky_abstractions",
+      "label": "Leaky abstractions",
+      "_origin": "ast",
+      "community": 85,
+      "community_name": "26. Common Mistakes: Anemic Domain, Leaky Abstractions, Over-Engineering \u2014 Intermediate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "leaky abstractions",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L1184"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_other_frequent_problems",
+      "label": "Other frequent problems",
+      "_origin": "ast",
+      "community": 85,
+      "community_name": "26. Common Mistakes: Anemic Domain, Leaky Abstractions, Over-Engineering \u2014 Intermediate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "other frequent problems",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L1203"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_over_engineering",
+      "label": "Over-engineering",
+      "_origin": "ast",
+      "community": 85,
+      "community_name": "26. Common Mistakes: Anemic Domain, Leaky Abstractions, Over-Engineering \u2014 Intermediate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "over-engineering",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L1195"
+    },
+    {
+      "id": "docs_fundamentals_cleanarchitecturefundamentals_the_anemic_domain_model",
+      "label": "The anemic domain model",
+      "_origin": "ast",
+      "community": 85,
+      "community_name": "26. Common Mistakes: Anemic Domain, Leaky Abstractions, Over-Engineering \u2014 Intermediate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "the anemic domain model",
+      "source_file": "docs/fundamentals/CleanArchitectureFundamentals.md",
+      "source_location": "L1158"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_8_loading_strategies_in_depth",
+      "label": "8. Loading Strategies in Depth",
+      "_origin": "ast",
+      "community": 86,
+      "community_name": "8. Loading Strategies in Depth",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "8. loading strategies in depth",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L407"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_choosing_a_strategy",
+      "label": "Choosing a Strategy",
+      "_origin": "ast",
+      "community": 86,
+      "community_name": "8. Loading Strategies in Depth",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "choosing a strategy",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L473"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_eager_loading_include_theninclude",
+      "label": "Eager Loading \u2014 `.Include()` / `.ThenInclude()`",
+      "_origin": "ast",
+      "community": 86,
+      "community_name": "8. Loading Strategies in Depth",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "eager loading \u2014 `.include()` / `.theninclude()`",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L413"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_explicit_loading",
+      "label": "Explicit Loading",
+      "_origin": "ast",
+      "community": 86,
+      "community_name": "8. Loading Strategies in Depth",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "explicit loading",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L438"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_lazy_loading",
+      "label": "Lazy Loading",
+      "_origin": "ast",
+      "community": 86,
+      "community_name": "8. Loading Strategies in Depth",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "lazy loading",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L452"
+    },
+    {
+      "id": "src_eventshub_api_readme_eventshub_api",
+      "label": "EventsHub.Api",
+      "_origin": "ast",
+      "community": 87,
+      "community_name": "EventsHub.Api",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "eventshub.api",
+      "source_file": "src/EventsHub.Api/README.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_eventshub_api_readme_regenerating_the_openapi_client",
+      "label": "Regenerating the OpenAPI client",
+      "_origin": "ast",
+      "community": 87,
+      "community_name": "EventsHub.Api",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "regenerating the openapi client",
+      "source_file": "src/EventsHub.Api/README.md",
+      "source_location": "L96"
+    },
+    {
+      "id": "src_eventshub_api_readme_running_it",
+      "label": "Running it",
+      "_origin": "ast",
+      "community": 87,
+      "community_name": "EventsHub.Api",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "running it",
+      "source_file": "src/EventsHub.Api/README.md",
+      "source_location": "L54"
+    },
+    {
+      "id": "src_eventshub_api_readme_what_it_does",
+      "label": "What it does",
+      "_origin": "ast",
+      "community": 87,
+      "community_name": "EventsHub.Api",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "what it does",
+      "source_file": "src/EventsHub.Api/README.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "src_eventshub_api_readme_wiring_program_cs",
+      "label": "Wiring (`Program.cs`)",
+      "_origin": "ast",
+      "community": 87,
+      "community_name": "EventsHub.Api",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "wiring (`program.cs`)",
+      "source_file": "src/EventsHub.Api/README.md",
+      "source_location": "L21"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_3_querying_data",
+      "label": "3. Querying Data",
+      "_origin": "ast",
+      "community": 88,
+      "community_name": "3. Querying Data",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. querying data",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L235"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_asnotracking",
+      "label": "`AsNoTracking()`",
+      "_origin": "ast",
+      "community": 88,
+      "community_name": "3. Querying Data",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`asnotracking()`",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L277"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_client_side_vs_server_side_evaluation",
+      "label": "Client-Side vs. Server-Side Evaluation",
+      "_origin": "ast",
+      "community": 88,
+      "community_name": "3. Querying Data",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "client-side vs. server-side evaluation",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L268"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_deferred_vs_immediate_execution",
+      "label": "Deferred vs. Immediate Execution",
+      "_origin": "ast",
+      "community": 88,
+      "community_name": "3. Querying Data",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "deferred vs. immediate execution",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L254"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_4_change_tracking",
+      "label": "4. Change Tracking",
+      "_origin": "ast",
+      "community": 89,
+      "community_name": "4. Change Tracking",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. change tracking",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L292"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_entity_states",
+      "label": "Entity States",
+      "_origin": "ast",
+      "community": 89,
+      "community_name": "4. Change Tracking",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "entity states",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L303"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_snapshot_based_change_detection",
+      "label": "Snapshot-Based Change Detection",
+      "_origin": "ast",
+      "community": 89,
+      "community_name": "4. Change Tracking",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "snapshot-based change detection",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L324"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_tracking_vs_no_tracking_revisited",
+      "label": "Tracking vs. No-Tracking, Revisited",
+      "_origin": "ast",
+      "community": 89,
+      "community_name": "4. Change Tracking",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "tracking vs. no-tracking, revisited",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L332"
+    },
+    {
       "id": "src_eventshub_domain_event",
       "label": "Event.cs",
       "_origin": "ast",
@@ -13517,6 +13368,42 @@
       "source_location": "L12"
     },
     {
+      "id": "readme_eventshub",
+      "label": "EventsHub",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Event",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "eventshub",
+      "source_file": "README.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "readme_how_the_pieces_connect",
+      "label": "How the pieces connect",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Event",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "how the pieces connect",
+      "source_file": "README.md",
+      "source_location": "L17"
+    },
+    {
+      "id": "readme_quick_start",
+      "label": "Quick start",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Event",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "quick start",
+      "source_file": "README.md",
+      "source_location": "L34"
+    },
+    {
       "id": "src_eventshub_openapi_readme_eventshub_openapi",
       "label": "EventsHub.OpenApi",
       "_origin": "ast",
@@ -13563,6 +13450,162 @@
       "norm_label": "regenerating the openapi document + typed client",
       "source_file": "src/EventsHub.OpenApi/README.md",
       "source_location": "L38"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_9_transactions_concurrency_control",
+      "label": "9. Transactions & Concurrency Control",
+      "_origin": "ast",
+      "community": 90,
+      "community_name": "9. Transactions & Concurrency Control",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "9. transactions & concurrency control",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L483"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_manual_transactions",
+      "label": "Manual Transactions",
+      "_origin": "ast",
+      "community": 90,
+      "community_name": "9. Transactions & Concurrency Control",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "manual transactions",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L487"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_optimistic_concurrency_control",
+      "label": "Optimistic Concurrency Control",
+      "_origin": "ast",
+      "community": 90,
+      "community_name": "9. Transactions & Concurrency Control",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "optimistic concurrency control",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L512"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_pessimistic_concurrency_brief",
+      "label": "Pessimistic Concurrency (Brief)",
+      "_origin": "ast",
+      "community": 90,
+      "community_name": "9. Transactions & Concurrency Control",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pessimistic concurrency (brief)",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L566"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_11_dbcontext_pooling_advanced_lifetime_management",
+      "label": "11. `DbContext` Pooling & Advanced Lifetime Management",
+      "_origin": "ast",
+      "community": 91,
+      "community_name": "11. `DbContext` Pooling & Advanced Lifetime Management",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "11. `dbcontext` pooling & advanced lifetime management",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L628"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_adddbcontextpool",
+      "label": "`AddDbContextPool`",
+      "_origin": "ast",
+      "community": 91,
+      "community_name": "11. `DbContext` Pooling & Advanced Lifetime Management",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`adddbcontextpool`",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L632"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_idbcontextfactory_t",
+      "label": "`IDbContextFactory<T>`",
+      "_origin": "ast",
+      "community": 91,
+      "community_name": "11. `DbContext` Pooling & Advanced Lifetime Management",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`idbcontextfactory<t>`",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L643"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_1_what_is_dbcontext",
+      "label": "1. What Is `DbContext`?",
+      "_origin": "ast",
+      "community": 92,
+      "community_name": "1. What Is `DbContext`?",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. what is `dbcontext`?",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L15"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_dbcontext_vs_dbset_t",
+      "label": "`DbContext` vs. `DbSet<T>`",
+      "_origin": "ast",
+      "community": 92,
+      "community_name": "1. What Is `DbContext`?",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "`dbcontext` vs. `dbset<t>`",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_where_it_fits_in_an_application",
+      "label": "Where It Fits in an Application",
+      "_origin": "ast",
+      "community": 92,
+      "community_name": "1. What Is `DbContext`?",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "where it fits in an application",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L32"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_5_saving_changes",
+      "label": "5. Saving Changes",
+      "_origin": "ast",
+      "community": 93,
+      "community_name": "5. Saving Changes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. saving changes",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L343"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_concurrency_tokens_preview",
+      "label": "Concurrency Tokens (Preview)",
+      "_origin": "ast",
+      "community": 93,
+      "community_name": "5. Saving Changes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "concurrency tokens (preview)",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L364"
+    },
+    {
+      "id": "docs_fundamentals_dbcontextfundamentals_implicit_transactions",
+      "label": "Implicit Transactions",
+      "_origin": "ast",
+      "community": 93,
+      "community_name": "5. Saving Changes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "implicit transactions",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L360"
     },
     {
       "id": "global_system",
@@ -16479,6 +16522,21 @@
       },
       "source_file": "src/EventsHub.Persistence/AppDbContext.cs",
       "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_eventshub_persistence_appdbcontext_eventshub_persistence_appdbcontext_onmodelcreating",
+      "target": "src_eventshub_domain_event_eventshub_domain_event",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "metadata": {
+        "ref_token": "Event"
+      },
+      "source_file": "src/EventsHub.Persistence/AppDbContext.cs",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -20510,6 +20568,21 @@
       },
       "source_file": "src/EventsHub.Persistence/Migrations/20260828131904_InitialCreate.cs",
       "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_eventshub_persistence_appdbcontext_eventshub_persistence_appdbcontext_onmodelcreating",
+      "target": "src_eventshub_persistence_appdbcontext_cs_modelbuilder",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "ModelBuilder"
+      },
+      "source_file": "src/EventsHub.Persistence/AppDbContext.cs",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -28831,7 +28904,7 @@
     },
     {
       "source": "src_eventshub_persistence_eventshub_persistence",
-      "target": "nuget_microsoft_entityframeworkcore_sqlite",
+      "target": "nuget_npgsql_entityframeworkcore_postgresql",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -29317,6 +29390,17 @@
       "confidence_score": 1.0,
       "source_file": "src/EventsHub.Application/Events/Queries/GetEventList.cs",
       "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_eventshub_persistence_appdbcontext_eventshub_persistence_appdbcontext",
+      "target": "src_eventshub_persistence_appdbcontext_eventshub_persistence_appdbcontext_onmodelcreating",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/EventsHub.Persistence/AppDbContext.cs",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -31747,6 +31831,42 @@
       "weight": 1.0
     },
     {
+      "source": "docs_fundamentals_dbcontextfundamentals_2_configuration_setup",
+      "target": "src_eventshub_persistence_appdbcontext_eventshub_persistence_appdbcontext_onmodelcreating",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "context": "OnModelCreating",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_fundamentals_dbcontextfundamentals_fluent_api_vs_data_annotations",
+      "target": "src_eventshub_persistence_appdbcontext_eventshub_persistence_appdbcontext_onmodelcreating",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "context": "OnModelCreating",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L215",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_fundamentals_dbcontextfundamentals_seeding_data_for_integration_tests",
+      "target": "src_eventshub_persistence_appdbcontext_eventshub_persistence_appdbcontext_onmodelcreating",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "context": "OnModelCreating",
+      "source_file": "docs/fundamentals/DbContextFundamentals.md",
+      "source_location": "L689",
+      "weight": 1.0
+    },
+    {
       "source": "openspec_changes_archive_2026_09_29_replace_automapper_with_custom_mapper_design_1_namespace_and_layout",
       "target": "src_eventshub_application_core_mapping_profile_eventshub_application_core_mapping_profile",
       "relation": "references",
@@ -31927,5 +32047,6 @@
       "weight": 1.0
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "5638a8df924b5cbcea76091533dafe0a75874d44"
 }
