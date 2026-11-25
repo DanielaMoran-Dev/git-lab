@@ -4,7 +4,7 @@ import ActivityDashboard from '../../features/activities/dashboard/ActivityDashb
 import HomePage from '../../features/home/HomePage'
 import ActivityForm from '../../features/activities/form/ActivityForm'
 import ActivityDetailPage from '../../features/activities/details/ActivityDetailPage'
-import Counter from '../../features/counter/counter'
+import Counter from '../../features/counter/Counter'
 
 export const router = createBrowserRouter([
   {
